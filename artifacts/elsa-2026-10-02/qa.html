@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>打字小勇士 · 立绘质检</title>
+<style>
+  /* 棋盘格：抠图有没有漏边、缺胳膊少腿，只有放在透明底上才看得出来 */
+  body { margin: 0; padding: 20px 24px 60px; background: #1b1e24; color: #e8eaef;
+         font: 14px/1.6 "Microsoft YaHei", sans-serif; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  h2 { font-size: 17px; margin: 30px 0 10px; border-left: 4px solid #ffb020; padding-left: 10px; }
+  .sub { color: #9aa3b2; margin-bottom: 18px; }
+  .board { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px; }
+  .cell { background: #23272f; border: 2px solid #2e333c; border-radius: 10px; padding: 8px; text-align: center; }
+  .cell.bad { border-color: #e5484d; background: #2d1f22; }
+  .cell.warn { border-color: #ffb020; }
+  .cell.todo { opacity: .45; }
+  .art { height: 260px; display: flex; align-items: flex-end; justify-content: center;
+         background-image:
+           linear-gradient(45deg, #3a3f48 25%, transparent 25%, transparent 75%, #3a3f48 75%),
+           linear-gradient(45deg, #3a3f48 25%, transparent 25%, transparent 75%, #3a3f48 75%);
+         background-size: 20px 20px; background-position: 0 0, 10px 10px; background-color: #2b2f37;
+         border-radius: 6px; overflow: hidden; }
+  .art canvas, .art img { max-width: 100%; max-height: 260px; display: block; }
+  .art img.is-card { border-radius: 8px; width: 100%; object-fit: cover; }
+  .nm { font-weight: 700; margin-top: 6px; font-size: 13px; }
+  .mt { color: #8f97a6; font-size: 11px; word-break: break-all; }
+  .mt b { color: #ffb020; }
+  /* 形象会一批批加，写死 6 列的话加到 18 个每张只有一百来像素宽，看不出画风 */
+  .row6 { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 14px; }
+  .row6 .art { height: 320px; }
+  .row6 .art canvas, .row6 .art img { max-height: 320px; }
+  .sum { position: sticky; top: 0; z-index: 5; background: #1b1e24; padding: 10px 0 12px;
+         border-bottom: 1px solid #2e333c; margin-bottom: 8px; }
+  .sum span { display: inline-block; margin-right: 18px; }
+  .k { color: #6ee7a0; } .w { color: #ffb020; } .b { color: #ff7b80; }
+  code { background: #2b2f37; padding: 1px 5px; border-radius: 4px; }
+</style>
+</head>
+<body>
+<h1>爱莎公主 · 8 个造型显示检查</h1><p class="sub">使用游戏实际渲染器。棋盘格表示透明背景；保留原图颜色和透明披风。</p><div class="sum" id="sum">正在加载…</div>
+
+<h2>① 每个形象的默认造型 · 画风对比</h2>
+<div class="row6" id="style"></div>
+
+<h2>② 全量抠图审计（棋盘格 = 透明）</h2>
+<div class="board" id="grid"></div>
+
+<script src="../../js/00-util.js"></script>
+<script src="../../js/28-data-costumes.js"></script>
+<script src="../../js/35-sprite.js"></script>
+<script>
+(function () {
+  var U = window.KZ.U, C = window.KZ.Costumes, S = window.KZ.Sprites;
+  C.flat.forEach(function(f){ f.src='../../'+f.src; }); C.chars=C.chars.filter(function(ch){return ch.id==='c7';}); C.flat=C.flat.filter(function(f){return f.charId==='c7';});
+  var stats = { ok: 0, warn: 0, bad: 0, todo: 0 };
+  /* 合计和收尾都按数据现算：形象从 6 个加到 18 个之后写死的 48 就成了假数字，
+     而 144 张图在慢机器上早于 12 秒跑不完，倒计时一到就把没算的格子从汇总里抹掉。 */
+  var total = C.flat.length, done = 0;
+
+  function cell(spec, count) {
+    var box = U.el('div', 'cell');
+    var art = U.el('div', 'art');
+    var name = U.el('div', 'nm', spec.name);
+    var meta = U.el('div', 'mt', '…');
+    U.add(box, art, name, meta);
+    /* 只有全量审计那一遍计入汇总，画风对比那几格是同一批图的重复展示 */
+    var st = count ? stats : { ok: 0, warn: 0, bad: 0, todo: 0 };
+    S.get(spec.id, function (res, m) {
+      if (count) done++;
+      U.clear(art);
+      if (!res) {
+        box.className = 'cell todo';
+        U.add(art, U.el('div', 'mt', '未生成'));
+        meta.textContent = '缺 ' + spec.src;
+        st.todo++;
+        return;
+      }
+      if (m.error) { box.className = 'cell bad'; meta.textContent = m.error; st.bad++; return; }
+      if (res.img) {
+        var n = U.el('img');
+        n.src = res.img.src;
+        n.className = 'is-card';
+        U.add(art, n);
+      } else {
+        /* 缓存里是同一个 canvas 节点，append 会把它从别处搬走，必须复制一份 */
+        U.add(art, S.clone(res.canvas));
+      }
+      var pc = function (v) { return (v * 100).toFixed(1) + '%'; };
+      if (m.autoCard) {
+        box.className = 'cell bad';
+        meta.innerHTML = '<b>抠图失败 → 卡片</b><br>' + (m.why || '');
+        st.bad++;
+      } else if (m.card) {
+        box.className = 'cell warn';
+        meta.innerHTML = '手动卡片 cardMode';
+        st.warn++;
+      } else {
+        var line = '留 ' + pc(m.kept) + ' · 软 ' + pc(m.soft) + ' · 洞 ' + pc(m.hole) +
+          ' · 角差 ' + Math.round(m.spread) + ' · 清碎块 ' + (m.junk || 0);
+        var q = S.quality(m);
+        if (q) { box.className = 'cell warn'; meta.innerHTML = line + '<br><b>' + q + '</b>'; st.warn++; }
+        else { meta.textContent = line; st.ok++; }
+      }
+    });
+    return box;
+  }
+
+  var style = document.getElementById('style');
+  C.chars.forEach(function (ch) {
+    var d = C.ofChar(ch.id)[0];
+    U.add(style, cell({ id: d.id, name: ch.name + ' · ' + d.name, src: d.src }, false));
+  });
+
+  var grid = document.getElementById('grid');
+  C.flat.forEach(function (f) {
+    U.add(grid, cell(f, true));
+  });
+
+  var sum = document.getElementById('sum');
+  function paint() {
+    sum.innerHTML =
+      '<span class="k">干净 ' + stats.ok + '</span>' +
+      '<span class="w">需复核 ' + stats.warn + '</span>' +
+      '<span class="b">抠图失败 ' + stats.bad + '</span>' +
+      '<span>未生成 ' + stats.todo + '</span>' +
+      '<span>合计 ' + (stats.ok + stats.warn + stats.bad + stats.todo) + ' / ' + total + '</span>' +
+      (done < total ? '<span>还在跑 ' + (total - done) + ' 张…</span>' : '');
+  }
+  var t = setInterval(function () { paint(); if (done >= total) clearInterval(t); }, 400);
+  paint();
+})();
+</script>
+</body>
+</html>

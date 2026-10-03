@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>打字小勇士 · 诗词阁质检</title>
+<style>
+  body { margin: 0; background: #12161d; color: #e8eaef; font: 13px/1.5 "Microsoft YaHei", sans-serif; }
+  /* 截图模式要把游戏本身拍清楚：报表和标题都收起来，只留 1160×760 的真实界面 */
+  body.shot #report, body.shot h1 { display: none; }
+  body.shot { background: #12161d; }
+  h1 { font-size: 16px; margin: 10px 14px 6px; }
+  #f { border: 0; width: 1160px; height: 760px; display: block; background: #fff; }
+  #report { white-space: pre-wrap; padding: 8px 14px 26px; font: 12px/1.5 Consolas, monospace; }
+  .FAIL { color: #ff7b80; }
+</style>
+</head>
+<body>
+<h1>诗词阁（看汉字打拼音）浏览器质检 — 只查真实 DOM 与真实键位，立绘/发音不在这里管</h1>
+<iframe id="f" src="index.html"></iframe>
+<div id="report">正在加载 index.html…</div>
+
+<script>
+/* node tools/serve-local.js 8123 之后：
+   报表   chrome --headless=new --dump-dom "http://127.0.0.1:8123/qa-poems.html"
+   截图   同一个地址加 ?shot=level / ?shot=practice / ?shot=reward / ?shot=arcade /
+          ?shot=map / ?shot=maplocked（新档看到的诗词阁）
+   编号用 P（poem）开头：《自动化测试用例.md》里 R01–R11 是上一轮定向回归的编号，别撞车。
+   只做开发期检查，不是游戏的一部分。 */
+(function () {
+  var shot = (location.search.match(/shot=(\w+)/) || [])[1];
+  if (shot) document.body.className = 'shot';
+
+  var out = document.getElementById('report'), lines = [], fails = 0, done = false;
+  var f = document.getElementById('f');
+
+  function emit() {
+    out.textContent = lines.join('\n');
+  }
+  function check(name, cond, detail) {
+    if (!cond) { fails++; lines.push('FAIL ' + name + (detail !== undefined ? '  [' + detail + ']' : '')); }
+    else lines.push('PASS ' + name + (detail !== undefined ? '  [' + detail + ']' : ''));
+    emit();
+  }
+  function finish() {
+    if (done) return;
+    done = true;
+    lines.push((fails ? 'TOTAL FAIL ' + fails : 'TOTAL PASS') + ' — 浏览器质检结束');
+    emit();
+    document.title = fails ? 'QA FAIL ' + fails : 'QA PASS';
+  }
+
+  var errs = [];
+  /* 质检页自己崩掉时，报表只会停在那一行不动 —— 看上去像「后面那些条没写」。
+     崩溃必须写成一条 FAIL，否则测试的失败和产品的问题分不开。 */
+  window.onerror = function (m, src, ln, col, err) {
+    lines.push('FAIL 质检脚本中断：' + m + ' @' + ln + ':' + col +
+      (err && err.stack ? '\n' + String(err.stack).split('\n')[1].trim() : ''));
+    emit();
+    document.title = 'QA CRASH';
+  };
+  function wait() {
+    var w;
+    try { w = f.contentWindow; } catch (e) { w = null; }
+    if (!w || !w.KZ || !w.KZ.Poems || !w.KZ.Save || !w.KZ.Save.data) { return setTimeout(wait, 60); }
+    w.onerror = function (m) { errs.push(String(m)); };
+    /* 无头 --dump-dom 不出帧，requestAnimationFrame 的回调一次都不会跑，
+       飞花那一局就永远不掉卷轴 —— 质检看着像「游戏坏了」。
+       这里把帧换成 16ms 的定时器：虚拟时间能推进，游戏逻辑一行没改。 */
+    w.requestAnimationFrame = function (fn) { return w.setTimeout(function () { fn(w.performance.now()); }, 16); };
+    w.cancelAnimationFrame = function (id) { w.clearTimeout(id); };
+    boot(w, w.document);
+  }
+  setTimeout(wait, 60);
+
+  /* ---------- 截图模式：只把界面搭到那个状态 ---------- */
+  function shots(w, d) {
+    if (shot === 'maplocked') {
+      /* 新档看到的诗词阁：一整排锁，必须说清楚为什么锁着 */
+      if (!w.KZ.Save.data.charId) { w.KZ.Save.setChar('c3'); w.KZ.Save.grantDefault('c3'); }
+      w.KZ.Save.data.levels = {}; w.KZ.Save.data.points = 0; w.KZ.Save.save();
+      w.KZ.Scenes.go('map', { world: 'D' });
+      return;
+    }
+    seed(w);
+    /* 先敲掉两句，再在当前这句上敲两个字母：截图里既有「已敲绿的」也有「还盖着的」 */
+    if (shot === 'level') { w.KZ.Scenes.playLevel('D18', 'challenge'); typed(w, 2); keysOf(w, 2); return; }
+    if (shot === 'reward') { w.KZ.Scenes.playLevel('D18', 'challenge'); finishAll(w); return; }
+    if (shot === 'practice') { w.KZ.Scenes.playLevel('D11', 'practice'); typed(w, 1); keysOf(w, 2); return; }
+    /* 指尖岛挑战关的指法行：A7 第一格是大写 Z，一行里同时看得见「用哪根手指」和「先压 Shift」 */
+    if (shot === 'finger') { w.KZ.Scenes.playLevel('A7', 'challenge'); return; }
+    if (shot === 'map') { w.KZ.Scenes.go('map', { world: 'D' }); return; }
+    if (shot === 'arcade') {
+      /* start() 的返回值就是这一局的状态，场景自己不留，质检页从外面截一份 */
+      var real = w.KZ.Fall.start, g = null;
+      w.KZ.Fall.start = function (host, key) { g = real(host, key); return g; };
+      w.KZ.Scenes.go('arcade', { world: 'D' });
+      w.KZ.Fall.start = real;
+      /* 等几帧让卷轴真的掉下来，再敲掉其中一个，截图里既有题干也有拼音进度 */
+      var n = 0, t = setInterval(function () {
+        if (!g) return;
+        var o = g.objs.filter(function (x) { return !x.dead; })[1] || g.objs.filter(function (x) { return !x.dead; })[0];
+        if (o) { typeSome(w, o, 1); clearInterval(t); }
+        if (++n > 40) clearInterval(t);
+      }, 120);
+      return;
+    }
+  }
+
+  function seed(w) {
+    var S = w.KZ.Save;
+    if (!S.data.charId) { S.setChar('c3'); S.grantDefault('c3'); }
+    S.data.levels.B18 = { stars: 2 };
+    S.data.points = 3000;
+    S.save();
+  }
+  function keyOf(w, ch) {
+    var want = w.KZ.Keys.lookup(ch);
+    w.KZ.Keys.virtual(want.code, /[A-Z]/.test(ch));
+  }
+  function typeStr(w, o) {
+    var i;
+    for (i = o.idx; i < o.chars.length; i++) keyOf(w, o.chars[i].ch);
+  }
+  /* 只敲到倒数第 k 个字母：截图里这条卷轴还活着，能看见拼音进度 */
+  function typeSome(w, o, k) {
+    var i, n = Math.max(o.idx + 1, o.chars.length - k);
+    for (i = o.idx; i < n; i++) keyOf(w, o.chars[i].ch);
+  }
+  /* 关卡里敲对 k 条：从当前条剩下的字母开始逐字母打。
+     字母表要在敲之前抄一份长度 —— 敲完最后一个字母时引擎会把 cur 归零、pos 前进，
+     一边敲一边读 s.cur 会多敲一个上一字的字母，白白记一次误击。 */
+  function typed(w, k) {
+    var s = w.KZ.Typing.session, i, j, t, n;
+    if (!s) return;
+    for (i = 0; i < k && !s.ended; i++) {
+      t = s.targets[s.pos];
+      if (!t) break;
+      n = t.chars.length;
+      for (j = s.cur; j < n; j++) keyOf(w, t.chars[j].ch);
+    }
+  }
+  /* 只在当前这一条上敲 n 个字母，敲完这条也不越界 */
+  function keysOf(w, n) {
+    var s = w.KZ.Typing.session, i, t, from;
+    if (!s) return;
+    t = s.targets[s.pos];
+    if (!t) return;
+    from = s.cur;
+    for (i = from; i < from + n && i < t.chars.length; i++) keyOf(w, t.chars[i].ch);
+  }
+
+  /* ---------- 报表模式 ---------- */
+  function boot(w, d) {
+    if (shot) return shots(w, d);
+    check('P01 古诗数据进了浏览器', w.KZ.Poems.list.length === 75, w.KZ.Poems.list.length + ' 首');
+    check('P02 关卡共 121 关，其中 D 75 关',
+      w.KZ.Levels.all().length === 121 && w.KZ.Levels.byWorld('D').length === 75,
+      w.KZ.Levels.all().length + '/' + w.KZ.Levels.byWorld('D').length);
+    check('P03 启动内容自检干净', w.KZ.Boot.contentBad === 0, w.KZ.Boot.contentBad);
+    check('P04 启动没有报错层', d.body.className.indexOf('booting') < 0 && d.getElementById('boot-error').hidden,
+      d.body.className);
+
+    seed(w);
+    challenge(w, d);
+  }
+
+  function challenge(w, d) {
+    var S = w.KZ.Save;
+    S.data.levels = {}; S.save();
+    w.KZ.Scenes.playLevel('D18', 'challenge');
+    var s = w.KZ.Typing.session;
+    var strip = d.querySelector('.targets');
+    var cards = strip.querySelectorAll('.target--poem');
+
+    check('P10 挑战模式目标条没加 is-open（拼音是盖着的）', strip.className.indexOf('is-open') < 0, strip.className);
+    var shape = true, badShape = [], i, py, hz, t2;
+    for (i = 0; i < cards.length; i++) {
+      hz = cards[i].querySelector('.poem__hz');
+      py = cards[i].querySelectorAll('.poem__py .ch');
+      /* session.targets 里是引擎加工过的目标（.text/.chars），不是关卡原始条目；
+         .chars.length 才是这一条真正要敲的键数。 */
+      t2 = s.targets[i];
+      if (!hz || !hz.textContent || !t2 || py.length !== t2.chars.length) {
+        shape = false;
+        badShape.push((hz ? hz.textContent : '?') + '/' + py.length);
+      }
+    }
+    check('P11 窗口里是 7 张卡片（一关 20 条，只铺看得见的那几条）', cards.length === 7, cards.length + ' 张');
+    check('P12 每张卡片都有题干汉字，拼音字母数与键位数一致', shape, badShape.join(','));
+
+    /* 盖住不等于没有：这里查的是真的看不见（透明），汉字看得见，且用的是楷体 */
+    var untyped = cards[0].querySelectorAll('.poem__py .ch')[3];
+    var cs = w.getComputedStyle(untyped), csh = w.getComputedStyle(cards[0].querySelector('.poem__hz'));
+    check('P13 未敲的拼音是透明的（长度留着当提示）', /rgba\(0, 0, 0, 0\)|transparent/.test(cs.color), cs.color);
+    check('P14 汉字题干比拼音显眼', parseInt(csh.fontSize, 10) >= 40 && /KaiTi|楷体/i.test(csh.fontFamily),
+      csh.fontSize + ' ' + csh.fontFamily.split(',')[0]);
+
+    check('P15 盲打：屏幕键盘不亮下一键', d.querySelectorAll('.kb-key.is-next').length === 0,
+      d.querySelectorAll('.kb-key.is-next').length);
+    check('P16 V 键标了 ü（诗词阁也要打 v）',
+      (d.querySelector('[data-code=KeyV] .kb-key__extra') || {}).textContent === 'ü');
+
+    var spoke = [];
+    /* 朗读全部换成记账：无头浏览器里不出声，又能查清楚到底念了什么。
+       整个报表跑完都不必还原 —— 这一页本来就是质检页。 */
+    w.KZ.Tts.speak = function (text, kind) { spoke.push([text, kind]); };
+
+    /* 打完整首：念的应当是一句一句的诗，不是孩子刚敲的那串拼音 */
+    var before = s.done;
+    finishAll(w);
+    check('P17 一首诗 20 条全部可打，打完全关', before === 0 && s.ended && s.correct === 70, s.correct + ' 键');
+    check('P18 零误击时准确率 100%', s.wrong === 0, s.wrong);
+    /* 念整句而不是念单个汉字：多音字单念必错（「风吹草低见牛羊」的见读 xiàn，
+       单字只念得出 jiàn），念出来和屏幕上敲的拼音对不上，等于教错。 */
+    check('P19 打完一句念整句，从不单念一个汉字', spoke.length === 4 && spoke.every(function (x) {
+      return (x[0].match(/[㐀-鿿]/g) || []).length >= 4;
+    }), spoke.length + ' 次：' + spoke.map(function (x) { return x[0]; }).join(' / '));
+    check('P20 从不把要打的拼音念出来', spoke.every(function (x) {
+      return !/^[a-zü]+$/.test(x[0]) && !x[1];
+    }), JSON.stringify(spoke.slice(0, 3)));
+
+    var ov = d.querySelector('.overlay');
+    check('P21 结算页出现 3 星与下一关', /★★★/.test(ov.textContent) && ov.textContent.indexOf('古朗月行') >= 0);
+    check('P22 首通给了积分', S.stars('D18') === 3 && S.data.points > 3000,
+      S.stars('D18') + ' 星 / ' + S.data.points + ' 分');
+
+    /* 喇叭按钮：还没打的那个字，念它所在的那一句 */
+    w.KZ.Scenes.closeOverlay();
+    w.KZ.Scenes.playLevel('D19', 'challenge');
+    spoke = [];
+    var btn = [].filter.call(d.querySelectorAll('.play__hud button'), function (b) {
+      return b.textContent.indexOf('喇叭') >= 0;
+    })[0];
+    btn.click();
+    var ss = w.KZ.Typing.session, cur = ss.targets[ss.pos];
+    check('P23 喇叭念的是当前这一整句（含当前汉字），不是拼音也不是单个字', spoke.length === 1 &&
+      spoke[0][0].indexOf(cur.hz) >= 0 && spoke[0][0].length > 1 && !spoke[0][1],
+      JSON.stringify(spoke) + ' 当前=' + cur.hz);
+
+    /* 连错三次会跳过这一条：提示里报的必须是题干那个汉字。
+       一排七个汉字，报「跳过了 gu」既说不清跳的是哪一张，又正好把答案漏出来。 */
+    keyOf(w, 'z'); keyOf(w, 'z'); keyOf(w, 'z');
+    var hintTxt = (d.querySelector('.hintline') || { textContent: '' }).textContent;
+    check('P57 跳过提示报的是题干汉字，不是答案拼音', ss.skipped === 1 &&
+      hintTxt.indexOf('跳过了「' + cur.hz + '」') >= 0 && hintTxt.indexOf(cur.text) < 0,
+      hintTxt.slice(0, 26));
+
+    /* 《敕勒歌》的「风吹草低见牛羊」是全库最典型的多音字：见 在这里读 xian。
+       这一条查的是它被当成一句念，而不是被拆成一个字念。 */
+    w.KZ.Scenes.closeOverlay();
+    w.KZ.Scenes.playLevel('D3', 'challenge');
+    var jian = [].filter.call(w.KZ.Typing.session.targets, function (x) { return x.hz === '见'; })[0];
+    check('P24 多音字「见」在句子里念（念的句和敲的拼音对得上）',
+      !!jian && jian.text === 'xian' && jian.line.indexOf('见') >= 0 &&
+      (jian.line.match(/[㐀-鿿]/g) || []).length >= 4,
+      jian ? jian.line + ' → ' + jian.text : '这一关里没有见');
+
+    /* 《咏鹅》前三句就一个「鹅」字，念句子等于念单字。这种短句改念音节的代表字，
+       总之下一次开口都不会是光秃秃一个汉字 —— 那正是多音字念错的样子。 */
+    w.KZ.Scenes.playLevel('D4', 'challenge');
+    /* 这一首还顺带管「绿 = lü」：整首打完一次都不该误击，V 键才算真能打上。 */
+    var s4 = w.KZ.Typing.session, letters = 0;
+    for (i = 0; i < s4.targets.length; i++) letters += s4.targets[i].chars.length;
+    spoke = [];
+    finishAll(w);
+    check('P25 单字句改念音节代表字，从不念光秃秃一个汉字', spoke.length > 0 && spoke.every(function (x) {
+      return x[1] === 'pinyin' || (x[0].match(/[㐀-鿿]/g) || []).length >= 2;
+    }), spoke.map(function (x) { return x[0] + (x[1] ? '(' + x[1] + ')' : ''); }).join(' / '));
+    check('P26 《咏鹅》整首打得完，带 ü 的「绿」一次都不用敲错',
+      s4.ended && s4.correct === letters && s4.wrong === 0,
+      s4.correct + '/' + letters + ' 键，错 ' + s4.wrong);
+    w.KZ.Scenes.closeOverlay();
+
+    practice(w, d);
+  }
+
+  function finishAll(w) {
+    var s = w.KZ.Typing.session, guard = 0;
+    while (!s.ended && guard++ < 800) {
+      var t = s.targets[s.pos];
+      if (!t) break;
+      if (s.cur < t.chars.length) keyOf(w, t.chars[s.cur].ch);
+    }
+  }
+
+  function practice(w, d) {
+    w.KZ.Scenes.playLevel('D18', 'practice');
+    var s = w.KZ.Typing.session;
+    var strip = d.querySelector('.targets');
+    var cs = w.getComputedStyle(strip.querySelectorAll('.poem__py .ch')[0]);
+    check('P30 练习模式整条拼音露出来', strip.className.indexOf('is-open') >= 0 &&
+      !/rgba\(0, 0, 0, 0\)|transparent/.test(cs.color), cs.color);
+    check('P31 练习模式给下一键脉冲', d.querySelectorAll('.kb-key.is-next').length === 1);
+    check('P32 练习模式不计星', s.mode === 'practice' && s.limit === 0);
+    arcade(w, d);
+  }
+
+  function arcade(w, d) {
+    var S = w.KZ.Save, before = S.data.points, got = null;
+    /* 走真实场景（页签、画布、HUD 都是孩子看到的那一套），但把 start() 的返回值截一份：
+       局内的 objs / score 全在模块私有变量里，外面一句话都查不到。 */
+    var real = w.KZ.Fall.start;
+    w.KZ.Fall.start = function (host, key) { got = real(host, key); return got; };
+    w.KZ.Scenes.go('arcade', { world: 'D' });
+    w.KZ.Fall.start = real;
+    var g = got;
+
+    var tabs = d.querySelectorAll('.world-tab');
+    check('P40 自由练习有四个页签，诗词阁叫「古诗飞花」', tabs.length === 4 && /古诗飞花/.test(tabs[3].textContent),
+      tabs.length + ' 个页签');
+
+    var spoke = [];
+    w.KZ.Tts.speak = function (t, kind) { spoke.push([t, kind]); };
+
+    var tries = 0;
+    (function step() {
+      /* 要一个已经落进画面中间的卷轴：刚生成时 y 是负数，抠像素会抠到画布外 */
+      var o = g.objs.filter(function (x) { return !x.dead && x.y > 60; })[0];
+      if (!o && tries++ < 80) return setTimeout(step, 150);
+      if (!o) {
+        /* 掉不出卷轴，后面四条就没得敲。逐条记 FAIL，别让报表出现「没写过」的空洞。 */
+        var why = '等了 12 秒一个卷轴都没有';
+        check('P41 掉出的卷轴带汉字题干，键位来自拼音而不是汉字', false, why);
+        check('P58 卷轴真的被画进了画布，不只是数据里有', false, why);
+        check('P42 敲完拼音就碎掉一个，并念出刚打的那个音', false, why);
+        check('P43 敲错不计进度、断连击', false, why);
+        check('P44 接着能再碎一个', false, why);
+        return rest(w, d, S, before, g);
+      }
+      check('P41 掉出的卷轴带汉字题干，键位来自拼音而不是汉字',
+        !!o.hz && o.codes.length === o.text.length && /[㐀-鿿]/.test(o.hz), o.hz + ' → ' + o.text);
+
+      /* 这一局的画布是垫出来的 rAF 画的，孩子那边是浏览器自己转 —— 所以「数据里有掉落物」
+         并不等于「屏幕上看得见」。掉落物是纯色亮块，天空是深色渐变，抠一块出来数亮点就够了。 */
+      var cv = d.querySelector('.arcade canvas'), lit = 0, px, k2;
+      var dpr = Math.min(2, w.devicePixelRatio || 1);
+      if (cv) {
+        px = cv.getContext('2d').getImageData(Math.round((o.x - 40) * dpr), Math.round((o.y - 30) * dpr),
+          Math.round(80 * dpr), Math.round(60 * dpr)).data;
+        for (k2 = 0; k2 < px.length; k2 += 4) if (px[k2] + px[k2 + 1] + px[k2 + 2] > 330) lit++;
+      }
+      check('P58 卷轴真的被画进了画布，不只是数据里有', lit > 100, lit + ' 个亮点 @' + o.hz + '(' + Math.round(o.x) + ',' + Math.round(o.y) + ')');
+
+      typeStr(w, o);
+      /* 飞花掉的是单个字，没有句子可念，所以念的是刚敲那个音节的代表字 */
+      check('P42 敲完拼音就碎掉一个，并念出刚打的那个音', g.score === 1 &&
+        spoke.length === 1 && spoke[0][1] === 'pinyin' && spoke[0][0] === o.text,
+        g.score + ' / ' + JSON.stringify(spoke));
+
+      /* 敲错这件事要有「另一个还在掉的卷轴」才查得出来，等它出现。
+         等不到就记一条 FAIL —— 悄悄跳过会让报表看起来全绿。 */
+      var tries2 = 0;
+      (function second() {
+        var o2 = g.objs.filter(function (x) { return !x.dead; })[0];
+        if (!o2 && tries2++ < 40) return setTimeout(second, 200);
+        if (!o2) {
+          var why2 = '等了 8 秒没有第二个卷轴';
+          check('P43 敲错不计进度、断连击', false, why2);
+          check('P44 接着能再碎一个', false, why2);
+          return rest(w, d, S, before, g);
+        }
+        /* 挑一个此刻屏幕上所有掉落物都不需要的键，否则「敲错」会打到别的卷轴上，那不是引擎的错 */
+        var need = {}, cand = ['KeyZ', 'KeyX', 'KeyQ', 'KeyP', 'KeyV'], i, code = null;
+        for (i = 0; i < g.objs.length; i++) if (!g.objs[i].dead) need[g.objs[i].codes[g.objs[i].idx]] = 1;
+        for (i = 0; i < cand.length; i++) if (!need[cand[i]]) { code = cand[i]; break; }
+        var wrongBefore = g.wrong;
+        w.KZ.Keys.virtual(code, false);
+        check('P43 敲错不计进度、断连击', o2.idx === 0 && g.wrong > wrongBefore && g.combo === 0,
+          o2.idx + ' / 错 ' + g.wrong);
+        typeStr(w, o2);
+        check('P44 接着能再碎一个', g.score === 2, g.score);
+        rest(w, d, S, before, g);
+      })();
+    })();
+  }
+
+  function rest(w, d, S, before, g) {
+    var umlaut = w.KZ.Levels.arcadePool('D').filter(function (t) { return t.t.indexOf('ü') >= 0; });
+    check('P45 词池里有带 ü 的音节，V 键真能打上', umlaut.length > 0, umlaut.length + ' 个');
+    check('P46 局内 HUD 在更新', /击碎/.test(d.querySelector('.play__hud').textContent));
+    afterArcade(w, d, S, before);
+  }
+
+  function afterArcade(w, d, S, before) {
+    var quit = [].filter.call(d.querySelectorAll('.play__hud button'), function (b) {
+      return b.textContent.indexOf('结束练习') >= 0;
+    })[0];
+    quit.click();
+    var ov = d.querySelector('.overlay');
+    check('P47 结束练习给分，并说明当日 200 分封顶', S.data.points > before && /200 积分/.test(ov.textContent),
+      (S.data.points - before) + ' 分');
+    w.KZ.Scenes.closeOverlay();
+    mapTabs(w, d);
+  }
+
+  function mapTabs(w, d) {
+    w.KZ.Scenes.go('map', { world: 'D' });
+    var tabs = d.querySelectorAll('.world-tab');
+    check('P50 地图四个世界页签', tabs.length === 4 && /诗词阁/.test(tabs[3].textContent));
+    var nodes = d.querySelectorAll('.node');
+    check('P51 诗词阁铺出 75 个关卡节点', nodes.length === 75, nodes.length);
+    check('P52 顶栏星数上限跟着涨到 363', /\/363$/.test(d.querySelector('.pill--star').textContent),
+      d.querySelector('.pill--star').textContent);
+
+    /* 每个世界都真开一局：加 D 的时候不能把 A/B/C 弄坏 */
+    var ids = ['A1', 'B1', 'C1', 'D1'], i, bad = [];
+    for (i = 0; i < ids.length; i++) {
+      w.KZ.Scenes.playLevel(ids[i], 'challenge');
+      var s = w.KZ.Typing.session;
+      if (!s || !s.targets.length || !s.targets[0].chars.length) bad.push(ids[i]);
+      w.KZ.Scenes.go('map', { world: 'D' });
+    }
+    check('P53 四个世界都能开局并有可打目标', !bad.length, bad.join(','));
+    var d1 = w.KZ.Levels.get('D1');
+    /* 一条 = 一个汉字 = 一个音节，所以《江南》这关是 35 条而不是 7 句 */
+    check('P54 D1 是《江南》，35 条按诗序排，第一条是 jiang', d1.name === '《江南》' &&
+      d1.raw.length === 35 && w.KZ.Levels.targetStr(d1.raw[0]) === 'jiang',
+      d1.name + ' / ' + d1.raw.length + ' / ' + w.KZ.Levels.targetStr(d1.raw[0]));
+
+    /* 页脚那句「速度单位」以前是按世界名猜的（A→键、B→音节、其余→词）。
+       加了 D 之后它落进「其余」，诗词阁脚下就标成词/分钟：孩子照着这个表练，
+       永远不知道 3 星那个 12 音节/分到底要敲多快。 */
+    var want = { A: '键/分', B: '音节/分', C: '词/分', D: '音节/分' }, wrong = [], got = [], wl, btn, txt;
+    for (i = 0; i < 4; i++) {
+      wl = w.KZ.Levels.WORLD_LIST[i];
+      btn = d.querySelectorAll('.world-tab')[i];
+      btn.click();
+      txt = (d.querySelector('.map__note') || { textContent: '' }).textContent;
+      got.push(wl + '=' + (txt.match(/速度单位：(\S+)/) || [])[1]);
+      if (txt.indexOf('速度单位：' + want[wl]) < 0) wrong.push(wl + ' → ' + txt.slice(0, 20));
+    }
+    check('P56 四个世界的页脚速度单位都跟着关卡单位走', !wrong.length, got.join(' '));
+
+    /* 指尖岛练的就是「哪根手指按哪个键」，可这一世界的挑战关以前从来不报指法：
+       只有「先练一练」那一行会报，孩子看完 A0 的指法图进 A1～A12，就再没人告诉他该用哪根手指。 */
+    var aLv = w.KZ.Levels.byWorld('A'), k, lv, s2, cell, tipTxt, hops;
+    var noTip = [], noShift = [], overShift = [], shiftLv = [], wantShift = [];
+    var noWho = [], walked = 0;
+    var hintOf = function () { return (d.querySelector('.hintline') || { textContent: '(没有提示行)' }).textContent; };
+    /* 和引擎同一个口径：关卡写 caseStrict:false、或者设置里关掉总开关，小写也算对 */
+    var looseOf = function (l) { return l.caseStrict === false || !w.KZ.Save.data.settings.strictCase; };
+    /* 从关卡数据算「这一关有没有非要压 Shift 不可的格子」。按“有没有”算而不是按位置算：
+       同一关的条目顺序每局会洗，按位置比会随机误报。 */
+    var hardCell = function (l) {
+      var i, j, str, ch, c;
+      for (i = 0; i < l.raw.length; i++) {
+        str = w.KZ.Levels.targetStr(l.raw[i]);
+        for (j = 0; j < str.length; j++) {
+          ch = str.charAt(j);
+          c = w.KZ.Keys.lookup(ch);
+          if (c && c.strict && !(looseOf(l) && /[A-Z]/.test(ch))) return ch;
+        }
+      }
+      return null;
+    };
+    var hard = 0;
+    for (k = 0; k < aLv.length; k++) {
+      lv = aLv[k];
+      if (hardCell(lv) !== null) wantShift.push(lv.id);
+      w.KZ.Scenes.go('map', { world: 'A' });
+      w.KZ.Scenes.playLevel(lv.id, 'challenge');
+      /* A0 一进来先拦一张指法图，那是给这一关用的控件，点它进去而不是硬关掉 */
+      if (w.KZ.Scenes.isOpen()) {
+        var ready = null;
+        Array.prototype.forEach.call(d.querySelectorAll('#overlay button'), function (b) {
+          if (/开始练/.test(b.textContent)) ready = b;
+        });
+        if (ready) ready.click(); else w.KZ.Scenes.closeOverlay();
+      }
+      s2 = w.KZ.Typing.session;
+      if (!s2) { noTip.push(lv.id + ' 开不了局'); continue; }
+      tipTxt = hintOf();
+      if (!/指按 /.test(tipTxt)) noTip.push(lv.id + '→[' + tipTxt + ']');
+      /* 整关走到底，每个 strict 格子都核对一次提示行：要压 Shift 的格子（大写、! ?）得把
+         Shift 一起说出来，只报「用左小指按 1」孩子照着按了 1 却不给分，因为那格要的是感叹号；
+         反过来这一关不考大小写时（A12）小写也算对，再多喊一句 Shift 就是白让孩子多按一个键。
+         敲的时候按格子自己的要求压 Shift —— 不然连错三次会被自动跳过，覆盖就漏了。 */
+      hops = 0;
+      while (s2 && !s2.ended && hops++ < 400) {
+        cell = s2.targets[s2.pos] && s2.targets[s2.pos].chars[s2.cur];
+        if (!cell) break;
+        /* 「一路报指法」要真的每一格都有：某个键在键盘表里查不到手指时 fingerTip 给空串，
+           提示行就成了空白 —— 只有首格有字、中间断掉，孩子照样不知道该用哪根手指。 */
+        walked++;
+        if (!/用.+指按 /.test(hintOf())) noWho.push(lv.id + ':' + (cell.ch === ' ' ? '空格' : cell.ch) + '→[' + hintOf() + ']');
+        if (cell.strict) {
+          var seen = hintOf(), need = !(looseOf(lv) && /[A-Z]/.test(cell.ch));
+          hard++;
+          if (need) {
+            if (shiftLv.indexOf(lv.id) < 0) shiftLv.push(lv.id);
+            if (!/Shift，再用.+指按 /.test(seen)) noShift.push(lv.id + ':' + cell.ch + '→[' + seen + ']');
+          } else if (/Shift/.test(seen)) {
+            overShift.push(lv.id + ':' + cell.ch + '→[' + seen + ']');
+          }
+        }
+        w.KZ.Keys.virtual(cell.code, cell.strict);
+      }
+      w.KZ.Typing.discard();
+    }
+    check('P59 指尖岛 13 关挑战模式一路报指法', !noTip.length && !noWho.length && aLv.length === 13,
+      aLv.length + ' 关、整关走过 ' + walked + ' 格：' + (noTip.concat(noWho).join(',') || '每一格都有「用X指按Y」'));
+    check('P60 该不该压 Shift 和计分同一个口径', !noShift.length && !overShift.length && shiftLv.join(',') === wantShift.join(','),
+      '走过 ' + hard + ' 个 strict 格；真要压 Shift 的关：' + (wantShift.join(',') || '无') + '，报了的：' + (shiftLv.join(',') || '无') +
+      '，漏报：' + (noShift.join(',') || '无') + '，小写也算对却多报 Shift：' + (overShift.join(',') || '无'));
+
+    /* 反过来也要成立：设置里关掉「大写必须按 Shift」之后，小写就算对了，提示行不能还喊 Shift。
+       这是玩家能碰到的开关（设置页那个 toggle），口径和 onKey 的判定共用 caseLoose。 */
+    w.KZ.Save.data.settings.strictCase = false; w.KZ.Save.save();
+    w.KZ.Scenes.go('map', { world: 'A' });
+    w.KZ.Scenes.playLevel('A7', 'challenge');
+    var s3 = w.KZ.Typing.session, off = '(开不了局)', hops3 = 0, c3;
+    while (s3 && !s3.ended && hops3++ < 400) {
+      c3 = s3.targets[s3.pos] && s3.targets[s3.pos].chars[s3.cur];
+      if (!c3) break;
+      if (c3.strict) { off = hintOf(); break; }
+      w.KZ.Keys.virtual(c3.code, c3.strict);
+    }
+    w.KZ.Typing.discard();
+    w.KZ.Save.data.settings.strictCase = true; w.KZ.Save.save();
+    check('P62 关掉「大写必须按 Shift」后提示行跟着松口', !/Shift/.test(off) && /指按 /.test(off),
+      'A7 第一个大写格→[' + off + ']，查完把 strictCase 还原成 true');
+
+    /* 提示行从「挑战模式基本空着」变成「一直有字」，最怕长句子换行把屏幕键盘往下顶一格。
+       A10 有最长的那一句（…再用右无名指按 斜杠），整关走一遍量它自己的高度。 */
+    w.KZ.Scenes.go('map', { world: 'A' });
+    w.KZ.Scenes.playLevel('A10', 'challenge');
+    var s4 = w.KZ.Typing.session, hops4 = 0, c4, hl4, hh, heights = [], tall = [], longest = '';
+    while (s4 && !s4.ended && hops4++ < 300) {
+      c4 = s4.targets[s4.pos] && s4.targets[s4.pos].chars[s4.cur];
+      if (!c4) break;
+      hl4 = d.querySelector('.hintline');
+      if (hl4) {
+        hh = Math.round(hl4.getBoundingClientRect().height);
+        if (heights.indexOf(hh) < 0) heights.push(hh);
+        if (hh > 32 || hl4.scrollHeight > hl4.clientHeight + 1) tall.push(c4.ch + '→' + hh + '/' + hl4.scrollHeight + 'px');
+        if (hl4.textContent.length > longest.length) longest = hl4.textContent;
+      }
+      w.KZ.Keys.virtual(c4.code, c4.strict);
+    }
+    w.KZ.Typing.discard();
+    check('P63 指法行始终占一行，不会把屏幕键盘往下顶', !!s4 && !tall.length && heights.length === 1,
+      '整关量到的高度：' + heights.join('/') + 'px，最长一句：[' + longest + ']，超行：' + (tall.join(',') || '无'));
+
+    /* 这次改的是「挑战模式也给指尖岛报」，练习模式那一半本来就四个世界都报，不能被碰坏。 */
+    var pIds = ['A2', 'B1', 'C1', 'D11'], pi, lost = [], pGot = [];
+    for (pi = 0; pi < pIds.length; pi++) {
+      w.KZ.Scenes.playLevel(pIds[pi], 'practice');
+      var sp = w.KZ.Typing.session;
+      var ph = sp ? hintOf() : '(开不了局)';
+      pGot.push(pIds[pi] + '→[' + ph + ']');
+      if (!sp || !/指按 /.test(ph)) lost.push(pIds[pi] + '→[' + ph + ']');
+      w.KZ.Typing.discard();
+    }
+    check('P64 练习模式四个世界照样报指法', !lost.length, lost.join(',') || pGot.join(' '));
+
+    /* 反过来也要成立：拼音谷/单词城/诗词阁的挑战关不能报指法。那三个世界要敲的字母本身就是
+       答案，「用右食指按 j」等于把第一个字母念出来了；诗词阁更是整条拼音都得盖住。 */
+    var leak = [], sample = [['B', 3], ['C', 3], ['D', 2]], si, sh, lvs, li, hid;
+    for (si = 0; si < sample.length; si++) {
+      hid = sample[si][0];
+      lvs = w.KZ.Levels.byWorld(hid);
+      for (li = 0; li < sample[si][1]; li++) {
+        w.KZ.Scenes.playLevel(lvs[li].id, 'challenge');
+        sh = w.KZ.Typing.session;
+        if (!sh) { leak.push(lvs[li].id + ' 开不了局'); continue; }
+        tipTxt = hintOf();
+        if (tipTxt !== '') leak.push(lvs[li].id + '→[' + tipTxt + ']');
+        if (hid === 'D' && !sh.blind) leak.push(lvs[li].id + ' 没盖住答案');
+        w.KZ.Typing.discard();
+      }
+    }
+    check('P61 其余三个世界的挑战关不报指法（那一行同时是答案）', !leak.length,
+      sample.length + ' 组 8 关：' + (leak.join(',') || '提示行全空，D 关拼音仍盖着'));
+
+    check('P55 没有 JS 异常', !errs.length, errs.join(' | '));
+    finish();
+  }
+
+  document.title = 'QA loading…';
+})();
+</script>
+</body>
+</html>

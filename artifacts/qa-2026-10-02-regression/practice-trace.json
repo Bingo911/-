@@ -1,0 +1,46 @@
+[
+  {
+    "ch": "k",
+    "state": "Browser tab: 2, Title: \"打字小勇士 · 儿童打字闯关\", URL: \"http://127.0.0.1:8080/\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\nRemoved element IDs: 156-160\n+\t\t\t149 text 3\n+\t\t\t150 text 63%\n+\t\t\t151 text 104\n+\t\t\t152 text 6/12\n+\t\t\t153 text 连击 ×1\n~\t\t\t\t154 text l ; a s d f j k l ;\n+\t\t\t155 text 用右无名指按 l\nThe focused UI element is 109 button k, Help: 右中指"
+  },
+  {
+    "ch": "l",
+    "state": "Browser tab: 2, Title: \"打字小勇士 · 儿童打字闯关\", URL: \"http://127.0.0.1:8080/\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\n~\t\t\t150 text 67%\n~\t\t\t152 text 7/12\n~\t\t\t\t154 text ; a s d f j k l ;\n~\t\t\t155 text 用右小指按 分号\nThe focused UI element is 111 button l, Help: 右无名指"
+  },
+  {
+    "ch": ";",
+    "state": "Browser tab: 2, Title: \"打字小勇士 · 儿童打字闯关\", URL: \"http://127.0.0.1:8080/\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\nRemoved element IDs: 156-160\n+\t\t\t149 text 4\n+\t\t\t150 text 70%\n+\t\t\t151 text 105\n+\t\t\t152 text 8/12\n+\t\t\t153 text 连击 ×1\n~\t\t\t\t154 text a s d f j k l ;\n+\t\t\t155 text 用左小指按 a\nThe focused UI element is 113 button ; :, Help: 右小指"
+  },
+  {
+    "ch": "a",
+    "state": "Browser tab: 2, Title: \"打字小勇士 · 儿童打字闯关\", URL: \"http://127.0.0.1:8080/\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\n~\t\t\t155 text 5\n~\t\t\t156 text 73%\n~\t\t\t160 text 用左无名指按 s\nThe focused UI element is 97 button a, Help: 左小指"
+  },
+  {
+    "ch": "s",
+    "state": "Browser tab: 2, Title: \"打字小勇士 · 儿童打字闯关\", URL: \"http://127.0.0.1:8080/\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\nRemoved element IDs: 156-160\n+\t\t\t149 text 5\n+\t\t\t150 text 75%\n+\t\t\t151 text 106\n+\t\t\t152 text 9/12\n+\t\t\t153 text 连击 ×2 (5)\n~\t\t\t\t154 text d f j k l ;\n+\t\t\t155 text 用左中指按 d\nThe focused UI element is 99 button s, Help: 左无名指"
+  },
+  {
+    "ch": "d",
+    "state": "Browser tab: 2, Title: \"打字小勇士 · 儿童打字闯关\", URL: \"http://127.0.0.1:8080/\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\nRemoved element IDs: 149-153\n+\t\t\t155 text 6\n+\t\t\t156 text 77%\n+\t\t\t157 text 106\n+\t\t\t158 text 9/12\n+\t\t\t159 text 连击 ×2 (6)\n+\t\t\t160 text 用左食指按 f\nThe focused UI element is 101 button d, Help: 左中指"
+  },
+  {
+    "ch": "f",
+    "state": "Browser tab: 2, Title: \"打字小勇士 · 儿童打字闯关\", URL: \"http://127.0.0.1:8080/\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\nRemoved element IDs: 156-160\n+\t\t\t149 text 6\n+\t\t\t150 text 79%\n+\t\t\t151 text 107\n+\t\t\t152 text 10/12\n+\t\t\t153 text 连击 ×2 (7)\n~\t\t\t\t154 text j k l ;\n+\t\t\t155 text 用右食指按 j\nThe focused UI element is 103 button f, Help: 左食指"
+  },
+  {
+    "ch": "j",
+    "state": "Browser tab: 2, Title: \"打字小勇士 · 儿童打字闯关\", URL: \"http://127.0.0.1:8080/\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\nRemoved element IDs: 149-153\n+\t\t\t155 text 7\n+\t\t\t156 text 80%\n+\t\t\t157 text 107\n+\t\t\t158 text 10/12\n+\t\t\t159 text 连击 ×2 (8)\n+\t\t\t160 text 用右中指按 k\nThe focused UI element is 107 button j, Help: 右食指"
+  },
+  {
+    "ch": "k",
+    "state": "Browser tab: 2, Title: \"打字小勇士 · 儿童打字闯关\", URL: \"http://127.0.0.1:8080/\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\nRemoved element IDs: 156-160\n+\t\t\t149 text 7\n+\t\t\t150 text 81%\n+\t\t\t151 text 108\n+\t\t\t152 text 11/12\n+\t\t\t153 text 连击 ×2 (9)\n~\t\t\t\t154 text l ;\n+\t\t\t155 text 用右无名指按 l\nThe focused UI element is 109 button k, Help: 右中指"
+  },
+  {
+    "ch": "l",
+    "state": "Browser tab: 2, Title: \"打字小勇士 · 儿童打字闯关\", URL: \"http://127.0.0.1:8080/\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\nRemoved element IDs: 149-153\n+\t\t\t155 text 8\n+\t\t\t156 text 82%\n+\t\t\t157 text 108\n+\t\t\t158 text 11/12\n+\t\t\t159 text 连击 ×2 (10)\n+\t\t\t160 text 用右小指按 分号\nThe focused UI element is 111 button l, Help: 右无名指"
+  },
+  {
+    "ch": ";",
+    "state": "Browser tab: 2, Title: \"打字小勇士 · 儿童打字闯关\", URL: \"http://127.0.0.1:8080/\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\nRemoved element IDs: 155-159\n~\t\t\t16 text ★ 151 ⭐ 3/138\n+\t\t\t161 text 8\n+\t\t\t162 text 83%\n+\t\t\t163 text 108\n+\t\t\t164 text 12/12\n+\t\t\t165 text 连击 ×2 (11)\n+\t166 container\n+\t\t167 heading 手指的家, Value: 2\n+\t\t\t168 text 手指的家\n+\t\t169 text 认清十根手指各管哪些键，手指放在基准键上 ☆ ☆ ☆ 练习完成，这一局不计星、不解锁 速度 8 键/分 准确率 83.3% 完成 12 / 12（跳过 1） 最高连击 ×11 这一局有跳过，所以最多只能拿 2 星。下次慢一点、看准再打。 +18 积分\n+\t\t170 button 再来一次\n+\t\t171 button 先练一练\n+\t\t172 button 回到地图\nThe focused UI element is 113 button ; :, Help: 右小指"
+  }
+]

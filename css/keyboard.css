@@ -1,0 +1,139 @@
+/* 屏幕键盘：10 指配色 + 下一键脉冲 + 对错闪烁。每个键可点击，作为输入法吞掉按键时的兜底输入。 */
+
+.kb {
+  --kbg: #fffdf7;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 12px;
+  border-radius: var(--r-m);
+  background: #2b3350;
+  box-shadow: var(--shadow);
+}
+
+.kb--compact { padding: 8px; gap: 4px; }
+
+.kb-row { display: flex; gap: 6px; justify-content: center; }
+.kb--compact .kb-row { gap: 4px; }
+
+.kb-key {
+  position: relative;
+  min-width: 46px;
+  height: 46px;
+  padding: 0 6px;
+  border-radius: 8px;
+  background: var(--kbg);
+  color: #2b3350;
+  font: 700 19px/1 var(--latin-font);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, .35);
+  transition: transform .05s, background .12s, color .12s;
+}
+
+.kb--compact .kb-key { min-width: 38px; height: 38px; font-size: 18px; border-radius: 7px; }
+.kb-key--wide { min-width: 92px; }
+.kb-key--space { min-width: 300px; flex: 1; }
+.kb--compact .kb-key--space { min-width: 160px; }
+
+/* 窗口窄的时候让键帽自己变窄：键帽的 min-width 会把整行顶到深色面板外面，
+   右边那几个键看着就像坏了。真键盘才是主用法，屏幕键盘只是输入法吞键时的
+   兜底，所以这里宁可键帽小一点，也不要溢出。 */
+@media (max-width: 720px) {
+  .kb--compact .kb-key,
+  .kb--compact .kb-key--wide,
+  .kb--compact .kb-key--space { min-width: 0; }
+  .kb--compact .kb-key { min-width: 0; font-size: 16px; }
+  .kb--compact .kb-key__alt { font-size: 11px; }
+}
+
+/* 指位配色：左手小指→右手小指。颜色之外还有下方图例的指位名字和每个键帽的
+   title 提示，所以「哪根手指」不是只有颜色一个载体。 */
+.kb-key[data-f="0"] { border-bottom: 5px solid #e0484d; }
+.kb-key[data-f="1"] { border-bottom: 5px solid #ec8b2c; }
+.kb-key[data-f="2"] { border-bottom: 5px solid #f2c531; }
+.kb-key[data-f="3"] { border-bottom: 5px solid #4fae58; }
+.kb-key[data-f="4"] { border-bottom: 5px solid #35a7a0; }
+.kb-key[data-f="5"] { border-bottom: 5px solid #3d7fd1; }
+.kb-key[data-f="6"] { border-bottom: 5px solid #7a5cd0; }
+.kb-key[data-f="7"] { border-bottom: 5px solid #c0559e; }
+.kb-key[data-f="8"] { border-bottom: 5px solid #8d6b45; }
+.kb-key[data-f="9"] { border-bottom: 5px solid #6b7280; }
+
+/* ---------- 指法教学面板（A0 进关第一屏）----------
+   每根手指一条，左边那条色就是键帽下边框的色，孩子能在两边对上。
+   键位串是这一屏要读的东西，按正文往大给，宁可换行也不要缩。 */
+.teach {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px 24px;
+  margin-top: 16px;
+}
+.teach__head { font-size: 20px; font-weight: 800; margin-bottom: 6px; }
+.teach__row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 34px;
+  margin-bottom: 4px;
+  padding: 2px 10px;
+  background: #fff;
+  border-left: 7px solid var(--c, #999);
+  border-radius: 8px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+}
+.teach__who { flex: 0 0 auto; font-size: 18px; font-weight: 700; }
+.teach__keys { font-size: 20px; letter-spacing: .1em; font-weight: 700; word-break: break-all; }
+.teach__rule { margin-top: 14px; font-size: 20px; line-height: 1.6; text-align: center; color: var(--ink); }
+
+.kb-key__alt { font-size: 12px; line-height: 1; color: #4e5769; }
+/* ü 提示得在下一种键帽底色（含金色「下一键」）上都读得清，11px 属正文，要 4.5:1 */
+.kb-key__extra { font-size: 11px; line-height: 1; color: #7a3f00; font-weight: 800; }
+.kb-key__home {
+  position: absolute;
+  bottom: 4px;
+  width: 12px;
+  height: 3px;
+  border-radius: 2px;
+  background: currentColor;
+  opacity: .5;
+}
+
+.kb-key.is-next {
+  background: var(--gold);
+  color: #4a2c00;
+  transform: translateY(-3px);
+  animation: kbPulse .9s ease-in-out infinite;
+}
+
+@keyframes kbPulse {
+  0%, 100% { box-shadow: 0 3px 0 rgba(0, 0, 0, .35), 0 0 0 0 rgba(255, 197, 49, .8); }
+  50% { box-shadow: 0 3px 0 rgba(0, 0, 0, .35), 0 0 0 10px rgba(255, 197, 49, 0); }
+}
+
+.kb-key.is-ok { background: #bdf0cc; animation: kbFlash .12s linear; }
+.kb-key.is-bad { background: #ffc9c9; animation: kbShake .2s linear; }
+
+@keyframes kbFlash { from { background: #fff; } to { background: #bdf0cc; } }
+
+@keyframes kbShake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+}
+
+.kb-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  justify-content: center;
+  padding: 8px 4px 0;
+  font-size: 14px;
+  color: #dfe6ff;
+}
+
+.kb-legend span { display: flex; align-items: center; gap: 5px; }
+.kb-legend i { width: 14px; height: 14px; border-radius: 4px; display: inline-block; }

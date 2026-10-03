@@ -1,0 +1,86 @@
+{
+  "timestamp": "2026-10-02T08:56:35.888Z",
+  "metadata": "PASS",
+  "cases": [
+    {
+      "charId": "c9",
+      "equipped": "o1",
+      "status": "PASS"
+    },
+    {
+      "charId": "c9",
+      "equipped": "o2",
+      "status": "PASS"
+    },
+    {
+      "charId": "c9",
+      "equipped": "o3",
+      "status": "PASS"
+    },
+    {
+      "charId": "c9",
+      "equipped": "o4",
+      "status": "PASS"
+    },
+    {
+      "charId": "c9",
+      "equipped": "o5",
+      "status": "PASS"
+    },
+    {
+      "charId": "c9",
+      "equipped": "o6",
+      "status": "PASS"
+    },
+    {
+      "charId": "c9",
+      "equipped": "o7",
+      "status": "PASS"
+    },
+    {
+      "charId": "c9",
+      "equipped": "o8",
+      "status": "PASS"
+    },
+    {
+      "charId": "c13",
+      "equipped": "o1",
+      "status": "PASS"
+    },
+    {
+      "charId": "c13",
+      "equipped": "o2",
+      "status": "PASS"
+    },
+    {
+      "charId": "c13",
+      "equipped": "o3",
+      "status": "PASS"
+    },
+    {
+      "charId": "c13",
+      "equipped": "o4",
+      "status": "PASS"
+    },
+    {
+      "charId": "c13",
+      "equipped": "o5",
+      "status": "PASS"
+    },
+    {
+      "charId": "c13",
+      "equipped": "o6",
+      "status": "PASS"
+    },
+    {
+      "charId": "c13",
+      "equipped": "o7",
+      "status": "PASS"
+    },
+    {
+      "charId": "c13",
+      "equipped": "o8",
+      "status": "PASS"
+    }
+  ]
+}

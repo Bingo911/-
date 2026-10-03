@@ -1,0 +1,199 @@
+{
+  "timestamp": "2026-10-02T08:56:35.995Z",
+  "node": "v26.1.0",
+  "root": "E:\\workspace\\打字游戏",
+  "results": [
+    {
+      "id": "N01",
+      "name": "现有关卡/经济/161 种坏档校验",
+      "status": "PASS",
+      "detail": {
+        "exitCode": 0
+      }
+    },
+    {
+      "id": "N02",
+      "name": "全部关卡练习/挑战目标数量",
+      "status": "PASS"
+    },
+    {
+      "id": "N03",
+      "name": "所有关卡目标都可映射到实际键位",
+      "status": "PASS",
+      "detail": {
+        "targets": 1301,
+        "characters": 5328
+      }
+    },
+    {
+      "id": "N04",
+      "name": "正确键/错误键/Shift 与符号判定",
+      "status": "PASS"
+    },
+    {
+      "id": "N05",
+      "name": "初始和跨世界解锁",
+      "status": "PASS"
+    },
+    {
+      "id": "N06",
+      "name": "最小旧档补齐与导出导入往返",
+      "status": "PASS"
+    },
+    {
+      "id": "N07",
+      "name": "坏档拒绝不改变内存与持久化",
+      "status": "PASS",
+      "detail": {
+        "fixtures": 37
+      }
+    },
+    {
+      "id": "N08",
+      "name": "99 星夹值和非法角色修复",
+      "status": "PASS"
+    },
+    {
+      "id": "N09",
+      "name": "存储失败降级仍保留本局进度",
+      "status": "PASS"
+    },
+    {
+      "id": "N10",
+      "name": "购买幂等与角色独立换装",
+      "status": "PASS"
+    },
+    {
+      "id": "N11",
+      "name": "参与奖、首通、重玩与星数不降",
+      "status": "PASS",
+      "detail": {
+        "first": 224,
+        "repeat": 60
+      }
+    },
+    {
+      "id": "N12",
+      "name": "跨日奖励/街机和隔夜计时归零",
+      "status": "PASS"
+    },
+    {
+      "id": "N13",
+      "name": "挑战结算奖励出现前顶栏已同步，且不重复记账",
+      "status": "PASS",
+      "detail": {
+        "cases": [
+          {
+            "input": {
+              "stars": 0,
+              "done": 0,
+              "correct": 0
+            },
+            "points": 0,
+            "stars": "0/138",
+            "gained": 0
+          },
+          {
+            "input": {
+              "stars": 0,
+              "done": 1,
+              "correct": 15
+            },
+            "points": 10,
+            "stars": "0/138",
+            "gained": 10
+          },
+          {
+            "input": {
+              "stars": 1,
+              "done": 12,
+              "correct": 30
+            },
+            "points": 151,
+            "stars": "1/138",
+            "gained": 141
+          },
+          {
+            "input": {
+              "stars": 1,
+              "done": 12,
+              "correct": 30
+            },
+            "points": 182,
+            "stars": "1/138",
+            "gained": 31
+          },
+          {
+            "input": {
+              "stars": 3,
+              "done": 12,
+              "correct": 30
+            },
+            "points": 242,
+            "stars": "3/138",
+            "gained": 60
+          }
+        ]
+      }
+    },
+    {
+      "id": "N14",
+      "name": "练习积分只奖励完整输入，跳过/空局/半条不发分",
+      "status": "PASS",
+      "detail": {
+        "cases": [
+          {
+            "input": {},
+            "gained": 0
+          },
+          {
+            "input": {
+              "correct": 1,
+              "done": 0
+            },
+            "gained": 0
+          },
+          {
+            "input": {
+              "correct": 1,
+              "done": 1
+            },
+            "gained": 4
+          },
+          {
+            "input": {
+              "correct": 6,
+              "done": 6
+            },
+            "gained": 10
+          },
+          {
+            "input": {
+              "correct": 11,
+              "done": 12,
+              "skipped": 1
+            },
+            "gained": 18
+          },
+          {
+            "input": {
+              "correct": 1,
+              "done": 12,
+              "skipped": 12
+            },
+            "gained": 0
+          },
+          {
+            "input": {
+              "correct": 12,
+              "done": 12
+            },
+            "gained": 20
+          }
+        ]
+      }
+    }
+  ],
+  "passed": 14,
+  "failed": 0
+}

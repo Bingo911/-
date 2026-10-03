@@ -1,0 +1,1001 @@
+===== slide 1 =====
+  --shape--
+    [zh]小学生必背古诗 | [sym]75 | [zh]首
+===== slide 2 =====
+  --shape--
+    [sym]1 | [zh]、江南
+  --shape--
+    [zh]汉乐府 
+  --shape--
+    [lat]jiāng | [sym]  | [lat]nán | [sym]   | [lat]kě | [sym]    | [lat]cǎi | [sym]     | [lat]lián | [sym]          | [lat]lián | [sym]   | [lat]yè | [sym]     | [lat]hé | [sym]    | [lat]tián | [sym]   | [lat]tián
+    [zh]江南可采莲，莲叶何田田。  | [sym]  | [lat]yú | [sym]     | [lat]xì | [sym]     | [lat]lián | [sym]   | [lat]yè | [sym]     | [lat]jiān
+    [zh]鱼戏莲叶间。  | [sym]  | [lat]yú | [sym]     | [lat]xì | [sym]     | [lat]lián | [sym]   | [lat]yè | [sym]    | [lat]dōng | [sym]          | [lat]yú | [sym]     | [lat]xì | [sym]    | [lat]lián | [sym]    | [lat]yè | [sym]     | [lat]xī
+    [zh]鱼戏莲叶东，鱼戏莲叶西。  | [sym]  | [lat]yú | [sym]     | [lat]xì | [sym]     | [lat]lián | [sym]   | [lat]yè | [sym]     | [lat]nán | [sym]           | [lat]yú | [sym]     | [lat]xì | [sym]    | [lat]lián | [sym]    | [lat]yè | [sym]     | [lat]běi
+    [zh]鱼戏莲叶南，鱼戏莲叶北。
+  --shape--
+    [lat]jiāng | [sym]  | [lat]nán
+===== slide 3 =====
+  --shape--
+    [sym]2、 | [zh]长歌行
+  --shape--
+    [zh]汉乐府 
+  --shape--
+    [lat]qīng | [sym]  | [lat]qīng yuan zhōng | [sym]  | [lat]kuí | [sym]           | [lat]zhāo | [sym]    | [lat]lù | [sym]     | [lat]dài | [sym]      | [lat]rì | [sym]       | [lat]xī | [sym] 
+    [zh]青青园中葵，朝露待日晞。
+    [lat]yang chūn | [sym]   | [lat]bù | [sym]      | [lat]dé | [sym]     | [lat]zé | [sym]             | [lat]wàn | [sym]    | [lat]wù sheng guāng | [sym]  | [lat]huī
+    [zh]阳春布德泽，万物生光辉。
+    [lat]cháng | [sym]  | [lat]kǒng | [sym]  | [lat]qiū | [sym]   | [lat]jié | [sym]     | [lat]zhì | [sym]             | [lat]kūn | [sym]  | [lat]huáng | [sym]  | [lat]huá | [sym]    | [lat]yè | [sym]   | [lat]shuāi | [sym] 
+    [zh]常恐秋节至，焜黄华叶衰。
+    [lat]bǎi | [sym]   | [lat]chuān | [sym]  | [lat]dōng | [sym]  | [lat]dào | [sym]    | [lat]hǎi | [sym]              | [lat]hé | [sym]    | [lat]shí | [sym]      | [lat]fù | [sym]      | [lat]xī | [sym]      | [lat]guī | [sym] 
+    [zh]百川东到海，何时复西归。
+    [lat]shào | [sym]  | [lat]zhuàng | [sym]  | [lat]bù | [sym]   | [lat]nǔ | [sym]      | [lat]lì | [sym]               | [lat]lǎo | [sym]     | [lat]dà | [sym]     | [lat]tú | [sym]     | [lat]shāng | [sym]  | [lat]bēi
+    [zh]少壮不努力，老大徒伤悲。
+  --shape--
+    [lat]cháng | [sym]   | [lat]gē | [sym]   | [lat]xíng
+===== slide 4 =====
+  --shape--
+    [sym]3 | [zh]、敕勒歌 
+  --shape--
+    [zh]北朝民歌 
+  --shape--
+    [lat]chì | [sym]     | [lat]lè | [sym]   | [lat]chuān | [sym]        | [lat]yīn | [sym]   | [lat]shān | [sym]  | [lat]xià
+    [zh]敕勒川，阴山下，  | [lat]tiān | [sym]    | [lat]sì | [sym]   | [lat]qióng | [sym]  | [lat]lú
+    [zh]天似穹庐，  | [lat]long gài | [sym]     | [lat]sì | [sym]     | [lat]yě
+    [zh]笼盖四野。 | [lat]tiān | [sym]  | [lat]cāng | [sym]  | [lat]cāng | [sym]         | [lat]yě | [sym]  | [lat]máng | [sym]  | [lat]máng
+    [zh]天苍苍，野茫茫，  | [lat]fēng | [sym]  | [lat]chuī | [sym]  | [lat]cǎo | [sym]   | [lat]dī | [sym]    | [lat]xiàn | [sym]  | [lat]niú | [sym]   | [lat]yáng
+    [zh]风吹草低见牛羊。
+  --shape--
+    [lat]chì | [sym]     | [lat]lè | [sym]      | [lat]gē
+===== slide 5 =====
+  --shape--
+    [sym]4 | [zh]、咏鹅
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]骆宾王 
+  --shape--
+    [lat]  e               é               é | [sym] 
+    [zh]鹅，鹅，鹅，
+    [lat]qǔ | [sym]    | [lat]xiang | [sym]  | [lat]xiàng | [sym]  | [lat]tiān | [sym]   | [lat]gē | [sym]  
+    [zh]曲项向天歌。 
+    [lat]bái | [sym]    | [lat]máo | [sym]     | [lat]fú | [sym]       | [lat]lǜ | [sym]    | [lat]shuǐ | [sym] 
+    [zh]白毛浮绿水，
+    [lat]hóng | [sym]  | [lat]zhǎng | [sym]  | [lat]bō | [sym]   | [lat]qīng | [sym]    | [lat]bō
+    [zh]红掌拨清波。
+  --shape--
+    [lat]yǒng | [sym]    | [lat]é
+===== slide 6 =====
+  --shape--
+    [sym]5 | [zh]、风
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]李峤 | [lat](qiáo) 
+  --shape--
+    [sym]  | [lat]jiě | [sym]     | [lat]luò | [sym]    | [lat]sān | [sym]     | [lat]qiū | [sym]    | [lat]yè
+    [zh]解落三秋叶，
+    [lat]néng | [sym]   | [lat]kāi | [sym]     | [lat]èr | [sym]      | [lat]yuè | [sym]   | [lat]huā
+    [zh]能开二月花。 
+    [lat]guò | [sym]   | [lat]jiāng | [sym]  | [lat]qiān | [sym]   | [lat]chǐ | [sym]     | [lat]làng
+    [zh]过江千尺浪，
+    [sym]  | [lat]rù | [sym]      | [lat]zhú | [sym]   | [lat]wàn | [sym]   | [lat]gān | [sym]    | [lat]xié
+    [zh]入竹万竿斜。 
+  --shape--
+    [lat]fēng
+===== slide 7 =====
+  --shape--
+    [sym]6 | [zh]、咏柳 
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]贺知章 
+  --shape--
+    [sym]   | [lat]bì | [sym]     | [lat]yù | [sym]  | [lat]zhuāng | [sym]  | [lat]chéng | [sym]  | [lat]yī | [sym]    | [lat]shù | [sym]    | [lat]gāo
+    [zh]碧玉妆成一树高，  | [lat]wàn | [sym]   | [lat]tiáo | [sym]   | [lat]chuí | [sym]    | [lat]xià | [sym]     | [lat]lǜ | [sym]       | [lat]sī | [sym]      | [lat]tāo
+    [zh]万条垂下绿丝绦。 | [lat]bù | [sym]      | [lat]zhī | [sym]      | [lat]xì | [sym]      | [lat]yè | [sym]    | [lat]shuí | [sym]    | [lat]cái | [sym]    | [lat]chū
+    [zh]不知细叶谁裁出，  | [lat]èr | [sym]       | [lat]yuè | [sym]  | [lat]chūn | [sym]  | [lat]fēng | [sym]     | [lat]sì | [sym]     | [lat]jiǎn | [sym]    | [lat]dāo
+    [zh]二月春风似剪刀。 
+  --shape--
+    [lat]yǒng | [sym]   | [lat]liǔ
+===== slide 8 =====
+  --shape--
+    [sym]7 | [zh]、回乡偶书
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]贺知章 
+  --shape--
+    [lat]shǎo | [sym]  | [lat]xiǎo | [sym]     | [lat]lí | [sym]      | [lat]jiā | [sym]     | [lat]lǎo | [sym]     | [lat]dà | [sym]     | [lat]huí
+    [zh]少小离家老大回，
+    [lat]xiāng | [sym]  | [lat]yīn | [sym]    | [lat]wú | [sym]     | [lat]gǎi | [sym]    | [lat]bìn | [sym]    | [lat]máo | [sym]  | [lat]shuāi
+    [zh]乡音无改鬓毛衰。
+    [sym]   | [lat]ér | [sym]    | [lat]tóng | [sym]  | [lat]xiāng | [sym]  | [lat]jiàn | [sym]    | [lat]bù | [sym]    | [lat]xiāng | [sym]  | [lat]shí
+    [zh]儿童相见不相识，
+    [lat]xiào | [sym]  | [lat]wèn | [sym]     | [lat]kè | [sym]    | [lat]cóng | [sym]    | [lat]hé | [sym]    | [lat]chù | [sym]     | [lat]lái
+    [zh]笑问客从何处来。
+  --shape--
+    [lat]huí | [sym]  | [lat]xiāng | [sym]  | [lat]ǒu | [sym]  | [lat]shū
+===== slide 9 =====
+  --shape--
+    [sym]8 | [zh]、凉州词
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]王之焕 
+  --shape--
+    [lat]huáng | [sym]  | [lat]hé  yuan shàng | [sym]  | [lat]bái | [sym]   | [lat]yún | [sym]    | [lat]jiān | [zh]黄河远上白云间，  | [lat]yī | [sym]      | [lat]piàn | [sym]    | [lat]gū | [sym]   | [lat]chéng | [sym]  | [lat]wàn | [sym]   | [lat]rèn | [sym]   | [lat]shān
+    [zh]一片孤城万仞山。  | [lat]qiāng | [sym]  | [lat]dí | [sym]      | [lat]hé | [sym]      | [lat]xū   yuan yang  liǔ
+    [zh]羌笛何须怨杨柳，  | [lat]chūn | [sym]  | [lat]fēng | [sym]   | [lat]bù | [sym]      | [lat]dù | [sym]      | [lat]yù | [sym]    | [lat]mén | [sym]  | [lat]guān
+    [zh]春风不度玉门关。 
+  --shape--
+    [lat]liáng | [sym]  | [lat]zhōu | [sym]  | [lat]cí
+===== slide 10 =====
+  --shape--
+    [sym]9 | [zh]、七步诗
+  --shape--
+    [sym]【 | [zh]三国 | [sym]· | [zh]魏 | [sym]】 | [zh]曹植 
+  --shape--
+    [lat]zhǔ | [sym]    | [lat]dòu | [sym]    | [lat]chí | [sym]     | [lat]zuò | [sym]  | [lat]gēng | [zh]煮豆持做羹， | [sym]  | [lat]lù | [sym]    | [lat]shū | [sym]     | [lat]yǐ | [sym]      | [lat]wéi | [sym]   | [lat]zhī
+    [zh]漉菽以为汁。  | [sym]  | [lat]qí | [sym]    | [lat]zài | [sym]      | [lat]fǔ | [sym]      | [lat]xià | [sym]    | [lat]rán
+    [zh]萁在釜下然，
+    [lat]dòu | [sym]    | [lat]zài | [sym]      | [lat]fǔ | [sym]   | [lat]zhōng | [sym]   | [lat]qì
+    [zh]豆在釜中泣。 | [lat]běn | [sym]    | [lat]shì | [sym]    | [lat]tóng | [sym]   | [lat]gēn | [sym]  | [lat]shēng
+    [zh]本是同根生，
+    [lat]xiāng | [sym]  | [lat]jiān | [sym]    | [lat]hé | [sym]     | [lat]tài | [sym]       | [lat]jí
+    [zh]相煎何太急。
+  --shape--
+    [lat]qī | [sym]   | [lat]bù | [sym]    | [lat]shī
+===== slide 11 =====
+  --shape--
+    [sym]10 | [zh]、登鹳雀楼
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]王之焕 | [sym]( | [lat]huàn | [sym]) 
+  --shape--
+    [lat]bái | [sym]       | [lat]rì | [sym]      | [lat]yī | [sym]     | [lat]shān | [sym]   | [lat]jìn
+    [zh]白日依山尽，
+    [lat]huáng | [sym]  | [lat]hé | [sym]     | [lat]rù | [sym]      | [lat]hǎi | [sym]    | [lat]liú
+    [zh]黄河入海流。  | [lat]yù | [sym]     | [lat]qióng | [sym]  | [lat]qiān | [sym]    | [lat]lǐ | [sym]     | [lat]mù
+    [zh]欲穷千里目，
+    [lat]gèng | [sym]  | [lat]shàng | [sym]  | [lat]yì | [sym]    | [lat]céng | [sym]  | [lat]lóu
+    [zh]更上一层楼。
+  --shape--
+    [lat]dēng | [sym]  | [lat]guàn | [sym]  | [lat]què | [sym]  | [lat]lóu
+===== slide 12 =====
+  --shape--
+    [sym]11 | [zh]、春晓 
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]孟浩 | [sym]( | [lat]hào | [sym]) | [zh]然 
+  --shape--
+    [lat]chūn | [sym]  | [lat]mián | [sym]   | [lat]bù | [sym]     | [lat]jué | [sym]   | [lat]xiǎo
+    [zh]春眠不觉晓，
+    [lat]chù | [sym]    | [lat]chù | [sym]   | [lat]wén | [sym]      | [lat]tí | [sym]     | [lat]niǎo
+    [zh]处处闻啼鸟。 
+    [sym]  | [lat]yè | [sym]      | [lat]lái | [sym]    | [lat]fēng | [sym]    | [lat]yǔ  sheng
+    [zh]夜来风雨声，
+    [sym]  | [lat]huā | [sym]    | [lat]luò | [sym]    | [lat]zhī | [sym]    | [lat]duō | [sym]    | [lat]shǎo
+    [zh]花落知多少 | [sym]? 
+  --shape--
+    [lat]chūn | [sym]  | [lat]xiǎo
+===== slide 13 =====
+  --shape--
+    [sym]12 | [zh]、凉州词 
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]王翰 | [sym]( | [lat]hàn | [sym]) 
+  --shape--
+    [sym]  | [lat]pú | [sym]      | [lat]táo | [sym]    | [lat]měi | [sym]    | [lat]jiǔ | [sym]     | [lat]yè | [sym]   | [lat]guāng | [sym]  | [lat]bēi | [zh]葡萄美酒夜光杯，  | [sym]  | [lat]yù | [sym]     | [lat]yǐn | [sym]      | [lat]pí | [sym]      | [lat]pá | [sym]     | [lat]mǎ | [sym]  | [lat]shàng | [sym]   | [lat]cuī
+    [zh]欲饮琵琶马上催。  | [sym]  | [lat]zuì | [sym]    | [lat]wò | [sym]     | [lat]shā | [sym]  | [lat]chǎng | [sym]  | [lat]jūn | [sym]     | [lat]mò | [sym]   | [lat]xiào
+    [zh]醉卧沙场君莫笑，  | [sym]  | [lat]gǔ | [sym]      | [lat]lái | [sym]   | [lat]zhēng | [sym]  | [lat]zhàn | [sym]   | [lat]jǐ | [sym]      | [lat]rén | [sym]    | [lat]huí
+    [zh]古来征战几人回？
+  --shape--
+    [lat]liáng | [sym]  | [lat]zhōu | [sym]  | [lat]cí
+===== slide 14 =====
+  --shape--
+    [sym]13 | [zh]、出塞
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]王昌龄 
+  --shape--
+    [sym]  | [lat]qín | [sym]    | [lat]shí | [sym]    | [lat]míng | [sym]  | [lat]yuè | [sym]    | [lat]hàn | [sym]    | [lat]shí | [sym]   | [lat]guān | [zh]秦时明月汉时关，  | [lat]wàn | [sym]     | [lat]lǐ | [sym]   | [lat]cháng | [sym]  | [lat]zhēng | [sym]  | [lat]rén | [sym]   | [lat]wèi | [sym]    | [lat]hái
+    [zh]万里长征人未还。  | [lat]dàn | [sym]    | [lat]shǐ   long chéng | [sym]  | [lat]fēi | [sym]   | [lat]jiāng | [sym]    | [lat]zài
+    [zh]但使龙城飞将在，  | [sym]  | [lat]bù | [sym]    | [lat]jiào | [sym]      | [lat]hú | [sym]    | [lat]mǎ | [sym]     | [lat]dù | [sym]     | [lat]yīn | [sym]    | [lat]shān
+    [zh]不教胡马度阴山。
+  --shape--
+    [lat]chū | [sym]  | [lat]sài
+===== slide 15 =====
+  --shape--
+    [sym]14 | [zh]、芙蓉楼送辛渐 
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]王昌龄 
+  --shape--
+    [lat]hán | [sym]     | [lat]yǔ | [sym]     | [lat]lián | [sym]  | [lat]jiāng | [sym]    | [lat]yè | [sym]     | [lat]rù | [sym]      | [lat]wú | [zh]寒雨连江夜入吴，  | [lat]píng | [sym]  | [lat]míng song  | [sym]  | [lat]kè | [sym]     | [lat]chǔ | [sym]   | [lat]shān | [sym]    | [lat]gū
+    [zh]平明送客楚山孤。  | [sym]  | [lat]luò | [sym]  | [lat]yáng | [sym]   | [lat]qīn | [sym]     | [lat]yǒu | [sym]     | [lat]rú | [sym]   | [lat]xiāng | [sym]  | [lat]wèn
+    [zh]洛阳亲友如相问，  | [sym]  | [lat]yí | [sym]     | [lat]piàn | [sym]  | [lat]bīng | [sym]     | [lat]xīn | [sym]    | [lat]zài | [sym]     | [lat]yù | [sym]     | [lat]hú
+    [zh]一片冰心在玉壶。
+  --shape--
+    [lat]fú | [sym]  | [lat]róng | [sym]  | [lat]lóu song xīn | [sym]  | [lat]jiàn
+===== slide 16 =====
+  --shape--
+    [sym]15 | [zh]、鹿柴
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]王维 
+  --shape--
+    [lat]kōng | [sym]  | [lat]shān | [sym]   | [lat]bú | [sym]     | [lat]jiàn | [sym]   | [lat]rén
+    [zh]空山不见人，
+    [sym]  | [lat]dàn | [sym]   | [lat]wén | [sym]     | [lat]rén | [sym]    | [lat]yǔ | [sym]    | [lat]xiǎng
+    [zh]但闻人语响。 
+    [sym]  | [lat]fǎn | [sym]    | [lat]jǐng | [sym]    | [lat]rù | [sym]    | [lat]shēn | [sym]    | [lat]lín
+    [zh]返景入深林，
+    [sym]   | [lat]fù | [sym]    | [lat]zhào | [sym]  | [lat]qīng | [sym]    | [lat]tāi | [sym]   | [lat]shàng
+    [zh]复照青苔上。
+  --shape--
+    [lat]lù | [sym]   | [lat]zhài
+===== slide 17 =====
+  --shape--
+    [sym]16 | [zh]、送元二使安西
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]王维 
+  --shape--
+    [lat]wèi | [sym]  | [lat]chéng | [sym]  | [lat]cháo | [sym]   | [lat]yǔ | [sym]      | [lat]yì | [sym]    | [lat]qīng | [sym]  | [lat]chén | [sym]  | [zh]渭城朝雨浥轻尘，  | [lat]kè | [sym]       | [lat]shè | [sym]   | [lat]qīng | [sym]  | [lat]qīng | [sym]    | [lat]liǔ | [sym]     | [lat]sè | [sym]      | [lat]xīn
+    [zh]客舍青青柳色新。  | [lat]quàn | [sym]  | [lat]jūn | [sym]   | [lat]gèng | [sym]    | [lat]jìn     | [sym]  | [lat]yī | [sym]     | [lat]bēi     | [sym]  | [lat]jiǔ
+    [zh]劝君更尽一杯酒，  | [lat]  xī | [sym]     | [lat]chū | [sym]   | [lat]yánɡ | [sym]  | [lat]guān | [sym]  | [lat]wú | [sym]     | [lat]gù | [sym]      | [lat]rén
+    [zh]西出阳关无故人。
+  --shape--
+    [lat]song yuan èr | [sym]  | [lat]shǐ | [sym]   | [lat]ān | [sym]     | [lat]xī
+===== slide 18 =====
+  --shape--
+    [sym]17 | [zh]、九月九日忆山东兄弟
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]王维 
+  --shape--
+    [sym]  | [lat]dú | [sym]     | [lat]zài | [sym]      | [lat]yì | [sym]    | [lat]xiāng | [sym]  | [lat]wéi | [sym]    | [lat]yì | [sym]       | [lat]kè | [zh]独在异乡为异客，  | [lat]měi | [sym]   | [lat]féng | [sym]    | [lat]jiā | [sym]      | [lat]jié | [sym]     | [lat]bèi | [sym]     | [lat]sī | [sym]      | [lat]qīn
+    [zh]每逢佳节倍思亲。  | [lat]yáo | [sym]     | [lat]zhī | [sym]  | [lat]xiōng | [sym]   | [lat]dì | [sym]    | [lat]dēng | [sym]   | [lat]gāo | [sym]    | [lat]chù
+    [zh]遥知兄弟登高处，  | [lat]biàn | [sym]   | [lat]chā | [sym]    | [lat]zhū | [sym]    | [lat]yú | [sym]    | [lat]shǎo | [sym]     | [lat]yī | [sym]     | [lat]rén
+    [zh]遍插茱萸少一人。
+  --shape--
+    [lat]jiǔ | [sym]   | [lat]yuè | [sym]   | [lat]jiǔ | [sym]    | [lat]rì | [sym]    | [lat]yì | [sym]   | [lat]shān | [sym]  | [lat]dōng | [sym]  | [lat]xiōng | [sym]  | [lat]dì
+===== slide 19 =====
+  --shape--
+    [sym]18 | [zh]、静夜思
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]李白 
+  --shape--
+    [lat]chuáng | [sym]  | [lat]qián | [sym]  | [lat]míng | [sym]  | [lat]yuè | [sym]  | [lat]guāng | [sym]  | [zh]床前明月光，
+    [sym]  | [lat]yí | [sym]     | [lat]shì | [sym]      | [lat]dì | [sym]   | [lat]shàng | [sym]  | [lat]shuāng
+    [zh]疑是地上霜。  | [sym]  | [lat]jǔ | [sym]      | [lat]tóu | [sym]  | [lat]wàng | [sym]  | [lat]míng | [sym]  | [lat]yuè
+    [zh]举头望明月，
+    [sym]  | [lat]dī | [sym]      | [lat]tóu | [sym]     | [lat]sī | [sym]      | [lat]gù   | [sym]  | [lat]xiāng
+    [zh]低头思故乡。 
+  --shape--
+    [lat]jìng | [sym]   | [lat]yè | [sym]    | [lat]sī
+===== slide 20 =====
+  --shape--
+    [sym]19 | [zh]、古朗月行（节录） 
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]李白 
+  --shape--
+    [lat]xiǎo | [sym]  | [lat]shí | [sym]    | [lat]bù | [sym]     | [lat]shí | [sym]   | [lat]yuè
+    [zh]小时不识月，
+    [sym]  | [lat]hū | [sym]    | [lat]zuò | [sym]   | [lat]bái | [sym]    | [lat]yù | [sym]    | [lat]pán
+    [zh]呼作白玉盘。  | [lat]yòu | [sym]    | [lat]yí | [sym]    | [lat]yáo | [sym]    | [lat]tái | [sym]   | [lat]jìng
+    [zh]又疑瑶台镜，
+    [lat]fēi | [sym]     | [lat]zài | [sym]  | [lat]qīng | [sym]   | [lat]yún | [sym]  | [lat]duān
+    [zh]飞在青云端。
+  --shape--
+    [lat]gǔ | [sym]   | [lat]lǎng | [sym]  | [lat]yuè | [sym]  | [lat]xíng | [sym]        | [lat]jié | [sym]    | [lat]lù
+===== slide 21 =====
+  --shape--
+    [sym]20 | [zh]、望庐山瀑布
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]李白 
+  --shape--
+    [sym]   | [lat]rì | [sym]    | [lat]zhào | [sym]  | [lat]xiāng | [sym]    | [lat]lú  sheng  zǐ | [sym]     | [lat]yān | [zh]日照香炉生紫烟，  | [lat]yáo | [sym]    | [lat]kàn | [sym]     | [lat]pù | [sym]     | [lat]bù | [sym]     | [lat]guà | [sym]   | [lat]qián | [sym]  | [lat]chuān
+    [zh]遥看瀑布挂前川，  | [lat]fēi | [sym]      | [lat]liú | [sym]     | [lat]zhí | [sym]     | [lat]xià | [sym]    | [lat]sān | [sym]    | [lat]qiān | [sym]  | [lat]chǐ
+    [zh]飞流直下三千尺。  | [sym]  | [lat]yí | [sym]      | [lat]shì | [sym]     | [lat]yín | [sym]     | [lat]hé | [sym]     | [lat]luò | [sym]     | [lat]jiǔ | [sym]    | [lat]tiān
+    [zh]疑是银河落九天。
+  --shape--
+    [lat]wàng | [sym]  | [lat]lú | [sym]  | [lat]shān | [sym]  | [lat]pù | [sym]   | [lat]bù
+===== slide 22 =====
+  --shape--
+    [sym]21 | [zh]、赠汪伦 
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]李 白
+  --shape--
+    [sym]   | [lat]lǐ | [sym]     | [lat]bái | [sym]  | [lat]chéng | [sym]  | [lat]zhōu | [sym]  | [lat]jiāng | [sym]  | [lat]yù | [sym]  | [lat]xíng | [zh]李白乘舟将欲行，  | [sym]  | [lat]hū | [sym]    | [lat]wén | [sym]   | [lat]àn | [sym]   | [lat]shàng | [sym]   | [lat]tà | [sym]     | [lat]gē  sheng
+    [zh]忽闻岸上踏歌声。  | [sym]  | [lat]táo | [sym]   | [lat]huā | [sym]    | [lat]tán | [sym]   | [lat]shuǐ | [sym]  | [lat]shēn | [sym]  | [lat]qiān | [sym]   | [lat]chǐ
+    [zh]桃花潭水深千尺，  | [sym]  | [lat]bù | [sym]      | [lat]jí | [sym]    | [lat]wāng | [sym]  | [lat]lún  song wǒ | [sym]   | [lat]qíng
+    [zh]不及汪伦送我情。
+  --shape--
+    [lat]zèng | [sym]  | [lat]wāng | [sym]  | [lat]lún
+===== slide 23 =====
+  --shape--
+    [sym]22 | [zh]、黄鹤楼送孟浩然之广陵
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]李白 
+  --shape--
+    [sym]  | [lat]gù | [sym]     | [lat]rén | [sym]      | [lat]xī | [sym]      | [lat]cí | [sym]    | [lat]huáng | [sym]  | [lat]hè | [sym]     | [lat]lóu | [zh]故人西辞黄鹤楼，  | [lat]yān | [sym]    | [lat]huā | [sym]    | [lat]sān | [sym]    | [lat]yuè | [sym]    | [lat]xià  yang zhōu
+    [zh]烟花三月下扬州。  | [sym]  | [lat]Gū | [sym]    | [lat]fān  yuan yǐng | [sym]     | [lat]bì | [sym]    | [lat]kōng | [sym]   | [lat]jìn
+    [zh]孤帆远影碧空尽，  | [lat]wéi | [sym]    | [lat]jiàn | [sym]  | [lat]cháng | [sym]  | [lat]jiāng | [sym]  | [lat]tiān | [sym]    | [lat]jì | [sym]      | [lat]liú
+    [zh]惟见长江天际流。
+  --shape--
+    [lat]huáng | [sym]  | [lat]hè | [sym]   | [lat]lóu song mèng | [sym]  | [lat]hào | [sym]  | [lat]rán | [sym]  | [lat]zhī | [sym]  | [lat]guǎng | [sym]  | [lat]líng
+===== slide 24 =====
+  --shape--
+    [sym]23 | [zh]、早发白帝城
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]李白 
+  --shape--
+    [lat]cháo | [sym]   | [lat]cí | [sym]      | [lat]bái | [sym]      | [lat]dì | [sym]     | [lat]cǎi | [sym]     | [lat]yún | [sym]   | [lat]jiān | [sym]  | [zh]朝辞白帝彩云间，  | [lat]qiān | [sym]     | [lat]lǐ | [sym]     | [lat]jiāng | [sym]  | [lat]líng | [sym]    | [lat]yī | [sym]       | [lat]rì | [sym]      | [lat]hái
+    [zh]千里江陵一日还。  | [lat]liǎng | [sym]   | [lat]àn   yuan sheng tí | [sym]      | [lat]bù | [sym]     | [lat]zhù
+    [zh]两岸猿声啼不住，  | [lat]qīng | [sym]  | [lat]zhōu | [sym]   | [lat]yǐ | [sym]      | [lat]guò | [sym]   | [lat]wàn | [sym]  | [lat]zhòng | [sym]  | [lat]shān
+    [zh]轻舟已过万重山。
+  --shape--
+    [lat]zǎo | [sym]    | [lat]fā | [sym]    | [lat]bái | [sym]   | [lat]dì | [sym]  | [lat]chéng
+===== slide 25 =====
+  --shape--
+    [sym]24 | [zh]、望天门山
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]李白 
+  --shape--
+    [lat]tiān | [sym]   | [lat]mén | [sym]  | [lat]zhōng | [sym]  | [lat]duàn | [sym]  | [lat]chǔ | [sym]  | [lat]jiāng | [sym]   | [lat]kāi | [sym]  | [zh]天门中断楚江开，  | [sym]   | [lat]bì | [sym]    | [lat]shuǐ | [sym]   | [lat]dōng | [sym]   | [lat]liú | [sym]     | [lat]zhì | [sym]     | [lat]cǐ | [sym]      | [lat]huí
+    [zh]碧水东流至此回。  | [lat]liǎng | [sym]   | [lat]àn | [sym]    | [lat]qīng | [sym]  | [lat]shān | [sym]  | [lat]xiāng | [sym]  | [lat]duì | [sym]    | [lat]chū
+    [zh]两岸青山相对出， 
+    [sym]  | [lat]gū | [sym]     | [lat]fān | [sym]      | [lat]yī | [sym]    | [lat]piàn | [sym]     | [lat]rì | [sym]     | [lat]biān | [sym]    | [lat]lái
+    [zh]孤帆一片日边来。
+  --shape--
+    [lat]wàng | [sym]  | [lat]tiān | [sym]  | [lat]mén | [sym]  | [lat]shān
+===== slide 26 =====
+  --shape--
+    [sym]25 | [zh]、别董大
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]高适
+  --shape--
+    [lat]qiān | [sym]     | [lat]lǐ | [sym]   | [lat]huáng | [sym]  | [lat]yún | [sym]    | [lat]bái | [sym]      | [lat]rì | [sym]     | [lat]xūn | [sym]  | [zh]千里黄云白日曛，  | [sym]  | [lat]běi | [sym]    | [lat]fēng | [sym]  | [lat]chuī | [sym]   | [lat]yàn | [sym]    | [lat]xuě | [sym]    | [lat]fēn | [sym]    | [lat]fēn
+    [zh]北风吹雁雪纷纷。  | [sym]  | [lat]mò  chou qián | [sym]    | [lat]lù | [sym]      | [lat]wú | [sym]    | [lat]zhī | [sym]      | [lat]jǐ
+    [zh]莫愁前路无知己，  | [lat]tiān | [sym]    | [lat]xià | [sym]    | [lat]shéi | [sym]    | [lat]rén | [sym]     | [lat]bù | [sym]     | [lat]shí | [sym]     | [lat]jūn
+    [zh]天下谁人不识君？ 
+  --shape--
+    [lat]bié | [sym]   | [lat]dǒng | [sym]  | [lat]dà | [sym] 
+===== slide 27 =====
+  --shape--
+    [sym]26 | [zh]、绝句
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]杜甫 
+  --shape--
+    [lat]liǎng | [sym]   | [lat]gè | [sym]   | [lat]huáng | [sym]   | [lat]lí | [sym]    | [lat]míng | [sym]   | [lat]cuì | [sym]     | [lat]liǔ | [zh]两个黄鹂鸣翠柳，  | [sym]  | [lat]yì | [sym]     | [lat]háng | [sym]   | [lat]bái | [sym]     | [lat]lù | [sym]    | [lat]shàng | [sym]  | [lat]qīng | [sym]  | [lat]tiān
+    [zh]一行白鹭上青天。  | [lat]chuāng | [sym]  | [lat]hán | [sym]  | [lat]xī | [sym]    | [lat]lǐng | [sym]   | [lat]qiān | [sym]   | [lat]qiū | [sym]     | [lat]xuě
+    [zh]窗含西岭千秋雪，  | [lat]mén | [sym]    | [lat]bó | [sym]    | [lat]dōng | [sym]  | [lat]wú | [sym]    | [lat]wàn | [sym]     | [lat]lǐ | [sym]    | [lat]chuán
+    [zh]门泊东吴万里船。
+  --shape--
+    [lat]jué | [sym]    | [lat]jù
+===== slide 28 =====
+  --shape--
+    [sym]27 | [zh]、春夜喜雨
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]杜甫
+  --shape--
+    [lat]hǎo | [sym]     | [lat]yǔ | [sym]     | [lat]zhī | [sym]     | [lat]shí | [sym]     | [lat]jié | [sym]            | [lat]dāng | [sym]  | [lat]chūn | [sym]   | [lat]nǎi | [sym]     | [lat]fā | [sym]    | [lat]shēng | [zh]好雨知时节，当春乃发生。  | [lat]suí | [sym]     | [lat]fēng | [sym]  | [lat]qián | [sym]    | [lat]rù | [sym]      | [lat]yè | [sym]              | [lat]rùn | [sym]    | [lat]wù | [sym]      | [lat]xì | [sym]     | [lat]wú  sheng
+    [zh]随风潜入夜，润物细无声。  | [sym]  | [lat]yè | [sym]     | [lat]jìng | [sym]   | [lat]yún | [sym]     | [lat]jù | [sym]      | [lat]hēi | [sym]           | [lat]jiāng | [sym]  | [lat]chuán | [sym]  | [lat]huǒ | [sym]   | [lat]dú | [sym]    | [lat]míng
+    [zh]夜径云俱黑，江船火独明。  | [lat]xiǎo | [sym]   | [lat]kàn | [sym]   | [lat]hóng | [sym]   | [lat]shī | [sym]    | [lat]chù | [sym]            | [lat]huā | [sym]  | [lat]zhòng | [sym]   | [lat]jǐn | [sym]   | [lat]guān | [sym]  | [lat]chéng
+    [zh]晓看红湿处，花重锦官城。
+  --shape--
+    [lat]chūn | [sym]  | [lat]yè | [sym]     | [lat]xǐ | [sym]    | [lat]yǔ
+===== slide 29 =====
+  --shape--
+    [sym]28 | [zh]、绝句 
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]杜甫 
+  --shape--
+    [sym]  | [lat]chí | [sym]     | [lat]rì | [sym]     | [lat]jiāng | [sym]  | [lat]shān | [sym]    | [lat]lì | [zh]迟日江山丽，
+    [lat]chūn | [sym]  | [lat]fēng | [sym]   | [lat]huā | [sym]   | [lat]cǎo | [sym]   | [lat]xiāng
+    [zh]春风花草香。  | [sym]   | [lat]ní | [sym]    | [lat]róng | [sym]   | [lat]fēi | [sym]     | [lat]yàn | [sym]     | [lat]zǐ
+    [zh]泥融飞燕子，
+    [lat]shā | [sym]   | [lat]nuǎn | [sym]   | [lat]shuì yuan yāng
+    [zh]沙暖睡鸳鸯。
+  --shape--
+    [lat]jué | [sym]    | [lat]jù
+===== slide 30 =====
+  --shape--
+    [sym]29 | [zh]、江畔独步寻花
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]杜甫 
+  --shape--
+    [lat]huáng | [sym]  | [lat]shī | [sym]     | [lat]tǎ | [sym]    | [lat]qián | [sym]  | [lat]jiāng | [sym]  | [lat]shuǐ | [sym]  | [lat]dōng | [sym]  | [zh]黄师塔前江水东，  | [lat]chūn | [sym]  | [lat]guāng | [sym]  | [lat]lǎn | [sym]  | [lat]kùn | [sym]   | [lat]yǐ | [sym]    | [lat]wēi | [sym]   | [lat]fēng
+    [zh]春光懒困倚微风。  | [sym]  | [lat]táo | [sym]   | [lat]huā | [sym]     | [lat]yī | [sym]     | [lat]cù | [sym]     | [lat]kāi | [sym]    | [lat]wú | [sym]    | [lat]zhǔ
+    [zh]桃花一簇开无主，  | [sym]  | [lat]kě | [sym]      | [lat]ài | [sym]    | [lat]shēn | [sym]  | [lat]hóng | [sym]   | [lat]ài | [sym]    | [lat]qiǎn | [sym]  | [lat]hóng
+    [zh]可爱深红爱浅红？ 
+  --shape--
+    [lat]jiāng | [sym]  | [lat]pàn | [sym]  | [lat]dú | [sym]   | [lat]bù | [sym]   | [lat]xún | [sym]  | [lat]huā
+===== slide 31 =====
+  --shape--
+    [sym]30 | [zh]、枫桥夜泊
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]张继 
+  --shape--
+    [sym]  | [lat]yuè | [sym]    | [lat]luò | [sym]    | [lat]wū | [sym]      | [lat]tí | [sym]  | [lat]shuāng | [sym]  | [lat]mǎn | [sym]  | [lat]tiān | [zh]月落乌啼霜满天，  | [lat]jiāng | [sym]  | [lat]fēng | [sym]   | [lat]yú | [sym]    | [lat]huǒ | [sym]    | [lat]duì | [sym]   | [lat]chóu | [sym]  | [lat]mián
+    [zh]江枫渔火对愁眠。  | [sym]  | [lat]gū | [sym]      | [lat]sū | [sym]   | [lat]chéng | [sym]  | [lat]wài | [sym]    | [lat]hán | [sym]   | [lat]shān | [sym]    | [lat]sì
+    [zh]姑苏城外寒山寺，  | [sym]  | [lat]yè | [sym]     | [lat]bàn | [sym]  | [lat]zhōng | [sym]  | [lat]shēng | [sym]  | [lat]dào | [sym]  | [lat]kè | [sym]   | [lat]chuán
+    [zh]夜半钟声到客船。
+  --shape--
+    [lat]fēng | [sym]  | [lat]qiáo | [sym]  | [lat]yè | [sym]    | [lat]bó
+===== slide 32 =====
+  --shape--
+    [sym]31 | [zh]、 滁州西涧
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]韦应物
+  --shape--
+    [sym]  | [lat]dú | [sym]     | [lat]lián | [sym]   | [lat]yōu | [sym]    | [lat]cǎo | [sym]    | [lat]jiàn | [sym]   | [lat]biān sheng
+    [zh]独怜幽草涧边生，
+    [lat]shàng | [sym]  | [lat]yǒu | [sym]  | [lat]huáng | [sym]  | [lat]lí | [sym]     | [lat]shēn | [sym]  | [lat]shù | [sym]  | [lat]míng | [sym] 
+    [zh]上有黄鹂深树鸣。
+    [lat]chūn | [sym]  | [lat]cháo | [sym]  | [lat]dài | [sym]      | [lat]yǔ | [sym]    | [lat]wǎn | [sym]    | [lat]lái | [sym]      | [lat]jí
+    [zh]春潮带雨晚来急，
+    [sym]  | [lat]yě | [sym]      | [lat]dù | [sym]     | [lat]wú | [sym]     | [lat]rén | [sym]   | [lat]zhōu | [sym]    | [lat]zì | [sym]    | [lat]héng
+    [zh]野渡无人舟自横。
+  --shape--
+    [lat]chú | [sym]  | [lat]zhōu | [sym]  | [lat]xī | [sym]   | [lat]jiàn
+===== slide 33 =====
+  --shape--
+    [sym]32 | [zh]、游子吟
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]孟郊
+  --shape--
+    [sym]  | [lat]cí | [sym]       | [lat]mǔ | [sym]  | [lat]shǒu | [sym]  | [lat]zhōng | [sym]  | [lat]xiàn | [sym]          | [lat]yóu | [sym]     | [lat]zǐ | [sym]     | [lat]shēn | [sym]  | [lat]shàng | [sym]  | [lat]yī | [zh]慈母手中线，游子身上衣。  | [sym]  | [lat]lín | [sym]    | [lat]xíng | [sym]    | [lat]mì | [sym]     | [lat]mì | [sym]     | [lat]féng | [sym]           | [lat]yì | [sym]     | [lat]kǒng | [sym]   | [lat]chí | [sym]    | [lat]chí | [sym]     | [lat]guī
+    [zh]临行密密缝，意恐迟迟归。  | [lat]shuí | [sym]   | [lat]yán | [sym]    | [lat]cùn | [sym]    | [lat]cǎo | [sym]    | [lat]xīn | [sym]             | [lat]bào | [sym]    | [lat]dé | [sym]     | [lat]sān | [sym]   | [lat]chūn | [sym]   | [lat]huī
+    [zh]谁言寸草心，报得三春晖。
+  --shape--
+    [lat]yóu | [sym]   | [lat]zǐ | [sym]     | [lat]yín
+===== slide 34 =====
+  --shape--
+    [sym]33 | [zh]、早春呈水部张十八员外
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]韩愈
+  --shape--
+    [lat]tiān | [sym]     | [lat]jiē | [sym]    | [lat]xiǎo | [sym]    | [lat]yǔ | [sym]     | [lat]rùn | [sym]     | [lat]rú | [sym]     | [lat]sū
+    [zh]天街小雨润如酥，
+    [sym]  | [lat]cǎo | [sym]     | [lat]sè | [sym]      | [lat]yáo | [sym]    | [lat]kàn | [sym]    | [lat]jìn | [sym]    | [lat]què | [sym]     | [lat]wú | [sym] 
+    [zh]草色遥看近却无。
+    [sym]  | [lat]zuì | [sym]     | [lat]shì | [sym]     | [lat]yī | [sym]     | [lat]nián | [sym]  | [lat]chūn | [sym]  | [lat]hǎo | [sym]    | [lat]chù | [sym] 
+    [zh]最是一年春好处，
+    [sym]  | [lat]jué  sheng yān | [sym]    | [lat]liǔ | [sym]   | [lat]mǎn | [sym]  | [lat]huáng | [sym]  | [lat]dōu
+    [zh]绝胜烟柳满皇都。
+  --shape--
+    [lat]zǎo | [sym]  | [lat]chūn | [sym]  | [lat]héng | [sym]  | [lat]shuǐ | [sym]  | [lat]bù | [sym]  | [lat]zhāng | [sym]  | [lat]shí | [sym]  | [lat]bā | [sym]  | [lat]yuán | [sym]  | [lat]wài
+===== slide 35 =====
+  --shape--
+    [sym]34 | [zh]、渔歌子
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]张志和 
+  --shape--
+    [sym]   | [lat]xī | [sym]      | [lat]sāi | [sym]   | [lat]shān | [sym]  | [lat]qián | [sym]    | [lat]bái | [sym]     | [lat]lù | [sym]      | [lat]fēi | [sym]  | [zh]西塞山前白鹭飞，  | [sym]  | [lat]táo | [sym]    | [lat]huā | [sym]     | [lat]liú | [sym]   | [lat]shuǐ | [sym]    | [lat]guì | [sym]     | [lat]yú | [sym]     | [lat]féi
+    [zh]桃花流水鳜鱼肥。  | [lat]qīng | [sym]   | [lat]ruò | [sym]     | [lat]lì
+    [zh]青箬笠，  | [sym]  | [lat]lǜ | [sym]      | [lat]suō | [sym]     | [lat]yī
+    [zh]绿蓑衣，  | [lat]xié | [sym]    | [lat]fēng | [sym]     | [lat]xì | [sym]     | [lat]yǔ | [sym]      | [lat]bù | [sym]      | [lat]xū | [sym]     | [lat]guī
+    [zh]斜风细雨不须归。 
+  --shape--
+    [lat]yú | [sym]    | [lat]gē | [sym]    | [lat]zǐ
+===== slide 36 =====
+  --shape--
+    [sym]35 | [zh]、塞下曲
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]卢纶 
+  --shape--
+    [lat]yuè | [sym]     | [lat]hēi | [sym]    | [lat]yàn | [sym]    | [lat]fēi | [sym]     | [lat]gāo
+    [zh]月黑雁飞高，  | [lat]chán | [sym]   | [lat]yú | [sym]      | [lat]yè | [sym]     | [lat]dùn | [sym]    | [lat]táo
+    [zh]单于夜遁逃。  | [sym]  | [lat]yù | [sym]    | [lat]jiāng | [sym]  | [lat]qīng | [sym]    | [lat]qí | [sym]     | [lat]zhú
+    [zh]欲将轻骑逐，  | [sym]  | [lat]dà | [sym]     | [lat]xuě | [sym]   | [lat]mǎn | [sym]  | [lat]gōng | [sym]   | [lat]dāo
+    [zh]大雪满弓刀。
+  --shape--
+    [lat]sāi | [sym]   | [lat]xià | [sym]   | [lat]qǔ
+===== slide 37 =====
+  --shape--
+    [sym]36 | [zh]、望洞庭
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]刘禹锡
+  --shape--
+    [sym]  | [lat]hú | [sym]   | [lat]guāng | [sym]  | [lat]qiū | [sym]    | [lat]yuè | [sym]   | [lat]liǎng | [sym]  | [lat]xiāng | [sym]  | [lat]hé | [zh]湖光秋月两相和，  | [sym]  | [lat]tán | [sym]   | [lat]miàn | [sym]   | [lat]wú | [sym]   | [lat]fēng | [sym]    | [lat]jìng | [sym]   | [lat]wèi | [sym]    | [lat]mó
+    [zh]潭面无风镜未磨。  | [sym]  | [lat]yáo | [sym]  | [lat]wàng | [sym]  | [lat]dòng | [sym]  | [lat]tíng | [sym]  | [lat]shān | [sym]  | [lat]shuǐ | [sym]    | [lat]cuì
+    [zh]遥望洞庭山水翠，  | [sym]  | [lat]bái | [sym]    | [lat]yín | [sym]    | [lat]pán | [sym]      | [lat]lǐ | [sym]       | [lat]yī | [sym]    | [lat]qīng | [sym]    | [lat]luó
+    [zh]白银盘里一青螺。 
+  --shape--
+    [lat]wàng | [sym]  | [lat]dòng | [sym]  | [lat]tíng
+===== slide 38 =====
+  --shape--
+    [sym]37 | [zh]、浪淘沙
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]刘禹锡 
+  --shape--
+    [sym]  | [lat]jiǔ | [sym]     | [lat]qǔ | [sym]   | [lat]huáng | [sym]   | [lat]hé | [sym]    | [lat]wàn | [sym]     | [lat]lǐ | [sym]      | [lat]shā | [zh]九曲黄河万里沙，  | [lat]làng | [sym]    | [lat]táo | [sym]   | [lat]fēng | [sym]    | [lat]bò | [sym]      | [lat]zì | [sym]     | [lat]tiān | [sym]     | [lat]yá
+    [zh]浪淘风簸自天涯。  | [sym]   | [lat]rú | [sym]      | [lat]jīn | [sym]     | [lat]zhí | [sym]  | [lat]shàng | [sym]  | [lat]yín | [sym]     | [lat]hé | [sym]     | [lat]qù
+    [zh]如今直上银河去，  | [lat]tóng | [sym]   | [lat]dào | [sym]   | [lat]qiān | [sym]   | [lat]niú | [sym]     | [lat]zhī | [sym]     | [lat]nǚ | [sym]      | [lat]jiā
+    [zh]同到牵牛织女家。
+  --shape--
+    [lat]làng | [sym]  | [lat]táo | [sym]   | [lat]shā
+===== slide 39 =====
+  --shape--
+    [sym]38 | [zh]、赋得古原草送别
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]白居易 
+  --shape--
+    [sym]    | [lat]lí | [sym]      | [lat]lí    yuan shàng | [sym]  | [lat]cǎo | [sym]             | [lat]yī | [sym]     | [lat]suì | [sym]     | [lat]yī | [sym]       | [lat]kū | [sym]    | [lat]róng | [zh]离离原上草，一岁一枯荣。  | [sym]  | [lat]yě | [sym]     | [lat]huǒ | [sym]   | [lat]shāo | [sym]   | [lat]bú | [sym]      | [lat]jìn | [sym]            | [lat]chūn | [sym]  | [lat]fēng | [sym]  | [lat]chuī | [sym]   | [lat]yòu sheng
+    [zh]野火烧不尽，春风吹又生。  | [lat]yuan fāng | [sym]   | [lat]qīn | [sym]     | [lat]gǔ | [sym]     | [lat]dào | [sym]           | [lat]qíng | [sym]   | [lat]cuì | [sym]      | [lat]jiē | [sym]  | [lat]huāng | [sym]  | [lat]chéng
+    [zh]远芳侵古道，晴翠接荒城。  | [lat]yòu | [sym]  | [lat]sòng | [sym]  | [lat]wáng | [sym]   | [lat]sūn | [sym]    | [lat]qù | [sym]               | [lat]qī | [sym]      | [lat]qī | [sym]     | [lat]mǎn | [sym]   | [lat]bié | [sym]    | [lat]qíng
+    [zh]又送王孙去，萋萋满别情。
+  --shape--
+    [lat]fù | [sym]    | [lat]dé | [sym]    | [lat]gǔ yuan cǎo song bié
+===== slide 40 =====
+  --shape--
+    [sym]39 | [zh]、池上 
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]白居易 
+  --shape--
+    [lat]xiǎo | [sym]  | [lat]wá | [sym]  | [lat]chēng | [sym]  | [lat]xiǎo | [sym]  | [lat]tǐng
+    [zh]小娃撑小艇，
+    [sym]  | [lat]tōu | [sym]   | [lat]cǎi | [sym]    | [lat]bái | [sym]   | [lat]lián | [sym]   | [lat]huí
+    [zh]偷采白莲回。
+    [sym]  | [lat]bù | [sym]    | [lat]jiě | [sym]    | [lat]cáng | [sym]  | [lat]zōng | [sym]  | [lat]jì
+    [zh]不解藏踪迹，
+    [sym]  | [lat]fú | [sym]    | [lat]píng | [sym]   | [lat]yí | [sym]     | [lat]dào | [sym]  | [lat]kāi
+    [zh]浮萍一道开。
+  --shape--
+    [lat]chí | [sym]  | [lat]shàng
+===== slide 41 =====
+  --shape--
+    [sym]40 | [zh]、忆江南
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]白居易 
+  --shape--
+    [lat]jiāng | [sym]  | [lat]nán | [sym]    | [lat]hǎo | [zh]江南好，
+    [lat]fēng | [sym]   | [lat]jǐng | [sym]    | [lat]jiù | [sym]    | [lat]céng | [sym]   | [lat]ān
+    [zh]风景旧曾谙。  | [sym]   | [lat]rì | [sym]     | [lat]chū | [sym]   | [lat]jiāng | [sym]   | [lat]huā | [sym]  | [lat]hóng sheng huǒ
+    [zh]日出江花红胜火，  | [lat]chūn | [sym]   | [lat]lái | [sym]    | [lat]jiāng | [sym]  | [lat]shuǐ | [sym]    | [lat]lǜ | [sym]       | [lat]rú | [sym]     | [lat]lán
+    [zh]春来江水绿如蓝。  | [lat]néng | [sym]   | [lat]bù | [sym]      | [lat]yì | [sym]    | [lat]jiāng | [sym]  | [lat]nán
+    [zh]能不忆江南？ 
+  --shape--
+    [lat]yì | [sym]   | [lat]jiāng | [sym]  | [lat]nán
+===== slide 42 =====
+  --shape--
+    [sym]41 | [zh]、小儿垂钓
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]胡令能 
+  --shape--
+    [lat]péng | [sym]  | [lat]tóu | [sym]   | [lat]zhì | [sym]    | [lat]zǐ | [sym]     | [lat]xué | [sym]  | [lat]chuí | [sym]  | [lat]lún | [zh]蓬头稚子学垂纶，  | [sym]  | [lat]cè | [sym]    | [lat]zuò | [sym]   | [lat]méi | [sym]   | [lat]tái | [sym]    | [lat]cǎo | [sym]  | [lat]yìng | [sym]  | [lat]shēn
+    [zh]侧坐莓苔草映身。  | [sym]  | [lat]lù | [sym]     | [lat]rén | [sym]    | [lat]jiè | [sym]   | [lat]wèn | [sym]   | [lat]yáo | [sym]  | [lat]zhāo | [sym]  | [lat]shǒu
+    [zh]路人借问遥招手，  | [sym]  | [lat]pà | [sym]      | [lat]dé | [sym]     | [lat]yú | [sym]     | [lat]jīng | [sym]    | [lat]bù | [sym]    | [lat]yìng | [sym]   | [lat]rén
+    [zh]怕得鱼惊不应人。 
+  --shape--
+    [lat]xiǎo | [sym]  | [lat]ér | [sym]  | [lat]chuí | [sym]  | [lat]diào
+===== slide 43 =====
+  --shape--
+    [sym]42 | [zh]、悯 农 
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]李绅
+  --shape--
+    [lat]chūn | [sym]  | [lat]zhǒng | [sym]  | [lat]yī | [sym]      | [lat]lì | [sym]      | [lat]sù | [zh]春种一粒粟，  | [lat]qiū | [sym]    | [lat]shōu | [sym]  | [lat]wàn | [sym]     | [lat]kē | [sym]      | [lat]zǐ
+    [zh]秋收万颗子。  | [sym]   | [lat]sì | [sym]      | [lat]hǎi | [sym]    | [lat]wú | [sym]    | [lat]xián | [sym]   | [lat]tián
+    [zh]四海无闲田，  | [lat]nóng | [sym]   | [lat]fū | [sym]     | [lat]yóu     è      sǐ
+    [zh]农夫犹饿死。
+  --shape--
+    [lat]mǐn | [sym]   | [lat]nóng | [sym] 
+===== slide 44 =====
+  --shape--
+    [sym]43 | [zh]、悯 农
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]李 绅
+  --shape--
+    [lat]chú | [sym]      | [lat]hé | [sym]      | [lat]rì | [sym]    | [lat]dāng | [sym]   | [lat]wǔ | [zh]锄禾日当午，  | [sym]  | [lat]hàn | [sym]     | [lat]dī | [sym]     | [lat]hé | [sym]      | [lat]xià | [sym]     | [lat]tǔ
+    [zh]汗滴禾下土。  | [lat]Shuí | [sym]   | [lat]zhī | [sym]    | [lat]pán | [sym]  | [lat]zhōng | [sym]  | [lat]cān
+    [zh]谁知盘中餐，  | [sym]   | [lat]lì | [sym]       | [lat]lì | [sym]       | [lat]jiē | [sym]     | [lat]xīn | [sym]     | [lat]kǔ
+    [zh]粒粒皆辛苦。
+  --shape--
+    [lat]mǐn | [sym]   | [lat]nóng | [sym] 
+===== slide 45 =====
+  --shape--
+    [sym]44 | [zh]、江雪
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]柳宗元 
+  --shape--
+    [lat]qiān | [sym]  | [lat]shān | [sym]   | [lat]niǎo | [sym]   | [lat]fēi | [sym]      | [lat]jué
+    [zh]千山鸟飞绝，
+    [lat]wàn | [sym]   | [lat]jìng | [sym]    | [lat]rén | [sym]   | [lat]zōng | [sym]  | [lat]miè
+    [zh]万径人踪灭。 
+    [sym]  | [lat]gū | [sym]    | [lat]zhōu | [sym]   | [lat]suō | [sym]     | [lat]lì | [sym]     | [lat]wēng
+    [zh]孤舟蓑笠翁，
+    [sym]  | [lat]dú | [sym]    | [lat]diào | [sym]   | [lat]hán | [sym]   | [lat]jiāng | [sym]   | [lat]xuě
+    [zh]独钓寒江雪。 
+  --shape--
+    [lat]jiāng | [sym]  | [lat]xuě
+===== slide 46 =====
+  --shape--
+    [sym]45 | [zh]、寻隐者不遇
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]贾岛
+  --shape--
+    [lat]song xià | [sym]    | [lat]wèn | [sym]   | [lat]tóng | [sym]    | [lat]zǐ
+    [zh]松下问童子，  | [lat]yán | [sym]     | [lat]shī | [sym]    | [lat]cǎi | [sym]    | [lat]yào | [sym]     | [lat]qù
+    [zh]言师采药去。  | [sym]  | [lat]zhī | [sym]    | [lat]zài | [sym]      | [lat]cǐ | [sym]     | [lat]shān | [sym]  | [lat]zhōng
+    [zh]只在此山中，  | [lat]yún | [sym]   | [lat]shēn | [sym]    | [lat]bù | [sym]     | [lat]zhī | [sym]    | [lat]chù
+    [zh]云深不知处。 
+  --shape--
+    [lat]xún | [sym]  | [lat]yǐn | [sym]   | [lat]zhě | [sym]   | [lat]bù | [sym]    | [lat]yù
+===== slide 47 =====
+  --shape--
+    [sym]46 | [zh]、山 行
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]杜牧 
+  --shape--
+    [lat]yuan shàng | [sym]  | [lat]hán | [sym]  | [lat]shān | [sym]   | [lat]shí | [sym]    | [lat]jìng | [sym]    | [lat]xié | [zh]远上寒山石径斜，  | [sym]  | [lat]bái | [sym]    | [lat]yún sheng chù | [sym]   | [lat]yǒu | [sym]    | [lat]rén | [sym]     | [lat]jiā
+    [zh]白云生处有人家。  | [lat]tíng | [sym]   | [lat]chē | [sym]     | [lat]zuò | [sym]     | [lat]ài | [sym]    | [lat]fēng | [sym]    | [lat]lín | [sym]    | [lat]wǎn
+    [zh]停车坐爱枫林晚，  | [lat]shuāng | [sym]  | [lat]yè | [sym]  | [lat]hóng | [sym]  | [lat]yú | [sym]      | [lat]èr | [sym]      | [lat]yuè | [sym]    | [lat]huā
+    [zh]霜叶红于二月花。
+  --shape--
+    [lat]shān | [sym]  | [lat]xíng
+===== slide 48 =====
+  --shape--
+    [sym]47 | [zh]、清明
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]杜牧 
+  --shape--
+    [lat]qīng | [sym]  | [lat]míng | [sym]  | [lat]shí | [sym]      | [lat]jié | [sym]     | [lat]yǔ | [sym]     | [lat]fēn | [sym]     | [lat]fēn
+    [zh]清明时节雨纷纷，  | [sym]   | [lat]lù | [sym]   | [lat]shang | [sym]  | [lat]xíng | [sym]   | [lat]rén | [sym]    | [lat]yù | [sym]    | [lat]duàn | [sym]   | [lat]hún
+    [zh]路上行人欲断魂。  | [sym]  | [lat]jiè | [sym]    | [lat]wèn | [sym]     | [lat]jiǔ | [sym]     | [lat]jiā | [sym]      | [lat]hé | [sym]    | [lat]chù | [sym]    | [lat]yǒu
+    [zh]借问酒家何处有？  | [sym]  | [lat]mù | [sym]   | [lat]tóng | [sym]   | [lat]yáo | [sym]    | [lat]zhǐ | [sym]   | [lat]xìng | [sym]    | [lat]huā | [sym]   | [lat]cūn
+    [zh]牧童遥指杏花村。
+  --shape--
+    [lat]qīng | [sym]  | [lat]míng | [sym] 
+===== slide 49 =====
+  --shape--
+    [sym]48 | [zh]、江南春
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]杜牧 
+  --shape--
+    [lat]qiān | [sym]     | [lat]lǐ | [sym]     | [lat]yīng | [sym]    | [lat]tí | [sym]       | [lat]lǜ | [sym]     | [lat]yìng | [sym]  | [lat]hóng
+    [zh]千里莺啼绿映红，  | [lat]shuǐ | [sym]   | [lat]cūn | [sym]   | [lat]shān | [sym]   | [lat]guō | [sym]     | [lat]jiǔ | [sym]     | [lat]qí | [sym]     | [lat]fēng
+    [zh]水村山郭酒旗风。  | [lat]nán | [sym]   | [lat]cháo | [sym]     | [lat]sì | [sym]     | [lat]bǎi | [sym]     | [lat]bā | [sym]      | [lat]shí | [sym]     | [lat]sì
+    [zh]南朝四百八十寺，  | [lat]duō | [sym]   | [lat]shǎo | [sym]    | [lat]lóu | [sym]    | [lat]tái | [sym]     | [lat]yān | [sym]    | [lat]yǔ | [sym]   | [lat]zhōng
+    [zh]多少楼台烟雨中。
+  --shape--
+    [lat]jiāng | [sym]  | [lat]nán | [sym]  | [lat]chūn
+===== slide 50 =====
+  --shape--
+    [sym]49 | [zh]、蜂 
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]罗隐 
+  --shape--
+    [sym]  | [lat]bú | [sym]     | [lat]lùn | [sym]    | [lat]píng | [sym]    | [lat]dì | [sym]      | [lat]yǔ | [sym]    | [lat]shān | [sym]   | [lat]jiān | [zh]不论平地与山尖，  | [sym]  | [lat]wú | [sym]   | [lat]xiàn | [sym]   | [lat]fēng | [sym]  | [lat]guāng | [sym]  | [lat]jìn | [sym]    | [lat]bèi | [sym]    | [lat]zhàn
+    [zh]无限风光尽被占。  | [sym]  | [lat]cǎi | [sym]      | [lat]dé | [sym]    | [lat]bǎi | [sym]     | [lat]huā | [sym]  | [lat]chéng | [sym]  | [lat]mì | [sym]     | [lat]hòu
+    [zh]采得百花成蜜后，  | [sym]  | [lat]wéi | [sym]   | [lat]shuí | [sym]   | [lat]xīn | [sym]     | [lat]kǔ | [sym]     | [lat]wéi | [sym]   | [lat]shuí | [sym]   | [lat]tián
+    [zh]为谁辛苦为谁甜？
+  --shape--
+    [lat]fēng
+===== slide 51 =====
+  --shape--
+    [sym]50 | [zh]、乐游原
+  --shape--
+    [sym]【 | [zh]唐 | [sym]】 | [zh]李商隐 
+  --shape--
+    [lat]xiàng | [sym]  | [lat]wǎn | [sym]   | [lat]yì | [sym]      | [lat]bú | [sym]     | [lat]shì
+    [zh]向晚意不适，
+    [sym]  | [lat]qū | [sym]     | [lat]chē | [sym]   | [lat]dēng | [sym]   | [lat]gǔ   yuan
+    [zh]驱车登古原。
+    [sym]   | [lat]xī   yang  wú | [sym]   | [lat]xiàn | [sym]   | [lat]hǎo
+    [zh]夕阳无限好，
+    [lat]zhǐ | [sym]     | [lat]shì | [sym]     | [lat]jìn | [sym]   | [lat]huáng | [sym]  | [lat]hūn
+    [zh]只是近黄昏。
+  --shape--
+    [lat]lè  you yuán
+===== slide 52 =====
+  --shape--
+    [sym]51 | [zh]、元日
+  --shape--
+    [sym]【 | [zh]宋 | [sym]】 | [zh]王安石 
+  --shape--
+    [sym]  | [lat]bào | [sym]   | [lat]zhú sheng zhōng | [sym]  | [lat]yī | [sym]     | [lat]suì | [sym]    | [lat]chú | [zh]爆竹声中一岁除，  | [lat]chūn | [sym]  | [lat]fēng | [sym]  | [lat]sòng | [sym]  | [lat]nuǎn | [sym]   | [lat]rù | [sym]       | [lat]tú | [sym]      | [lat]sū
+    [zh]春风送暖入屠苏。  | [lat]qiān | [sym]   | [lat]mén | [sym]  | [lat]wàn | [sym]     | [lat]hù | [sym]    | [lat]tóng | [sym]  | [lat]tóng | [sym]    | [lat]rì
+    [zh]千门万户瞳瞳日，  | [lat]zǒng | [sym]   | [lat]bǎ | [sym]     | [lat]xīn | [sym]     | [lat]táo | [sym]   | [lat]huàn | [sym]    | [lat]jiù | [sym]     | [lat]fú
+    [zh]总把新桃换旧符。 
+  --shape--
+    [lat]yuán | [sym]  | [lat]rì
+===== slide 53 =====
+  --shape--
+    [sym]52 | [zh]、泊船瓜洲 
+  --shape--
+    [sym]【 | [zh]宋 | [sym]】 | [zh]王安石 
+  --shape--
+    [lat]jīng | [sym]    | [lat]kǒu | [sym]   | [lat]guā | [sym]   | [lat]zhōu | [sym]    | [lat]yī | [sym]    | [lat]shuǐ | [sym]    | [lat]jiān | [zh]京口瓜洲一水间，  | [lat]zhōng | [sym]  | [lat]shān | [sym]  | [lat]zhī | [sym]    | [lat]gé | [sym]     | [lat]shù | [sym]  | [lat]zhòng | [sym]  | [lat]shān
+    [zh]钟山只隔数重山。  | [lat]chūn | [sym]  | [lat]fēng | [sym]  | [lat]yòu | [sym]     | [lat]lǜ | [sym]     | [lat]jiāng | [sym]  | [lat]nán | [sym]     | [lat]àn
+    [zh]春风又绿江南岸，  | [lat]míng | [sym]  | [lat]yuè | [sym]    | [lat]hé | [sym]      | [lat]shí | [sym]   | [lat]zhào | [sym]   | [lat]wǒ | [sym]     | [lat]hái
+    [zh]明月何时照我还。
+  --shape--
+    [lat]bó | [sym]  | [lat]chuán | [sym]  | [lat]guā | [sym]  | [lat]zhōu
+===== slide 54 =====
+  --shape--
+    [sym]53 | [zh]、书湖阴先生壁
+  --shape--
+    [sym]【 | [zh]宋 | [sym]】 | [zh]王安石 
+  --shape--
+    [lat]máo | [sym]   | [lat]yán | [sym]  | [lat]cháng | [sym]  | [lat]sǎo | [sym]    | [lat]jìng | [sym]   | [lat]wú | [sym]      | [lat]tái
+    [zh]茅檐长扫净无苔，  | [lat]huā | [sym]     | [lat]mù | [sym]  | [lat]chéng | [sym]  | [lat]qí | [sym]     | [lat]shǒu | [sym]    | [lat]zì | [sym]      | [lat]zāi
+    [zh]花木成畦手自栽。  | [sym]  | [lat]yī | [sym]     | [lat]shuǐ | [sym]    | [lat]hù | [sym]     | [lat]tián | [sym]   | [lat]jiāng | [sym]    | [lat]lǜ | [sym]     | [lat]rào
+    [zh]一水护田将绿绕，  | [lat]liǎng | [sym]  | [lat]shān | [sym]  | [lat]pái | [sym]      | [lat]tà | [sym]     | [lat]sòng | [sym]  | [lat]qīng | [sym]    | [lat]lái
+    [zh]两山排闼送青来。 
+  --shape--
+    [lat]shū | [sym]   | [lat]hú yīn | [sym]  | [lat]xiān sheng bì
+===== slide 55 =====
+  --shape--
+    [sym]54 | [zh]、六月二十七日望湖楼醉书
+  --shape--
+    [sym]【 | [zh]宋 | [sym]】 | [zh]苏轼 
+  --shape--
+    [sym]  | [lat]hēi | [sym]    | [lat]yún | [sym]    | [lat]fān | [sym]    | [lat]mò | [sym]    | [lat]wèi | [sym]    | [lat]zhē | [sym]   | [lat]shān
+    [zh]黑云翻墨未遮山，  | [sym]  | [lat]bái | [sym]     | [lat]yǔ | [sym]    | [lat]tiào | [sym]    | [lat]zhū | [sym]  | [lat]luàn | [sym]     | [lat]rù | [sym]    | [lat]chuán
+    [zh]白雨跳珠乱入船。  | [lat]juǎn | [sym]    | [lat]dì | [sym]     | [lat]fēng | [sym]    | [lat]lái | [sym]     | [lat]hū | [sym]    | [lat]chuī | [sym]    | [lat]sàn
+    [zh]卷地风来忽吹散，  | [lat]wàng | [sym]  | [lat]hú | [sym]     | [lat]lóu | [sym]     | [lat]xià | [sym]   | [lat]shuǐ | [sym]     | [lat]rú | [sym]    | [lat]tiān
+    [zh]望湖楼下水如天。
+  --shape--
+    [lat]liù | [sym]   | [lat]yuè | [sym]    | [lat]èr | [sym]   | [lat]shí | [sym]    | [lat]qī | [sym]     | [lat]rì | [sym]  | [lat]wàng | [sym]  | [lat]hú | [sym]   | [lat]lóu | [sym]   | [lat]zuì | [sym]   | [lat]shū
+===== slide 56 =====
+  --shape--
+    [sym]55 | [zh]、饮湖上初晴后雨
+  --shape--
+    [sym]【 | [zh]宋 | [sym]】 | [zh]苏轼 
+  --shape--
+    [lat]shuǐ | [sym]  | [lat]guāng | [sym]  | [lat]liàn | [sym]  | [lat]yàn | [sym]    | [lat]qíng fang  hǎo | [zh]水光潋艳晴方好，  | [lat]shān | [sym]   | [lat]sè | [sym]     | [lat]kōng | [sym]  | [lat]méng | [sym]  | [lat]yǔ | [sym]     | [lat]yù | [sym]      | [lat]qí
+    [zh]山色空朦雨欲奇。  | [sym]  | [lat]yù | [sym]      | [lat]bǎ | [sym]      | [lat]xī | [sym]      | [lat]hú | [sym]      | [lat]bǐ | [sym]      | [lat]xī | [sym]       | [lat]zǐ
+    [zh]欲把西湖比西子，  | [lat]dàn | [sym]  | [lat]zhuāng | [sym]  | [lat]nóng | [sym]  | [lat]mǒ | [sym]  | [lat]zǒng | [sym]  | [lat]xiāng | [sym]  | [lat]yí
+    [zh]淡妆浓抹总相宜。 
+  --shape--
+    [lat]yǐn | [sym]  | [lat]hú | [sym]  | [lat]shàng | [sym]  | [lat]chū | [sym]  | [lat]qíng | [sym]  | [lat]hòu | [sym]  | [lat]yǔ
+===== slide 57 =====
+  --shape--
+    [sym]56 | [zh]、惠崇 | [sym]《 | [zh]春江晚景 | [sym]》
+  --shape--
+    [sym]【 | [zh]宋 | [sym]】 | [zh]苏轼
+  --shape--
+    [lat]zhú | [sym]    | [lat]wài | [sym]    | [lat]táo | [sym]    | [lat]huā | [sym]    | [lat]sān | [sym]   | [lat]liǎng | [sym]   | [lat]zhī
+    [zh]竹外桃花三两枝，  | [lat]chūn | [sym]  | [lat]jiāng | [sym]  | [lat]shuǐ | [sym]  | [lat]nuǎn | [sym]   | [lat]yā | [sym]    | [lat]xiān | [sym]    | [lat]zhī
+    [zh]春江水暖鸭先知。  | [sym]  | [lat]lóu | [sym]    | [lat]hāo | [sym]   | [lat]mǎn | [sym]    | [lat]dì | [sym]       | [lat]lú | [sym]      | [lat]yá | [sym]    | [lat]duǎn
+    [zh]蒌蒿满地芦芽短，  | [lat]zhèng | [sym]  | [lat]shì | [sym]     | [lat]hé | [sym]    | [lat]tún | [sym]     | [lat]yù | [sym]   | [lat]shàng | [sym]  | [lat]shí
+    [zh]正是河豚欲上时。
+  --shape--
+    [lat]huì | [sym]  | [lat]chóng | [sym]   | [lat]chūn | [sym]  | [lat]jiāng | [sym]  | [lat]wǎn | [sym]  | [lat]jǐng
+===== slide 58 =====
+  --shape--
+    [sym]57 | [zh]、题西林壁
+  --shape--
+    [sym]【 | [zh]宋 | [sym]】 | [zh]苏轼 
+  --shape--
+    [lat]héng | [sym]  | [lat]kàn | [sym]  | [lat]chéng | [sym]  | [lat]lǐng | [sym]    | [lat]cè | [sym]   | [lat]chéng | [sym]  | [lat]fēng
+    [zh]横看成岭侧成峰，  | [lat]yuan  jìn | [sym]     | [lat]gāo | [sym]    | [lat]dī | [sym]      | [lat]gè | [sym]      | [lat]bù | [sym]    | [lat]tóng
+    [zh]远近高低各不同。  | [sym]  | [lat]bù | [sym]      | [lat]shí | [sym]     | [lat]lú | [sym]    | [lat]shān | [sym]  | [lat]zhēn | [sym]  | [lat]miàn | [sym]   | [lat]mù
+    [zh]不识庐山真面目，  | [lat]zhī   yuan shēn | [sym]   | [lat]zài | [sym]      | [lat]cǐ | [sym]     | [lat]shān | [sym]  | [lat]zhōng
+    [zh]只缘身在此山中。
+  --shape--
+    [lat]tí | [sym]      | [lat]xī | [sym]    | [lat]lín | [sym]    | [lat]bì
+===== slide 59 =====
+  --shape--
+    [sym]58 | [zh]、夏日绝句
+  --shape--
+    [sym]【 | [zh]宋 | [sym]】 | [zh]李清照 
+  --shape--
+    [lat]shēng | [sym]  | [lat]dāng | [sym]  | [lat]zuò | [sym]   | [lat]rén | [sym]     | [lat]jié | [zh]生当作人杰，
+    [sym]   | [lat]sǐ | [sym]      | [lat]yì | [sym]      | [lat]wéi | [sym]    | [lat]guǐ | [sym]  | [lat]xióng
+    [zh]死亦为鬼雄。  | [sym]  | [lat]zhì | [sym]      | [lat]jīn | [sym]    | [lat]sī | [sym]     | [lat]xiàng | [sym]   | [lat]yǔ
+    [zh]至今思项羽，
+    [sym]  | [lat]bù | [sym]     | [lat]kěn | [sym]   | [lat]guò | [sym]   | [lat]jiāng | [sym]  | [lat]dōng
+    [zh]不肯过江东。 
+  --shape--
+    [lat]xià | [sym]    | [lat]rì | [sym]    | [lat]jué | [sym]    | [lat]jù
+===== slide 60 =====
+  --shape--
+    [sym]59 | [zh]、示儿
+  --shape--
+    [sym]【 | [zh]宋 | [sym]】 | [zh]陆游 
+  --shape--
+    [sym]   | [lat]sǐ | [sym]      | [lat]qù   yuan  zhī | [sym]    | [lat]wàn | [sym]   | [lat]shì | [sym]    | [lat]kōng | [zh]死去元知万事空，  | [lat]dàn | [sym]    | [lat]bēi | [sym]     | [lat]bú | [sym]     | [lat]jiàn | [sym]    | [lat]jiǔ | [sym]    | [lat]zhōu | [sym]  | [lat]tóng
+    [zh]但悲不见九州同。  | [lat]wáng | [sym]  | [lat]shī | [sym]     | [lat]běi  ding zhōng | [sym]  | [lat]yuán | [sym]  | [lat]rì
+    [zh]王师北定中原日，  | [sym]  | [lat]jiā | [sym]       | [lat]jì | [sym]      | [lat]wú | [sym]  | [lat]wàng | [sym]   | [lat]gào | [sym]    | [lat]nǎi | [sym]   | [lat]wēng
+    [zh]家祭无忘告乃翁。
+  --shape--
+    [lat]shì | [sym]    | [lat]ér
+===== slide 61 =====
+  --shape--
+    [sym]60 | [zh]、秋夜将晓出篱门迎凉有感 
+  --shape--
+    [sym]【 | [zh]宋 | [sym]】 | [zh]陆游 
+  --shape--
+    [lat]sān | [sym]    | [lat]wàn | [sym]     | [lat]lǐ | [sym]       | [lat]hé | [sym]   | [lat]dōng | [sym]    | [lat]rù | [sym]      | [lat]hǎi | [zh]三万里河东入海，  | [sym]  | [lat]wǔ | [sym]   | [lat]qiān | [sym]    | [lat]rèn | [sym]    | [lat]yuè | [sym]  | [lat]shàng | [sym]  | [lat]mó | [sym]    | [lat]tiān
+    [zh]五千仞岳上摩天。  | [sym]   | [lat]yí | [sym]     | [lat]mín | [sym]     | [lat]lèi | [sym]    | [lat]jìn | [sym]      | [lat]hú | [sym]   | [lat]chén | [sym]     | [lat]lǐ
+    [zh]遗民泪尽胡尘里，
+    [lat]nán | [sym]   | [lat]wàngwáng | [sym]   | [lat]shī | [sym]   | [lat]yòu | [sym]      | [lat]yī | [sym]    | [lat]nián | [sym]  | [zh]难望王师又一年。
+  --shape--
+    [lat]qiū | [sym]     | [lat]yè | [sym]   | [lat]jiāng | [sym]  | [lat]xiǎo | [sym]  | [lat]chū | [sym]    | [lat]lí | [sym]    | [lat]mén | [sym]  | [lat]yíng | [sym]  | [lat]liáng | [sym]  | [lat]yǒu | [sym]  | [lat]gǎn
+===== slide 62 =====
+  --shape--
+    [sym]61 | [zh]、四时田园杂兴
+  --shape--
+    [sym]【 | [zh]宋 | [sym]】 | [zh]范成大 
+  --shape--
+    [lat]zhòu | [sym]  | [lat]chū | [sym]    | [lat]yún | [sym]   | [lat]tián | [sym]     | [lat]yè | [sym]       | [lat]jì | [sym]     | [lat]má
+    [zh]昼出耘田夜绩麻，  | [lat]cūn | [sym]  | [lat]zhuāng | [sym]  | [lat]ér | [sym]     | [lat]nǚ | [sym]      | [lat]gè | [sym]    | [lat]dāng | [sym]   | [lat]jiā
+    [zh]村庄儿女各当家。  | [lat]tóng | [sym]   | [lat]sūn | [sym]   | [lat]wèi | [sym]     | [lat]jiě   gong gēng | [sym]   | [lat]zhī
+    [zh]童孙未解供耕织，  | [sym]  | [lat]yě   bang sāng | [sym]   | [lat]yīn | [sym]    | [lat]xué | [sym]   | [lat]zhǒng | [sym]  | [lat]guā
+    [zh]也傍桑阴学种瓜。
+  --shape--
+    [lat]sì | [sym]    | [lat]shí | [sym]  | [lat]tián yuan zá | [sym]  | [lat]xìng
+===== slide 63 =====
+  --shape--
+    [sym]62 | [zh]、四时田园杂兴
+  --shape--
+    [sym]【 | [zh]宋 | [sym]】 | [zh]范成大 
+  --shape--
+    [lat]méi | [sym]     | [lat]zi | [sym]      | [lat]jīn | [sym]   | [lat]huáng | [sym]  | [lat]xìng | [sym]   | [lat]zǐ | [sym]      | [lat]féi
+    [zh]梅子金黄杏子肥，  | [lat]mài | [sym]    | [lat]huā | [sym]    | [lat]xuě | [sym]    | [lat]bái | [sym]    | [lat]cài | [sym]     | [lat]huā | [sym]     | [lat]xī
+    [zh]麦花雪白菜花稀。  | [sym]   | [lat]rì | [sym]    | [lat]cháng | [sym]   | [lat]lí | [sym]      | [lat]luò | [sym]    | [lat]wú | [sym]     | [lat]rén | [sym]    | [lat]guò
+    [zh]日长篱落无人过，  | [lat]wéi | [sym]    | [lat]yǒu | [sym]   | [lat]qīng | [sym]   | [lat]tíng | [sym]    | [lat]jiá | [sym]     | [lat]dié | [sym]     | [lat]fēi
+    [zh]唯有蜻蜓蛱蝶飞。
+  --shape--
+    [lat]sì | [sym]    | [lat]shí | [sym]  | [lat]tián yuan zá | [sym]  | [lat]xìng
+===== slide 64 =====
+  --shape--
+    [sym]63 | [zh]、晓出净慈寺送林子方
+  --shape--
+    [sym]【 | [zh]宋 | [sym]】 | [zh]杨万里 
+  --shape--
+    [sym]   | [lat]bì | [sym]     | [lat]jìng | [sym]     | [lat]xī | [sym]     | [lat]hú | [sym]     | [lat]liù | [sym]     | [lat]yuè | [sym]  | [lat]zhōng
+    [zh]毕竟西湖六月中， | [lat]fēng | [sym]  | [lat]guāng | [sym]  | [lat]bù | [sym]     | [lat]yǔ | [sym]      | [lat]sì | [sym]      | [lat]shí | [sym]    | [lat]tóng
+    [zh]接天莲叶无穷碧， | [sym]  | [lat]jiē | [sym]     | [lat]tiān | [sym]   | [lat]lián | [sym]     | [lat]yè | [sym]     | [lat]wú | [sym]  | [lat]qióng | [sym]   | [lat]bì
+    [zh]风光不与四时同。 | [lat]yìng | [sym]    | [lat]rì | [sym]       | [lat]hé | [sym]    | [lat]huā | [sym]    | [lat]bié | [sym]    | [lat]yàng | [sym]  | [lat]hóng
+    [zh]映日荷花别样红。
+  --shape--
+    [lat]xiǎo | [sym]  | [lat]chū | [sym]  | [lat]jìng | [sym]  | [lat]cí | [sym]     | [lat]sì | [sym]    | [lat]sòng | [sym]  | [lat]lín | [sym]    | [lat]zǐ | [sym]   | [lat]fāng
+===== slide 65 =====
+  --shape--
+    [sym] 64  | [zh]、小池
+  --shape--
+    [sym]【 | [zh]宋 | [sym]】 | [zh]杨万里
+  --shape--
+    [lat]quán | [sym]  | [lat]yǎn | [sym]    | [lat]wú | [sym]   | [lat]shēng | [sym]   | [lat]xī | [sym]      | [lat]xì | [sym]      | [lat]liú
+    [zh]泉眼无声惜细流，
+    [lat]shù | [sym]     | [lat]yīn | [sym]   | [lat]zhào | [sym]  | [lat]shuǐ | [sym]    | [lat]ài | [sym]      | [lat]qíng | [sym]   | [lat]róu
+    [zh]树阴照水爱晴柔。
+    [lat]xiǎo | [sym]    | [lat]hé | [sym]     | [lat]cái | [sym]      | [lat]lù | [sym]     | [lat]jiān | [sym]    | [lat]jiān | [sym]   | [lat]jiǎo
+    [zh]小荷才露尖尖角，
+    [lat]zǎo | [sym]     | [lat]yǒu | [sym]   | [lat]qīng | [sym]  | [lat]tíng | [sym]     | [lat]lì | [sym]    | [lat]shàng | [sym]  | [lat]tóu
+    [zh]早有蜻蜓立上头。
+  --shape--
+    [lat]xiǎo | [sym]  | [lat]chí
+===== slide 66 =====
+  --shape--
+    [sym]65 | [zh]、春日
+  --shape--
+    [sym]【 | [zh]宋 | [sym]】 | [zh]朱熹 | [sym]( | [lat]xī | [sym]) 
+  --shape--
+    [lat]sheng rì | [sym]      | [lat]xún fang    sì | [sym]     | [lat]shuǐ | [sym]    | [lat]bīn
+    [zh]胜日寻芳泗水滨， | [sym]  | [lat]wú | [sym]   | [lat]biān | [sym]  | [lat]guāng | [sym]  | [lat]jǐng | [sym]    | [lat]yì | [sym]      | [lat]shí | [sym]     | [lat]xīn
+    [zh]无边光景一时新。 | [lat]děng | [sym]  | [lat]xián | [sym]    | [lat]shí | [sym]     | [lat]dé | [sym]   | [lat]dōng | [sym]  | [lat]fēng | [sym]  | [lat]miàn
+    [zh]等闲识得东风面， | [lat]wàn | [sym]     | [lat]zǐ | [sym]    | [lat]qiān | [sym]   | [lat]hóng | [sym]  | [lat]zǒng | [sym]  | [lat]shì | [sym]   | [lat]chūn
+    [zh]万紫千红总是春。
+  --shape--
+    [lat]chūn | [sym]  | [lat]rì
+===== slide 67 =====
+  --shape--
+    [sym]66 | [zh]、题临安邸
+  --shape--
+    [sym]【 | [zh]宋 | [sym]】 | [zh]林升 
+  --shape--
+    [lat]shān | [sym]  | [lat]wài | [sym]    | [lat]qīng | [sym]  | [lat]shān | [sym]   | [lat]lóu | [sym]    | [lat]wài | [sym]    | [lat]lóu
+    [zh]山外青山楼外楼， | [sym]   | [lat]xī | [sym]      | [lat]hú | [sym]     | [lat]gē | [sym]      | [lat]wǔ | [sym]     | [lat]jǐ | [sym]      | [lat]shí | [sym]     | [lat]xiū
+    [zh]西湖歌舞几时休？ | [lat]nuǎn | [sym]  | [lat]fēng | [sym]  | [lat]xūn | [sym]     | [lat]dé | [sym]     | [lat]yóu | [sym]    | [lat]rén | [sym]    | [lat]zuì
+    [zh]暖风熏得游人醉， | [sym]  | [lat]zhí | [sym]     | [lat]bǎ   hang zhōu | [sym]  | [lat]zuò | [sym]   | [lat]biàn | [sym]   | [lat]zhōu | [zh]直把杭州做汴州。
+  --shape--
+    [lat]tí | [sym]   | [lat]lín | [sym]  | [lat]ān | [sym]   | [lat]dǐ
+===== slide 68 =====
+  --shape--
+    [sym]67 | [zh]、游园不值
+  --shape--
+    [sym]【 | [zh]宋 | [sym]】 | [zh]叶绍 | [sym]( | [lat]shào | [sym]) | [zh]翁 
+  --shape--
+    [lat]yìng | [sym]   | [lat]lián | [sym]     | [lat]jī | [sym]      | [lat]chǐ | [sym]     | [lat]yìn | [sym]   | [lat]cāng | [sym]   | [lat]tái | [zh]应怜屐齿印苍苔，
+    [lat]xiǎo | [sym]   | [lat]kòu | [sym]   | [lat]chái | [sym]    | [lat]fēi | [sym]     | [lat]jiǔ | [sym]      | [lat]bù | [sym]     | [lat]kāi | [zh]小扣柴扉久不开。
+    [lat]chūn | [sym]   | [lat]sè | [sym]     | [lat]mǎn | [sym]  | [lat]yuán | [sym]  | [lat]guān | [sym]   | [lat]bù | [sym]     | [lat]zhù
+    [zh]春色满园关不住， | [sym]   | [lat]yī | [sym]     | [lat]zhī | [sym]    | [lat]hóng | [sym]  | [lat]xìng | [sym]  | [lat]chū | [sym]   | [lat]qiáng | [sym]   | [lat]lái | [zh]一枝红杏出墙来。 
+  --shape--
+    [lat]yóu yuan bù | [sym]   | [lat]zhí
+===== slide 69 =====
+  --shape--
+    [sym]68 | [zh]、乡村四月
+  --shape--
+    [sym]【 | [zh]宋 | [sym]】 | [zh]翁卷 
+  --shape--
+    [sym]   | [lat]lǜ | [sym]     | [lat]mǎn | [sym]  | [lat]shān yuan  bái | [sym]    | [lat]mǎn | [sym]  | [lat]chuān
+    [zh]绿满山原白满川， | [sym]   | [lat]zǐ | [sym]      | [lat]guī sheng  lǐ | [sym]       | [lat]yǔ | [sym]      | [lat]rú | [sym]     | [lat]yān
+    [zh]子规声里雨如烟。 | [lat]xiāng | [sym]  | [lat]cūn | [sym]    | [lat]sì | [sym]      | [lat]yuè | [sym]   | [lat]xián | [sym]    | [lat]rén | [sym]   | [lat]shǎo
+    [zh]乡村四月闲人少， | [sym]  | [lat]cái    le     cán | [sym]   | [lat]sāng | [sym]   | [lat]yòu | [sym]    | [lat]chā | [sym]   | [lat]tián | [zh]才了蚕桑又插田。
+  --shape--
+    [lat]xiāng | [sym]  | [lat]cūn | [sym]  | [lat]sì | [sym]    | [lat]yuè
+===== slide 70 =====
+  --shape--
+    [sym]69 | [zh]、江上渔者
+  --shape--
+    [sym]【 | [zh]宋 | [sym]】 | [zh]范仲淹
+  --shape--
+    [lat]jiāng | [sym]  | [lat]shàng | [sym]  | [lat]wǎng | [sym]  | [lat]lái | [sym]   | [lat]rén
+    [zh]江上往来人，
+    [lat]dàn | [sym]      | [lat]ài | [sym]      | [lat]lú | [sym]      | [lat]yú | [sym]     | [lat]měi
+    [zh]但爱鲈鱼美。 
+    [lat]jūn | [sym]     | [lat]kàn | [sym]     | [lat]yī | [sym]     | [lat]yè | [sym]     | [lat]zhōu
+    [zh]君看一叶舟，
+    [lat]chū | [sym]     | [lat]mò | [sym]  | [lat]fēng | [sym]     | [lat]bō | [sym]      | [lat]lǐ
+    [zh]出没风波里。
+  --shape--
+    [lat]jiāng | [sym]  | [lat]shàng | [sym]  | [lat]yú | [sym]  | [lat]zhě
+===== slide 71 =====
+  --shape--
+    [sym]70 | [zh]、 墨梅
+  --shape--
+    [sym]【 | [zh]元 | [sym]】 | [zh]王冕 | [sym]( | [lat]miǎn | [sym]) 
+  --shape--
+    [sym]  | [lat]wǒ | [sym]     | [lat]jiā | [sym]      | [lat]xǐ | [sym]     | [lat]yàn | [sym]    | [lat]chí | [sym]    | [lat]tóu | [sym]     | [lat]shù
+    [zh]我家洗砚池头树， | [sym]  | [lat]duǒ | [sym]   | [lat]duǒ | [sym]    | [lat]huā | [sym]    | [lat]kāi | [sym]    | [lat]dàn | [sym]    | [lat]mò | [sym]    | [lat]hén
+    [zh]朵朵花开淡墨痕。 | [sym]  | [lat]bù | [sym]     | [lat]yào | [sym]    | [lat]rén | [sym]    | [lat]kuā | [sym]    | [lat]yán | [sym]    | [lat]sè | [sym]      | [lat]hǎo
+    [zh]不要人夸颜色好， | [sym]  | [lat]zhī | [sym]     | [lat]liú | [sym]    | [lat]qīng | [sym]    | [lat]qì | [sym]     | [lat]mǎn | [sym]  | [lat]qián | [sym]   | [lat]kūn | [zh]只留清气满乾坤。
+  --shape--
+    [lat]mò | [sym]  | [lat]méi
+===== slide 72 =====
+  --shape--
+    [sym]71 | [zh]、石灰吟
+  --shape--
+    [sym]【 | [zh]明 | [sym]】 | [zh]于谦 | [sym]( | [lat]qiān | [sym]) 
+  --shape--
+    [lat]qiān | [sym]  | [lat]chuí | [sym]   | [lat]wàn | [sym]    | [lat]záo | [sym]   | [lat]chū | [sym]   | [lat]shēn | [sym]   | [lat]shān
+    [zh]千锤万凿出深山， | [sym]  | [lat]liè | [sym]     | [lat]huǒ | [sym]    | [lat]fén | [sym]   | [lat]shāo | [sym]   | [lat]ruò | [sym]   | [lat]děng | [sym]   | [lat]xián
+    [zh]烈火焚烧若等闲， | [sym]  | [lat]fěn | [sym]   | [lat]shēn | [sym]   | [lat]suì | [sym]      | [lat]gǔ | [sym]    | [lat]hún | [sym]    | [lat]bú | [sym]      | [lat]pà
+    [zh]粉身碎骨浑不怕， | [lat]yào | [sym]    | [lat]liú | [sym]     | [lat]qīng | [sym]   | [lat]bái | [sym]     | [lat]zài | [sym]     | [lat]rén | [sym]    | [lat]jiān | [zh]要留清白在人间。
+  --shape--
+    [lat]shí | [sym]   | [lat]huī | [sym]   | [lat]yín
+===== slide 73 =====
+  --shape--
+    [sym]72 | [zh]、竹石
+  --shape--
+    [sym]【 | [zh]明 | [sym]】 | [zh]郑燮 | [sym]( | [lat]xiè | [sym]) 
+  --shape--
+    [lat]yǎo | [sym]    | [lat]dìng | [sym]  | [lat]qīng | [sym]  | [lat]shān | [sym]    | [lat]bù | [sym]    | [lat]fàng | [sym]  | [lat]sōng
+    [zh]咬定青山不放松， | [sym]   | [lat]lì | [sym]      | [lat]gēn  yuan  zài | [sym]     | [lat]pò | [sym]    | [lat]yán | [sym]  | [lat]zhōng
+    [zh]立根原在破岩中。 | [lat]qiān | [sym]    | [lat]mó | [sym]   | [lat]wàn | [sym]     | [lat]jī | [sym]      | [lat]hái | [sym]    | [lat]jiān | [sym]    | [lat]rèn
+    [zh]千磨万击还坚韧， | [sym]  | [lat]rèn | [sym]     | [lat]ěr | [sym]    | [lat]dōng | [sym]    | [lat]xī | [sym]     | [lat]nán | [sym]    | [lat]běi | [sym]    | [lat]fēng | [zh]任尔东西南北风。
+  --shape--
+    [lat]zhú | [sym]   | [lat]shí
+===== slide 74 =====
+  --shape--
+    [sym]73  | [zh]、所见
+  --shape--
+    [sym]【 | [zh]清 | [sym]】 | [zh]袁枚
+  --shape--
+    [sym]  | [lat]mù | [sym]   | [lat]tóng | [sym]    | [lat]qí | [sym]    | [lat]huáng | [sym]  | [lat]niú
+    [zh]牧童骑黄牛，
+    [sym]  | [lat]gē  sheng zhèn | [sym]   | [lat]lín | [sym]     | [lat]yuè
+    [zh]歌声振林樾。 
+    [sym]  | [lat]yì | [sym]      | [lat]yù | [sym]      | [lat]bǔ | [sym]   | [lat]míng | [sym]  | [lat]chán
+    [zh]意欲捕鸣蝉，
+    [sym]  | [lat]hū | [sym]      | [lat]rán | [sym]     | [lat]bì | [sym]     | [lat]kǒu | [sym]     | [lat]lì
+    [zh]忽然闭口立。
+  --shape--
+    [lat]suǒ | [sym]  | [lat]jiàn
+===== slide 75 =====
+  --shape--
+    [sym]74  | [zh]、村居
+  --shape--
+    [sym]【 | [zh]清 | [sym]】 | [zh]高鼎
+  --shape--
+    [lat]cǎo | [sym]  | [lat]zhǎng | [sym]  | [lat]yīng | [sym]   | [lat]fēi | [sym]      | [lat]èr | [sym]     | [lat]yuè | [sym]    | [lat]tiān
+    [zh]草长莺飞二月天，
+    [sym]  | [lat]fú | [sym]       | [lat]dī   yang  liǔ | [sym]     | [lat]zuì | [sym]    | [lat]chūn | [sym]   | [lat]yān
+    [zh]拂堤杨柳醉春烟。
+    [sym]   | [lat]ér | [sym]    | [lat]tóng | [sym]   | [lat]sàn | [sym]    | [lat]xué | [sym]    | [lat]guī | [sym]     | [lat]lái | [sym]     | [lat]zǎo
+    [zh]儿童散学归来早，
+    [lat]máng | [sym]  | [lat]chèn | [sym]  | [lat]dōng | [sym]  | [lat]fēng | [sym]  | [lat]fàng | [sym]  | [lat]zhǐ | [sym]  | [lat]yuān
+    [zh]忙趁东风放纸鸢。
+  --shape--
+    [lat]cūn | [sym]   | [lat]jū
+===== slide 76 =====
+  --shape--
+    [sym]75 | [zh]、己亥杂诗
+  --shape--
+    [sym]【 | [zh]清 | [sym]】 | [zh]龚 | [sym]( | [lat]gōng | [sym]) | [zh]自珍 
+  --shape--
+    [sym]  | [lat]hào | [sym]   | [lat]dàng | [sym]    | [lat]lí | [sym]    | [lat]chóu | [sym]   | [lat]bái | [sym]      | [lat]rì | [sym]      | [lat]xié
+    [zh]浩荡离愁白日斜， | [sym]  | [lat]yín | [sym]   | [lat]biān | [sym]  | [lat]dōng | [sym]   | [lat]zhǐ | [sym]      | [lat]jí | [sym]      | [lat]tiān | [sym]    | [lat]yá
+    [zh]吟鞭东指即天涯。
+    [sym]  | [lat]luò | [sym]   | [lat]hóng | [sym]   | [lat]bú | [sym]      | [lat]shì | [sym]    | [lat]wú | [sym]    | [lat]qíng | [sym]   | [lat]wù
+    [zh]落红不是无情物， | [lat]huà | [sym]    | [lat]zuò | [sym]   | [lat]chūn | [sym]    | [lat]ní | [sym]    | [lat]gèng | [sym]    | [lat]hù | [sym]    | [lat]huā | [zh]化作春泥更护花。
+  --shape--
+    [lat]jǐ | [sym]     | [lat]hài | [sym]    | [lat]zá | [sym]   | [lat]shī

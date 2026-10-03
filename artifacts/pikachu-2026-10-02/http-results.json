@@ -1,0 +1,50 @@
+[
+  {
+    "url": "http://localhost:8080/assets/sprites/c8_o1.png",
+    "status": 200,
+    "type": "image/png",
+    "sha256": "a96f3167a01acdccc4dabceda5d758182bc0673d58a19aa4096e5af2da4d41cb"
+  },
+  {
+    "url": "http://localhost:8080/assets/sprites/c8_o2.png",
+    "status": 200,
+    "type": "image/png",
+    "sha256": "91fd488f7d861736b4d440515aa61c0ac04b176e0982381e8e5741ed5c378d49"
+  },
+  {
+    "url": "http://localhost:8080/assets/sprites/c8_o3.png",
+    "status": 200,
+    "type": "image/png",
+    "sha256": "09d39b6cbf1c87842f9f2ae91e204525681f584d44842797fb65191936096be6"
+  },
+  {
+    "url": "http://localhost:8080/assets/sprites/c8_o4.png",
+    "status": 200,
+    "type": "image/png",
+    "sha256": "204993af7ebbd4b4d8826b9297b9b975f634fa9414bec2872503eb404c4aad45"
+  },
+  {
+    "url": "http://localhost:8080/assets/sprites/c8_o5.png",
+    "status": 200,
+    "type": "image/png",
+    "sha256": "2efa321c81dc7c2da96ed32292d15fbb0012a5df9e181b4c101a4e95e4ccfd80"
+  },
+  {
+    "url": "http://localhost:8080/assets/sprites/c8_o6.png",
+    "status": 200,
+    "type": "image/png",
+    "sha256": "dcad60b38d986a584d0b30160dfb070bb30db33f07605878a3becab1bb821308"
+  },
+  {
+    "url": "http://localhost:8080/assets/sprites/c8_o7.png",
+    "status": 200,
+    "type": "image/png",
+    "sha256": "2ea698124dfdc2705919f72289ef2eb075fbe6382f4f68915f3549ace3e9e69c"
+  },
+  {
+    "url": "http://localhost:8080/assets/sprites/c8_o8.png",
+    "status": 200,
+    "type": "image/png",
+    "sha256": "bdd8121a970d0ad7f900515303054fcad69f16f0bb4c6a35718c382ea7183bad"
+  }
+]

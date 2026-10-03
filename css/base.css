@@ -1,0 +1,161 @@
+/* 基础层：变量、重置、字体、通用控件。字号与点击目标尺寸面向 8-10 岁。 */
+
+:root {
+  --ui-font: "Microsoft YaHei", "微软雅黑", "PingFang SC", sans-serif;
+  --kai-font: KaiTi, "楷体", "Kaiti SC", STKaiti, "Microsoft YaHei", sans-serif;
+  --latin-font: "Segoe UI", "Verdana", "Trebuchet MS", sans-serif;
+  --dys-font: "Comic Sans MS", "Verdana", "Trebuchet MS", sans-serif;
+
+  --bg-1: #1b2a5b;
+  --bg-2: #2f5fb8;
+  --paper: #fffdf7;
+  --ink: #1d2433;
+  --ink-soft: #5a6478;
+  --line: #d9d2c4;
+
+  --brand: #ff8a3d;
+  --brand-deep: #e2661a;
+  --good: #2fae62;
+  --bad: #e04a4a;
+  --gold: #ffc531;
+  /* 星星是要「数得清」的图形，不是装饰：亮金 #ffb300 在白卡片上只有 1.8:1，
+     孩子看不出这关拿了几星。压深到琥珀色才有 3.2:1 以上，空星同理。 */
+  --star-ink: #bb7400;
+  --star-off: #767f92;
+  --locked: #5d6678;
+
+  --r-s: 10px;
+  --r-m: 16px;
+  --r-l: 24px;
+  --tap: 56px;
+  --shadow: 0 6px 0 rgba(0, 0, 0, .14), 0 12px 24px rgba(0, 0, 0, .16);
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--ui-font);
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--ink);
+  background: radial-gradient(120% 90% at 50% 0%, var(--bg-2) 0%, var(--bg-1) 70%);
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
+  cursor: default;
+}
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  margin: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+img { display: block; max-width: 100%; }
+
+h1, h2, h3, p { margin: 0; }
+
+/* 面向儿童的大按钮：最小 56px 高，带厚底阴影，按下有位移反馈 */
+.btn {
+  min-height: var(--tap);
+  min-width: var(--tap);
+  padding: 10px 26px;
+  border-radius: var(--r-m);
+  background: var(--brand);
+  /* 品牌橙配白字只有 2.3:1，孩子看不清；配深墨才有 6.6:1，而且更像儿童包装的配色 */
+  color: var(--ink);
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: .04em;
+  /* 按钮上的中文标签不能一个字一行 */
+  white-space: nowrap;
+  box-shadow: 0 5px 0 var(--brand-deep);
+  transition: transform .06s, box-shadow .06s;
+}
+
+.btn:active { transform: translateY(4px); box-shadow: 0 1px 0 var(--brand-deep); }
+.btn:focus-visible { outline: 4px solid #fff; outline-offset: 2px; }
+.btn[disabled] { background: #c9c9c9; box-shadow: 0 5px 0 #a8a8a8; cursor: not-allowed; color: #454d5c; }
+
+.btn--ghost {
+  background: rgba(255, 255, 255, .14);
+  color: #fff;
+  box-shadow: 0 5px 0 rgba(0, 0, 0, .22);
+  font-size: 20px;
+}
+
+.btn--plain {
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: 0 5px 0 #cfc7b6;
+}
+
+.btn--sm { min-height: 44px; font-size: 18px; padding: 6px 16px; border-radius: var(--r-s); }
+
+.card {
+  background: var(--paper);
+  border-radius: var(--r-l);
+  box-shadow: var(--shadow);
+  padding: 22px;
+}
+
+.row { display: flex; align-items: center; gap: 12px; }
+.col { display: flex; flex-direction: column; gap: 12px; }
+.spacer { flex: 1; }
+.muted { color: var(--ink-soft); }
+.center { text-align: center; }
+
+.boot-error {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  padding: 28px;
+  background: #7a1f1f;
+  color: #fff;
+  font-size: 19px;
+  line-height: 1.7;
+  overflow: auto;
+}
+
+.boot-error b { display: block; font-size: 26px; margin-bottom: 10px; }
+.boot-error code { font-family: Consolas, monospace; background: rgba(0,0,0,.3); padding: 1px 6px; border-radius: 6px; }
+
+body.booting #app { opacity: 0; }
+#app { opacity: 1; transition: opacity .3s; }
+
+.app {
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.scene { overflow: auto; position: relative; }
+
+.statusbar {
+  padding: 4px 14px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, .7);
+  background: rgba(0, 0, 0, .22);
+}
+
+/* 英文关卡的“容易看的字母”开关：加大字距并使用单成 a 的字体。
+   注意类名是两个短横（引擎发的是 target--latin / target--pinyin），
+   写成一条横线时这条规则永远匹配不上，开关等于只改了键盘键帽。 */
+body.dyslexic .target--latin,
+body.dyslexic .kb-key__label {
+  font-family: var(--dys-font);
+  letter-spacing: .06em;
+  word-spacing: .15em;
+}
+
+body.kai .target--pinyin { font-family: var(--kai-font); }

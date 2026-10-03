@@ -1,0 +1,384 @@
+/* 各场景布局：封面/选形象、世界地图、打字关卡、掉落小游戏、服装商店 */
+
+.wrap { width: min(1180px, 100%); margin: 0 auto; padding: 18px 20px 30px; }
+.wrap--narrow { width: min(880px, 100%); }
+
+.page-title { color: #fff; font-size: 30px; font-weight: 800; }
+.page-sub { color: rgba(255, 255, 255, .8); font-size: 18px; margin-top: 2px; }
+/* 地图顶上那行「已过 X / N 关」是孩子最关心的东西，不能和说明文字一样灰一样小 */
+.page-sub.progress { font-size: 22px; font-weight: 800; color: #ffd873; }
+
+/* ---------- 封面 / 选形象 ---------- */
+.cover {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  padding: 26px;
+  text-align: center;
+  color: #fff;
+}
+
+.cover__logo { font-size: 56px; font-weight: 900; letter-spacing: .06em; text-shadow: 0 5px 0 rgba(0, 0, 0, .25); }
+.cover__logo em { font-style: normal; color: var(--gold); }
+.cover__tip { font-size: 19px; opacity: .9; max-width: 640px; }
+
+/* .cover 是 align-items:center 的纵向 flex，.pick 不给宽度就会缩到一张卡的
+   宽度（实测 531px 视口下只有 285px），18 个形象排成一列要滚 5800px。
+   撑满后窄窗也能两列，配合下面的 sticky CTA 才找得到「开始」。 */
+.pick { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 16px; width: 100%; max-width: 1180px; }
+
+.pick__item {
+  padding: 14px 10px 16px;
+  border-radius: var(--r-l);
+  background: var(--paper);
+  /* 封面整块是白字，卡片却是米色底：不显式改写颜色，名字就糊在卡片上看不见 */
+  color: var(--ink);
+  box-shadow: var(--shadow);
+  border: 5px solid transparent;
+  transition: transform .1s, border-color .1s;
+}
+
+.pick__item:hover { transform: translateY(-4px); }
+.pick__item.is-sel { border-color: var(--brand); background: #fff6ea; }
+.pick__name { font-size: 22px; font-weight: 800; margin-top: 6px; }
+.pick__desc { font-size: 15px; color: var(--ink-soft); min-height: 42px; }
+.pick__fig { height: 190px; display: flex; align-items: flex-end; justify-content: center; }
+/* 抠好图的立绘是 <canvas>，不是 <img>：只写 img 的话画布会按自身尺寸
+   撑出去，压到下一张卡片上。canvas 是替换元素，height 定了 width:auto 就能等比。 */
+.pick__fig img, .pick__fig canvas { height: 100%; width: auto; max-width: 100%; }
+
+/* 形象从 6 个涨到 18 个，最后一张卡片已经在两屏之外；
+   「就它了，开始！」钉在底部，孩子不用先滚到底再回头找它。 */
+.cover__cta {
+  position: sticky;
+  bottom: 0;
+  z-index: 3;
+  align-self: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 0 14px;
+  background: linear-gradient(to top, var(--bg-1) 58%, rgba(27, 42, 91, 0));
+}
+
+/* ---------- 世界地图 ---------- */
+.worlds { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 14px; }
+
+.world-tab {
+  min-height: var(--tap);
+  padding: 8px 20px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .16);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, .2);
+}
+
+.world-tab.is-on { background: var(--brand); color: var(--ink); box-shadow: 0 4px 0 var(--brand-deep); }
+.world-tab small { display: block; font-size: 13px; font-weight: 400; opacity: .85; }
+
+.map {
+  position: relative;
+  padding: 22px 14px;
+  border-radius: var(--r-l);
+  background: linear-gradient(180deg, #cfe9ff, #eaf7d8 60%, #d7f0c4);
+  box-shadow: var(--shadow);
+}
+
+.map__path { display: flex; flex-wrap: wrap; gap: 18px; justify-content: center; }
+
+.node {
+  position: relative;
+  width: 118px;
+  padding: 10px 6px 12px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 5px 0 #b9c6a8;
+  text-align: center;
+  transition: transform .08s;
+}
+
+.node:hover { transform: translateY(-3px); }
+.node__no { font-size: 15px; color: var(--ink-soft); font-weight: 700; }
+.node__name { font-size: 18px; font-weight: 800; line-height: 1.25; min-height: 46px; }
+/* 空星也得看得清：孩子要靠它数出“这关还差几星”，不能糊成纸色 */
+.node__stars { font-size: 19px; letter-spacing: 1px; color: var(--star-off); }
+.node__stars .on { color: var(--star-ink); }
+.node--boss { background: #ffe9c9; box-shadow: 0 5px 0 #d09a4e; }
+.node--locked { background: #eceff5; box-shadow: 0 5px 0 #c3c9d6; color: var(--locked); cursor: not-allowed; }
+.node--locked .node__name { color: var(--locked); }
+.node__lock { font-size: 24px; }
+.node--done { outline: 4px solid #7fd66f; }
+
+.map__note { margin-top: 14px; color: #3f5a2e; font-size: 16px; text-align: center; }
+
+/* ---------- 打字关卡 ---------- */
+/* 关卡页要正好占满可视高度：height（不是 min-height）才会把多余的空间交给
+   .stage 去滚，否则整页被目标列表撑长，键盘掉到屏幕外面。 */
+.play {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px 16px 12px;
+  color: #fff;
+}
+
+.play__hud { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+/* 键盘不参与压缩：孩子正盯着键位提示，被目标列表顶到屏幕外等于没有提示。 */
+.play__kb { flex: 0 0 auto; }
+.play__stat { font-size: 18px; opacity: .95; }
+.play__stat b { display: block; font-size: 27px; font-variant-numeric: tabular-nums; }
+
+.stage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 14px;
+  padding: 22px 20px;
+  border-radius: var(--r-l);
+  background: rgba(255, 255, 255, .95);
+  color: var(--ink);
+  box-shadow: var(--shadow);
+  min-height: 150px;
+}
+
+.stage__label { font-size: 18px; color: var(--ink-soft); text-align: center; }
+
+/* 矮屏（1366×768 这类笔记本，可视高度不到 720）上把目标窗口收到「当前 + 下一条」：
+   再多就把释义和键盘顶出屏幕了。孩子要盯的当前这一条永远在最上面，
+   留一条预告足够建立预期。窗口高一点（台式机 / 全屏）七条会自己回来。 */
+@media (max-height: 720px) {
+  .targets .target.is-cur ~ .target ~ .target { display: none; }
+  .kb-legend { display: none; }
+}
+
+/* 逐字符目标条。空间紧的时候只有它自己收缩滚动，
+   释义（.gloss）和指位提示（.hintline）留在外面，不会被一起滚走。 */
+.targets {
+  flex: 0 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 可视高度不到 640（分屏、小窗）时整栏预算只剩 430 上下：
+   hud + 释义 + 提示 + 屏幕键盘就把它吃光，.targets 被 flex 压到 0 高，
+   孩子盯着屏幕却看不见要打的字，只剩一句中文释义。这时候改由关卡页整体滚动，
+   目标区自己封顶两行（长句在里面滚），屏幕键盘（输入兜底）排到下面去。
+   键盘有 220 高，钉在底部正好把当前那一条整个盖住，所以这里不做 sticky，
+   宁可让孩子滚一下去点键帽。 */
+@media (max-height: 640px) {
+  .play { height: auto; min-height: 100%; }
+  .stage { padding: 10px 16px; }
+  .targets { max-height: 132px; }
+}
+
+.target {
+  position: relative;
+  padding: 10px 18px;
+  border-radius: var(--r-m);
+  background: #eef1f8;
+  font-size: 52px;
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: .02em;
+  color: #7b849a;
+}
+
+.target--pinyin { font-family: var(--kai-font); }
+.target--latin { font-family: var(--latin-font); }
+/* 整词 / 整句比单字符长得多，只能一档一档往回收，但最小的整句也比正文大一截：
+   这是孩子要照着敲的东西，不是说明文字。 */
+.target--word { font-size: 42px; }
+.target--line { font-size: 34px; }
+.target.is-cur { background: var(--gold); color: #4a2c00; box-shadow: 0 0 0 5px rgba(255, 197, 49, .35); }
+.target.is-cur::after {
+  content: "";
+  position: absolute;
+  left: 18px; right: 18px; bottom: 6px;
+  height: 4px;
+  border-radius: 2px;
+  background: #4a2c00;
+  animation: caret 1s steps(2) infinite;
+}
+
+@keyframes caret { 50% { opacity: 0; } }
+.target.is-bad { background: #ffd9d9; color: var(--bad); animation: kbShake .2s linear; }
+
+.ch { padding: 0 1px; border-radius: 4px; }
+.ch.is-done { background: rgba(47, 174, 98, .18); }
+.ch.is-hit { animation: chHit .18s ease; }
+
+@keyframes chHit { 50% { transform: scale(1.35); } }
+
+/* ---------- 诗词阁：上面是题干的汉字，下面是答案的拼音 ----------
+   汉字这一格是「看」的对象，必须比拼音更显眼，所以楷体 + 比正文卡片更大一号。 */
+.target--poem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  padding: 8px 16px 10px;
+  min-width: 74px;
+}
+.poem__hz {
+  font-family: var(--kai-font);
+  font-size: 46px;
+  font-weight: 800;
+  line-height: 1.05;
+  color: #2f3b52;
+}
+.poem__py {
+  font-family: var(--latin-font);
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: .05em;
+  line-height: 1.1;
+  color: #6b7590;
+}
+/* 挑战模式把答案盖住，但每个字母的位子还留着：孩子看得见「这个字要拼几个字母」，
+   只是不知道是哪几个 —— 打对一个露一个，漏了也能马上知道自己从第几个字母开始错。
+   练习模式（.targets.is-open）整条露出，这一组规则自动失效。 */
+.targets:not(.is-open) .poem__py .ch { color: transparent; }
+.targets:not(.is-open) .poem__py .ch.is-done { color: #237a41; }
+
+/* 中文释义 / 提示 */
+.gloss { text-align: center; font-size: 26px; color: #3b4a63; min-height: 37px; }
+.gloss small { display: block; font-size: 20px; color: var(--ink-soft); }
+/* 机器街的提示直接压在深蓝底上，不能用纸卡上的灰字；.stage 里再改回深色 */
+.hintline { text-align: center; font-size: 18px; min-height: 26px; color: #cdd8f2; }
+.stage .hintline { color: var(--ink-soft); }
+/* 连错三次自动放行的那一下必须解释清楚。占的是提示行的位子，
+   所以强制单行、超出的省略号，绝不因为文字变长把屏幕键盘往下挤。 */
+.stage .hintline.hintline--alert {
+  color: #8a1f1f;
+  background: #ffe3e0;
+  font-weight: 800;
+  border-radius: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.combo {
+  font-size: 24px;
+  font-weight: 900;
+  color: var(--gold);
+  text-shadow: 0 2px 0 rgba(0, 0, 0, .3);
+  min-width: 96px;
+}
+
+.combo.hot { animation: pillBump .3s ease; }
+
+/* 掉落小游戏 */
+.arcade { position: relative; width: 100%; }
+/* 画面按 16:9 撑满整栏会把屏幕键盘挤到折叠线以下（1366×768 下键盘就看不见了），
+   所以按高度反推最大宽度，键位表和指法配色才是这个模式要练的东西。 */
+.arcade canvas { width: 100%; max-width: min(100%, calc(46vh * 16 / 9)); height: auto; margin: 0 auto; border-radius: var(--r-l); background: #0d1b3d; box-shadow: var(--shadow); display: block; }
+
+/* ---------- 服装商店 ---------- */
+.shop { display: grid; grid-template-columns: 300px 1fr; gap: 18px; align-items: start; }
+@media (max-width: 900px) { .shop { grid-template-columns: 1fr; } }
+
+.dressup {
+  position: sticky;
+  top: 0;
+  padding: 16px;
+  border-radius: var(--r-l);
+  background: linear-gradient(180deg, #fff8e8, #ffe9c2);
+  box-shadow: var(--shadow);
+  text-align: center;
+}
+
+.dressup__fig { height: 300px; display: flex; align-items: flex-end; justify-content: center; }
+.dressup__fig img, .dressup__fig canvas { height: 100%; width: auto; max-width: 100%; }
+.dressup__name { font-size: 23px; font-weight: 800; }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(168px, 1fr)); gap: 14px; }
+
+.fit {
+  padding: 10px;
+  border-radius: var(--r-m);
+  background: var(--paper);
+  box-shadow: 0 4px 0 rgba(0, 0, 0, .18);
+  text-align: center;
+  border: 4px solid transparent;
+}
+
+.fit__fig { height: 150px; display: flex; align-items: flex-end; justify-content: center; overflow: hidden; }
+.fit__fig img, .fit__fig canvas { height: 100%; width: auto; max-width: 100%; }
+/* 抠图失败的单件退回整张原图：不圆角就是一块生硬矩形，看着像坏图；
+   被 max-width 收窄时 contain 保证不拉伸变形。 */
+.is-card { border-radius: 14px; object-fit: contain; }
+/* 还没画上立绘的那些格子必须有形状可看，否则商店是一片对不齐的空格子。
+   同一套样式也用在顶栏头像上，那里是 span，所以用 inline-flex。 */
+.fit__ph {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 56px;
+  min-height: 56px;
+  padding: 4px 10px;
+  border: 2px dashed #b9c2d2;
+  border-radius: 12px;
+  background: #f1f4fa;
+  color: #5d6678;
+  font-size: 17px;
+  font-weight: 700;
+}
+.fit__fig .fit__ph { align-self: flex-end; height: 110px; width: 76px; font-size: 15px; }
+.fit__ph--miss { border-color: #e3a6a6; background: #fdf0f0; color: #96565a; }
+.fit__name { font-size: 16px; font-weight: 700; line-height: 1.3; min-height: 42px; }
+.fit__price { font-size: 17px; font-weight: 800; color: #8a5a00; }
+/* 立绘还没画出来的那件：图框里只有一个虚线占位，卡片其余部分看着和成品一模一样。
+   这一行是写给孩子的实话，所以不能用浅灰「次要信息」的样式糊过去。 */
+.fit__note {
+  font-size: 14px;
+  line-height: 1.35;
+  font-weight: 700;
+  color: #8a1f1f;
+  border: 2px dashed #d9a3a3;
+  border-radius: 10px;
+  background: #fff4f2;
+  padding: 4px 6px;
+}
+.fit.is-owned { border-color: #7fd66f; }
+.fit.is-on { border-color: var(--brand); }
+.fit.is-poor { opacity: .72; }
+
+.r-1 { background: #eef1f8; }
+.r-2 { background: #e2f0ff; }
+.r-3 { background: #f3e6ff; }
+.r-4 { background: #ffeed0; }
+
+.fit__r { font-size: 13px; font-weight: 800; padding: 1px 8px; border-radius: 999px; }
+.r-2 .fit__r { color: #1b5c93; }
+.r-3 .fit__r { color: #6a2ea6; }
+.r-4 .fit__r { color: #9a5c00; }
+.r-1 .fit__r { color: #5a6478; }
+
+/* 结算星星：没拿到的那一颗必须看得见，孩子要靠它知道「还差一颗」。
+   弹入动画只加在 .on 上，否则空星会停在 opacity:0 直接消失。 */
+.stars { display: flex; gap: 16px; justify-content: center; font-size: 62px; color: var(--star-off); }
+.stars i { font-style: normal; }
+.stars i.on { color: var(--star-ink); opacity: 0; transform: scale(.3); animation: starPop .42s cubic-bezier(.2, 1.7, .3, 1) forwards; }
+.stars i:nth-child(2) { animation-delay: .18s; }
+.stars i:nth-child(3) { animation-delay: .36s; }
+
+@keyframes starPop { to { opacity: 1; transform: scale(1); } }
+
+.coins { display: flex; gap: 10px; justify-content: center; font-size: 26px; font-weight: 900; color: #8a5a00; }
+
+.rest-clock { font-size: 74px; font-weight: 900; color: var(--brand-deep); text-align: center; }
