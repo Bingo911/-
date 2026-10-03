@@ -5,157 +5,157 @@
       "id": "c13",
       "o": "o1",
       "prompt": "Use case: style-transfer. Asset: full-body portrait sprite for a children's typing game. Input image: style and composition reference only. Primary request: replace the subject with Chase (阿奇) from PAW Patrol, recognizable brown German Shepherd police puppy with tan muzzle, upright pointed ears, blue police cap, blue rescue vest with police badge and blue pup-pack, standing as a puppy on four legs. Match the reference's friendly cute cartoon game illustration, dark clean outlines and soft cel shading. One character only, centered, full figure including ears, tail and feet entirely visible with ample margin. Background: perfectly uniform opaque chroma-key green #00FF00, no gradient, floor or shadows. No green parts on the character. No text, watermark, logo, signatures, frames or extra characters.",
-      "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-a9d32094-398d-49a8-8144-dc8002d44e8d.png",
+      "path": "<本机生成目录>\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-a9d32094-398d-49a8-8144-dc8002d44e8d.png",
       "destination": "assets/sprites/c13_o1.png",
-      "savedPath": "E:/workspace/打字游戏/assets/sprites/c13_o1.png"
+      "savedPath": "<项目目录>/assets/sprites/c13_o1.png"
     },
     {
       "id": "c13",
       "o": "o2",
-      "reference": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-a9d32094-398d-49a8-8144-dc8002d44e8d.png",
+      "reference": "<本机生成目录>\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-a9d32094-398d-49a8-8144-dc8002d44e8d.png",
       "subject": "the exact same Chase (阿奇) from PAW Patrol as the input image, wearing a traffic police outfit with white cap and blue vest. Preserve recognizable face, fur colors, species, proportions and four-legged puppy anatomy",
       "prompt": "Use case: style-transfer. Asset: one full-body cartoon portrait sprite for a children's typing game. Input image is the identity and drawing-style reference. Draw the exact same Chase (阿奇) from PAW Patrol as the input image, wearing a traffic police outfit with white cap and blue vest. Preserve recognizable face, fur colors, species, proportions and four-legged puppy anatomy. Match clean dark outlines, soft cel shading, cheerful child-friendly game style. Entire figure, ears, tail, hat and feet visible, centered with clear margin. Opaque perfectly uniform chroma-key background #00FF00. No ground, gradients, scenery or cast shadows. No green colors on character or clothing. No lettering, watermark, signatures or frame.",
-      "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-5a2263c8-950b-42f5-bb69-7e24ce699412.png",
+      "path": "<本机生成目录>\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-5a2263c8-950b-42f5-bb69-7e24ce699412.png",
       "destination": "assets/sprites/c13_o2.png",
-      "savedPath": "E:/workspace/打字游戏/assets/sprites/c13_o2.png"
+      "savedPath": "<项目目录>/assets/sprites/c13_o2.png"
     },
     {
       "id": "c13",
       "o": "o3",
-      "reference": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-a9d32094-398d-49a8-8144-dc8002d44e8d.png",
+      "reference": "<本机生成目录>\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-a9d32094-398d-49a8-8144-dc8002d44e8d.png",
       "subject": "the exact same Chase (阿奇) from PAW Patrol as the input image, wearing a search and rescue outfit with orange harness and rescue backpack. Preserve recognizable face, fur colors, species, proportions and four-legged puppy anatomy",
       "prompt": "Use case: style-transfer. Asset: one full-body cartoon portrait sprite for a children's typing game. Input image is the identity and drawing-style reference. Draw the exact same Chase (阿奇) from PAW Patrol as the input image, wearing a search and rescue outfit with orange harness and rescue backpack. Preserve recognizable face, fur colors, species, proportions and four-legged puppy anatomy. Match clean dark outlines, soft cel shading, cheerful child-friendly game style. Entire figure, ears, tail, hat and feet visible, centered with clear margin. Opaque perfectly uniform chroma-key background #00FF00. No ground, gradients, scenery or cast shadows. No green colors on character or clothing. No lettering, watermark, signatures or frame.",
-      "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-3b6ca3a1-45ff-4a22-bb2e-ff89b8bc6817.png",
+      "path": "<本机生成目录>\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-3b6ca3a1-45ff-4a22-bb2e-ff89b8bc6817.png",
       "destination": "assets/sprites/c13_o3.png",
-      "savedPath": "E:/workspace/打字游戏/assets/sprites/c13_o3.png"
+      "savedPath": "<项目目录>/assets/sprites/c13_o3.png"
     },
     {
       "id": "c13",
       "o": "o4",
-      "reference": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-a9d32094-398d-49a8-8144-dc8002d44e8d.png",
+      "reference": "<本机生成目录>\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-a9d32094-398d-49a8-8144-dc8002d44e8d.png",
       "subject": "the exact same Chase (阿奇) from PAW Patrol as the input image, wearing a detective outfit with tan cap and tan trench coat designed for a four-legged puppy. Preserve recognizable face, fur colors, species, proportions and four-legged puppy anatomy",
       "prompt": "Use case: style-transfer. Asset: one full-body cartoon portrait sprite for a children's typing game. Input image is the identity and drawing-style reference. Draw the exact same Chase (阿奇) from PAW Patrol as the input image, wearing a detective outfit with tan cap and tan trench coat designed for a four-legged puppy. Preserve recognizable face, fur colors, species, proportions and four-legged puppy anatomy. Match clean dark outlines, soft cel shading, cheerful child-friendly game style. Entire figure, ears, tail, hat and feet visible, centered with clear margin. Opaque perfectly uniform chroma-key background #00FF00. No ground, gradients, scenery or cast shadows. No green colors on character or clothing. No lettering, watermark, signatures or frame.",
-      "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-da822f22-c5f9-43bf-9447-7d5113bbc95a.png",
+      "path": "<本机生成目录>\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-da822f22-c5f9-43bf-9447-7d5113bbc95a.png",
       "destination": "assets/sprites/c13_o4.png",
-      "savedPath": "E:/workspace/打字游戏/assets/sprites/c13_o4.png"
+      "savedPath": "<项目目录>/assets/sprites/c13_o4.png"
     },
     {
       "id": "c13",
       "o": "o5",
-      "reference": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-a9d32094-398d-49a8-8144-dc8002d44e8d.png",
+      "reference": "<本机生成目录>\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-a9d32094-398d-49a8-8144-dc8002d44e8d.png",
       "subject": "the exact same Chase (阿奇) from PAW Patrol as the input image, wearing a medieval knight silver armor designed for a four-legged puppy. Preserve recognizable face, fur colors, species, proportions and four-legged puppy anatomy",
       "prompt": "Use case: style-transfer. Asset: one full-body cartoon portrait sprite for a children's typing game. Input image is the identity and drawing-style reference. Draw the exact same Chase (阿奇) from PAW Patrol as the input image, wearing a medieval knight silver armor designed for a four-legged puppy. Preserve recognizable face, fur colors, species, proportions and four-legged puppy anatomy. Match clean dark outlines, soft cel shading, cheerful child-friendly game style. Entire figure, ears, tail, hat and feet visible, centered with clear margin. Opaque perfectly uniform chroma-key background #00FF00. No ground, gradients, scenery or cast shadows. No green colors on character or clothing. No lettering, watermark, signatures or frame.",
-      "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-eb8e016f-5dab-4316-aeef-e72095dd8f1d.png",
+      "path": "<本机生成目录>\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-eb8e016f-5dab-4316-aeef-e72095dd8f1d.png",
       "destination": "assets/sprites/c13_o5.png",
-      "savedPath": "E:/workspace/打字游戏/assets/sprites/c13_o5.png"
+      "savedPath": "<项目目录>/assets/sprites/c13_o5.png"
     },
     {
       "id": "c13",
       "o": "o6",
-      "reference": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-a9d32094-398d-49a8-8144-dc8002d44e8d.png",
+      "reference": "<本机生成目录>\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-a9d32094-398d-49a8-8144-dc8002d44e8d.png",
       "subject": "the exact same Chase (阿奇) from PAW Patrol as the input image, wearing a space police navy and silver astronaut suit and backpack designed for a four-legged puppy. Preserve recognizable face, fur colors, species, proportions and four-legged puppy anatomy",
       "prompt": "Use case: style-transfer. Asset: one full-body cartoon portrait sprite for a children's typing game. Input image is the identity and drawing-style reference. Draw the exact same Chase (阿奇) from PAW Patrol as the input image, wearing a space police navy and silver astronaut suit and backpack designed for a four-legged puppy. Preserve recognizable face, fur colors, species, proportions and four-legged puppy anatomy. Match clean dark outlines, soft cel shading, cheerful child-friendly game style. Entire figure, ears, tail, hat and feet visible, centered with clear margin. Opaque perfectly uniform chroma-key background #00FF00. No ground, gradients, scenery or cast shadows. No green colors on character or clothing. No lettering, watermark, signatures or frame.",
-      "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-81054fbc-808f-4872-bf31-16b0a96b4d86.png",
+      "path": "<本机生成目录>\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-81054fbc-808f-4872-bf31-16b0a96b4d86.png",
       "destination": "assets/sprites/c13_o6.png",
-      "savedPath": "E:/workspace/打字游戏/assets/sprites/c13_o6.png"
+      "savedPath": "<项目目录>/assets/sprites/c13_o6.png"
     },
     {
       "id": "c13",
       "o": "o7",
-      "reference": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-a9d32094-398d-49a8-8144-dc8002d44e8d.png",
+      "reference": "<本机生成目录>\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-a9d32094-398d-49a8-8144-dc8002d44e8d.png",
       "subject": "the exact same Chase (阿奇) from PAW Patrol as the input image, wearing a Chinese New Year festive red and gold formal outfit designed for a four-legged puppy. Preserve recognizable face, fur colors, species, proportions and four-legged puppy anatomy",
       "prompt": "Use case: style-transfer. Asset: one full-body cartoon portrait sprite for a children's typing game. Input image is the identity and drawing-style reference. Draw the exact same Chase (阿奇) from PAW Patrol as the input image, wearing a Chinese New Year festive red and gold formal outfit designed for a four-legged puppy. Preserve recognizable face, fur colors, species, proportions and four-legged puppy anatomy. Match clean dark outlines, soft cel shading, cheerful child-friendly game style. Entire figure, ears, tail, hat and feet visible, centered with clear margin. Opaque perfectly uniform chroma-key background #00FF00. No ground, gradients, scenery or cast shadows. No green colors on character or clothing. No lettering, watermark, signatures or frame.",
-      "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-73449d49-947b-4246-9d8a-aee74fbe20ac.png",
+      "path": "<本机生成目录>\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-73449d49-947b-4246-9d8a-aee74fbe20ac.png",
       "destination": "assets/sprites/c13_o7.png",
-      "savedPath": "E:/workspace/打字游戏/assets/sprites/c13_o7.png"
+      "savedPath": "<项目目录>/assets/sprites/c13_o7.png"
     },
     {
       "id": "c13",
       "o": "o8",
-      "reference": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-a9d32094-398d-49a8-8144-dc8002d44e8d.png",
+      "reference": "<本机生成目录>\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-a9d32094-398d-49a8-8144-dc8002d44e8d.png",
       "subject": "the exact same Chase (阿奇) from PAW Patrol as the input image, wearing a Halloween sheriff purple police costume with pumpkin ornament designed for a four-legged puppy. Preserve recognizable face, fur colors, species, proportions and four-legged puppy anatomy",
       "prompt": "Use case: style-transfer. Asset: one full-body cartoon portrait sprite for a children's typing game. Input image is the identity and drawing-style reference. Draw the exact same Chase (阿奇) from PAW Patrol as the input image, wearing a Halloween sheriff purple police costume with pumpkin ornament designed for a four-legged puppy. Preserve recognizable face, fur colors, species, proportions and four-legged puppy anatomy. Match clean dark outlines, soft cel shading, cheerful child-friendly game style. Entire figure, ears, tail, hat and feet visible, centered with clear margin. Opaque perfectly uniform chroma-key background #00FF00. No ground, gradients, scenery or cast shadows. No green colors on character or clothing. No lettering, watermark, signatures or frame.",
-      "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-53c38ec0-f6ad-49aa-a01b-9c7ac9304063.png",
+      "path": "<本机生成目录>\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-53c38ec0-f6ad-49aa-a01b-9c7ac9304063.png",
       "destination": "assets/sprites/c13_o8.png",
-      "savedPath": "E:/workspace/打字游戏/assets/sprites/c13_o8.png"
+      "savedPath": "<项目目录>/assets/sprites/c13_o8.png"
     },
     {
       "id": "c9",
       "o": "o1",
       "prompt": "Use case: style-transfer. Asset: full-body portrait sprite for a children's typing game. Input image: style and composition reference only. Primary request: replace the subject with Briar's younger brother Bramble (熊二) from the Chinese cartoon Boonie Bears (熊出没), recognizable round stocky golden brown bear, pale cream muzzle and big pale belly, pinkish nose, friendly goofy expression, no vest or basket. Match the reference's friendly cute cartoon game illustration, dark clean outlines and soft cel shading. One character only, centered, full figure including ears, tail and feet entirely visible with ample margin. Background: perfectly uniform opaque chroma-key green #00FF00, no gradient, floor or shadows. No green parts on the character. No text, watermark, logo, signatures, frames or extra characters.",
-      "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-623a5f3f-101c-4d3d-8da3-fa63d781834c.png",
+      "path": "<本机生成目录>\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-623a5f3f-101c-4d3d-8da3-fa63d781834c.png",
       "destination": "assets/sprites/c9_o1.png",
-      "savedPath": "E:/workspace/打字游戏/assets/sprites/c9_o1.png"
+      "savedPath": "<项目目录>/assets/sprites/c9_o1.png"
     },
     {
       "id": "c9",
       "o": "o2",
-      "reference": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-623a5f3f-101c-4d3d-8da3-fa63d781834c.png",
+      "reference": "<本机生成目录>\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-623a5f3f-101c-4d3d-8da3-fa63d781834c.png",
       "subject": "the exact same Bramble (熊二) from Boonie Bears as the input image, wearing a forest ranger in a blue ranger outfit and hat. Preserve recognizable face, fur colors, species, proportions and round stocky bear anatomy",
       "prompt": "Use case: style-transfer. Asset: one full-body cartoon portrait sprite for a children's typing game. Input image is the identity and drawing-style reference. Draw the exact same Bramble (熊二) from Boonie Bears as the input image, wearing a forest ranger in a blue ranger outfit and hat. Preserve recognizable face, fur colors, species, proportions and round stocky bear anatomy. Match clean dark outlines, soft cel shading, cheerful child-friendly game style. Entire figure, ears, tail, hat and feet visible, centered with clear margin. Opaque perfectly uniform chroma-key background #00FF00. No ground, gradients, scenery or cast shadows. No green colors on character or clothing. No lettering, watermark, signatures or frame.",
-      "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-1878b3c2-7229-4506-9dc8-2b71de2217fb.png",
+      "path": "<本机生成目录>\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-1878b3c2-7229-4506-9dc8-2b71de2217fb.png",
       "destination": "assets/sprites/c9_o2.png",
-      "savedPath": "E:/workspace/打字游戏/assets/sprites/c9_o2.png"
+      "savedPath": "<项目目录>/assets/sprites/c9_o2.png"
     },
     {
       "id": "c9",
       "o": "o3",
-      "reference": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-623a5f3f-101c-4d3d-8da3-fa63d781834c.png",
+      "reference": "<本机生成目录>\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-623a5f3f-101c-4d3d-8da3-fa63d781834c.png",
       "subject": "the exact same Bramble (熊二) from Boonie Bears as the input image, wearing a baker wearing white apron and chef hat holding a loaf of bread. Preserve recognizable face, fur colors, species, proportions and round stocky bear anatomy",
       "prompt": "Use case: style-transfer. Asset: one full-body cartoon portrait sprite for a children's typing game. Input image is the identity and drawing-style reference. Draw the exact same Bramble (熊二) from Boonie Bears as the input image, wearing a baker wearing white apron and chef hat holding a loaf of bread. Preserve recognizable face, fur colors, species, proportions and round stocky bear anatomy. Match clean dark outlines, soft cel shading, cheerful child-friendly game style. Entire figure, ears, tail, hat and feet visible, centered with clear margin. Opaque perfectly uniform chroma-key background #00FF00. No ground, gradients, scenery or cast shadows. No green colors on character or clothing. No lettering, watermark, signatures or frame.",
-      "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-66d3cfff-45cd-4b7f-bf1f-8f915df2b7c8.png",
+      "path": "<本机生成目录>\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-66d3cfff-45cd-4b7f-bf1f-8f915df2b7c8.png",
       "destination": "assets/sprites/c9_o3.png",
-      "savedPath": "E:/workspace/打字游戏/assets/sprites/c9_o3.png"
+      "savedPath": "<项目目录>/assets/sprites/c9_o3.png"
     },
     {
       "id": "c9",
       "o": "o4",
-      "reference": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-623a5f3f-101c-4d3d-8da3-fa63d781834c.png",
+      "reference": "<本机生成目录>\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-623a5f3f-101c-4d3d-8da3-fa63d781834c.png",
       "subject": "the exact same Bramble (熊二) from Boonie Bears as the input image, wearing a bamboo martial artist in red and ivory kung fu tunic holding a bamboo staff. Preserve recognizable face, fur colors, species, proportions and round stocky bear anatomy",
       "prompt": "Use case: style-transfer. Asset: one full-body cartoon portrait sprite for a children's typing game. Input image is the identity and drawing-style reference. Draw the exact same Bramble (熊二) from Boonie Bears as the input image, wearing a bamboo martial artist in red and ivory kung fu tunic holding a bamboo staff. Preserve recognizable face, fur colors, species, proportions and round stocky bear anatomy. Match clean dark outlines, soft cel shading, cheerful child-friendly game style. Entire figure, ears, tail, hat and feet visible, centered with clear margin. Opaque perfectly uniform chroma-key background #00FF00. No ground, gradients, scenery or cast shadows. No green colors on character or clothing. No lettering, watermark, signatures or frame.",
-      "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-7ad4cfef-c7be-4984-84ca-bc0f61a2cd94.png",
+      "path": "<本机生成目录>\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-7ad4cfef-c7be-4984-84ca-bc0f61a2cd94.png",
       "destination": "assets/sprites/c9_o4.png",
-      "savedPath": "E:/workspace/打字游戏/assets/sprites/c9_o4.png"
+      "savedPath": "<项目目录>/assets/sprites/c9_o4.png"
     },
     {
       "id": "c9",
       "o": "o5",
-      "reference": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-623a5f3f-101c-4d3d-8da3-fa63d781834c.png",
+      "reference": "<本机生成目录>\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-623a5f3f-101c-4d3d-8da3-fa63d781834c.png",
       "subject": "the exact same Bramble (熊二) from Boonie Bears as the input image, wearing a mountain wizard in a purple pointed hat and robe holding a magic staff. Preserve recognizable face, fur colors, species, proportions and round stocky bear anatomy",
       "prompt": "Use case: style-transfer. Asset: one full-body cartoon portrait sprite for a children's typing game. Input image is the identity and drawing-style reference. Draw the exact same Bramble (熊二) from Boonie Bears as the input image, wearing a mountain wizard in a purple pointed hat and robe holding a magic staff. Preserve recognizable face, fur colors, species, proportions and round stocky bear anatomy. Match clean dark outlines, soft cel shading, cheerful child-friendly game style. Entire figure, ears, tail, hat and feet visible, centered with clear margin. Opaque perfectly uniform chroma-key background #00FF00. No ground, gradients, scenery or cast shadows. No green colors on character or clothing. No lettering, watermark, signatures or frame.",
-      "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-7cae20eb-1bc0-454f-b282-14944134fc9e.png",
+      "path": "<本机生成目录>\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-7cae20eb-1bc0-454f-b282-14944134fc9e.png",
       "destination": "assets/sprites/c9_o5.png",
-      "savedPath": "E:/workspace/打字游戏/assets/sprites/c9_o5.png"
+      "savedPath": "<项目目录>/assets/sprites/c9_o5.png"
     },
     {
       "id": "c9",
       "o": "o6",
-      "reference": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-623a5f3f-101c-4d3d-8da3-fa63d781834c.png",
+      "reference": "<本机生成目录>\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-623a5f3f-101c-4d3d-8da3-fa63d781834c.png",
       "subject": "the exact same Bramble (熊二) from Boonie Bears as the input image, wearing a pirate captain in a dark blue coat and tricorn hat. Preserve recognizable face, fur colors, species, proportions and round stocky bear anatomy",
       "prompt": "Use case: style-transfer. Asset: one full-body cartoon portrait sprite for a children's typing game. Input image is the identity and drawing-style reference. Draw the exact same Bramble (熊二) from Boonie Bears as the input image, wearing a pirate captain in a dark blue coat and tricorn hat. Preserve recognizable face, fur colors, species, proportions and round stocky bear anatomy. Match clean dark outlines, soft cel shading, cheerful child-friendly game style. Entire figure, ears, tail, hat and feet visible, centered with clear margin. Opaque perfectly uniform chroma-key background #00FF00. No ground, gradients, scenery or cast shadows. No green colors on character or clothing. No lettering, watermark, signatures or frame.",
-      "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-451b3e93-2c09-4b5f-9d1c-98c39307d389.png",
+      "path": "<本机生成目录>\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-451b3e93-2c09-4b5f-9d1c-98c39307d389.png",
       "destination": "assets/sprites/c9_o6.png",
-      "savedPath": "E:/workspace/打字游戏/assets/sprites/c9_o6.png"
+      "savedPath": "<项目目录>/assets/sprites/c9_o6.png"
     },
     {
       "id": "c9",
       "o": "o7",
-      "reference": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-623a5f3f-101c-4d3d-8da3-fa63d781834c.png",
+      "reference": "<本机生成目录>\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-623a5f3f-101c-4d3d-8da3-fa63d781834c.png",
       "subject": "the exact same Bramble (熊二) from Boonie Bears as the input image, wearing a Chinese New Year lion dance performer wearing a red-and-gold lion dance cape and carrying a small lion head. Preserve recognizable face, fur colors, species, proportions and round stocky bear anatomy",
       "prompt": "Use case: style-transfer. Asset: one full-body cartoon portrait sprite for a children's typing game. Input image is the identity and drawing-style reference. Draw the exact same Bramble (熊二) from Boonie Bears as the input image, wearing a Chinese New Year lion dance performer wearing a red-and-gold lion dance cape and carrying a small lion head. Preserve recognizable face, fur colors, species, proportions and round stocky bear anatomy. Match clean dark outlines, soft cel shading, cheerful child-friendly game style. Entire figure, ears, tail, hat and feet visible, centered with clear margin. Opaque perfectly uniform chroma-key background #00FF00. No ground, gradients, scenery or cast shadows. No green colors on character or clothing. No lettering, watermark, signatures or frame.",
-      "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-d2b338c6-b635-41f8-9414-006b23bbd1d5.png",
+      "path": "<本机生成目录>\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-d2b338c6-b635-41f8-9414-006b23bbd1d5.png",
       "destination": "assets/sprites/c9_o7.png",
-      "savedPath": "E:/workspace/打字游戏/assets/sprites/c9_o7.png"
+      "savedPath": "<项目目录>/assets/sprites/c9_o7.png"
     },
     {
       "id": "c9",
       "o": "o8",
-      "reference": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-623a5f3f-101c-4d3d-8da3-fa63d781834c.png",
+      "reference": "<本机生成目录>\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-623a5f3f-101c-4d3d-8da3-fa63d781834c.png",
       "subject": "the exact same Bramble (熊二) from Boonie Bears as the input image, wearing a birthday party outfit wearing a colorful party hat with a cake. Preserve recognizable face, fur colors, species, proportions and round stocky bear anatomy",
       "prompt": "Use case: style-transfer. Asset: one full-body cartoon portrait sprite for a children's typing game. Input image is the identity and drawing-style reference. Draw the exact same Bramble (熊二) from Boonie Bears as the input image, wearing a birthday party outfit wearing a colorful party hat with a cake. Preserve recognizable face, fur colors, species, proportions and round stocky bear anatomy. Match clean dark outlines, soft cel shading, cheerful child-friendly game style. Entire figure, ears, tail, hat and feet visible, centered with clear margin. Opaque perfectly uniform chroma-key background #00FF00. No ground, gradients, scenery or cast shadows. No green colors on character or clothing. No lettering, watermark, signatures or frame.",
-      "path": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-0769b2c0-e3ef-4d1e-ada4-d8befd8dbe89.png",
+      "path": "<本机生成目录>\\01a0fa8d-7eb7-7a20-b6be-800fc59ee05c\\exec-0769b2c0-e3ef-4d1e-ada4-d8befd8dbe89.png",
       "destination": "assets/sprites/c9_o8.png",
-      "savedPath": "E:/workspace/打字游戏/assets/sprites/c9_o8.png"
+      "savedPath": "<项目目录>/assets/sprites/c9_o8.png"
     }
   ],
   "blocked": [
