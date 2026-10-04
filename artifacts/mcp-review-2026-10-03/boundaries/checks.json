@@ -1,0 +1,718 @@
+[
+  {
+    "ids": [
+      "K9a"
+    ],
+    "name": "A1 完成门槛 -1",
+    "status": "PASS",
+    "detail": {
+      "parameters": {
+        "total": 30,
+        "par": [
+          15,
+          22,
+          30
+        ],
+        "acc": [
+          80,
+          86,
+          92
+        ],
+        "gate": 4
+      },
+      "input": {
+        "speed": 40,
+        "accuracy": 100,
+        "done_delta": -1,
+        "skipped": 0
+      },
+      "result": {
+        "levelId": "A1",
+        "mode": "challenge",
+        "stars": 0,
+        "speed": 40,
+        "acc": 100,
+        "done": 3,
+        "total": 30,
+        "skipped": 0,
+        "correct": 40000,
+        "wrong": 0,
+        "maxCombo": 0,
+        "ms": 60000000,
+        "score": 4000
+      }
+    },
+    "method": "浏览器真实结算轮询 + 整数计数/受控时钟夹具",
+    "phase": "controlled-boundaries"
+  },
+  {
+    "ids": [
+      "K9a"
+    ],
+    "name": "A1 完成门槛 0",
+    "status": "PASS",
+    "detail": {
+      "parameters": {
+        "total": 30,
+        "par": [
+          15,
+          22,
+          30
+        ],
+        "acc": [
+          80,
+          86,
+          92
+        ],
+        "gate": 4
+      },
+      "input": {
+        "speed": 40,
+        "accuracy": 100,
+        "done_delta": 0,
+        "skipped": 0
+      },
+      "result": {
+        "levelId": "A1",
+        "mode": "challenge",
+        "stars": 3,
+        "speed": 40,
+        "acc": 100,
+        "done": 4,
+        "total": 30,
+        "skipped": 0,
+        "correct": 40000,
+        "wrong": 0,
+        "maxCombo": 0,
+        "ms": 60000000,
+        "score": 4000
+      }
+    },
+    "method": "浏览器真实结算轮询 + 整数计数/受控时钟夹具",
+    "phase": "controlled-boundaries"
+  },
+  {
+    "ids": [
+      "K9b"
+    ],
+    "name": "A1 1 星 恰好达标",
+    "status": "PASS",
+    "detail": {
+      "parameters": {
+        "total": 30,
+        "par": [
+          15,
+          22,
+          30
+        ],
+        "acc": [
+          80,
+          86,
+          92
+        ],
+        "gate": 4
+      },
+      "input": {
+        "speed": 15,
+        "accuracy": 80,
+        "done_delta": 0,
+        "skipped": 0
+      },
+      "result": {
+        "levelId": "A1",
+        "mode": "challenge",
+        "stars": 1,
+        "speed": 15,
+        "acc": 80,
+        "done": 4,
+        "total": 30,
+        "skipped": 0,
+        "correct": 12000,
+        "wrong": 3000,
+        "maxCombo": 0,
+        "ms": 48000000,
+        "score": 1200
+      }
+    },
+    "method": "浏览器真实结算轮询 + 受控指标夹具；不是人工限速输入",
+    "phase": "controlled-boundaries"
+  },
+  {
+    "ids": [
+      "K9b"
+    ],
+    "name": "A1 1 星 速度略低",
+    "status": "PASS",
+    "detail": {
+      "parameters": {
+        "total": 30,
+        "par": [
+          15,
+          22,
+          30
+        ],
+        "acc": [
+          80,
+          86,
+          92
+        ],
+        "gate": 4
+      },
+      "input": {
+        "speed": 14.9,
+        "accuracy": 80,
+        "done_delta": 0,
+        "skipped": 0
+      },
+      "result": {
+        "levelId": "A1",
+        "mode": "challenge",
+        "stars": 0,
+        "speed": 15,
+        "acc": 80,
+        "done": 4,
+        "total": 30,
+        "skipped": 0,
+        "correct": 11920,
+        "wrong": 2980,
+        "maxCombo": 0,
+        "ms": 48000000,
+        "score": 1200
+      }
+    },
+    "method": "浏览器真实结算轮询 + 受控指标夹具；不是人工限速输入",
+    "phase": "controlled-boundaries"
+  },
+  {
+    "ids": [
+      "K9b"
+    ],
+    "name": "A1 1 星 准确率略低",
+    "status": "PASS",
+    "detail": {
+      "parameters": {
+        "total": 30,
+        "par": [
+          15,
+          22,
+          30
+        ],
+        "acc": [
+          80,
+          86,
+          92
+        ],
+        "gate": 4
+      },
+      "input": {
+        "speed": 15,
+        "accuracy": 79.9,
+        "done_delta": 0,
+        "skipped": 0
+      },
+      "result": {
+        "levelId": "A1",
+        "mode": "challenge",
+        "stars": 0,
+        "speed": 15,
+        "acc": 79.9,
+        "done": 4,
+        "total": 30,
+        "skipped": 0,
+        "correct": 11985,
+        "wrong": 3015,
+        "maxCombo": 0,
+        "ms": 47940000,
+        "score": 1198.5
+      }
+    },
+    "method": "浏览器真实结算轮询 + 受控指标夹具；不是人工限速输入",
+    "phase": "controlled-boundaries"
+  },
+  {
+    "ids": [
+      "K9b"
+    ],
+    "name": "A1 2 星 恰好达标",
+    "status": "PASS",
+    "detail": {
+      "parameters": {
+        "total": 30,
+        "par": [
+          15,
+          22,
+          30
+        ],
+        "acc": [
+          80,
+          86,
+          92
+        ],
+        "gate": 4
+      },
+      "input": {
+        "speed": 22,
+        "accuracy": 86,
+        "done_delta": 0,
+        "skipped": 0
+      },
+      "result": {
+        "levelId": "A1",
+        "mode": "challenge",
+        "stars": 2,
+        "speed": 22,
+        "acc": 86,
+        "done": 4,
+        "total": 30,
+        "skipped": 0,
+        "correct": 18920,
+        "wrong": 3080,
+        "maxCombo": 0,
+        "ms": 51600000,
+        "score": 1892
+      }
+    },
+    "method": "浏览器真实结算轮询 + 受控指标夹具；不是人工限速输入",
+    "phase": "controlled-boundaries"
+  },
+  {
+    "ids": [
+      "K9b"
+    ],
+    "name": "A1 2 星 速度略低",
+    "status": "PASS",
+    "detail": {
+      "parameters": {
+        "total": 30,
+        "par": [
+          15,
+          22,
+          30
+        ],
+        "acc": [
+          80,
+          86,
+          92
+        ],
+        "gate": 4
+      },
+      "input": {
+        "speed": 21.9,
+        "accuracy": 86,
+        "done_delta": 0,
+        "skipped": 0
+      },
+      "result": {
+        "levelId": "A1",
+        "mode": "challenge",
+        "stars": 1,
+        "speed": 22,
+        "acc": 86,
+        "done": 4,
+        "total": 30,
+        "skipped": 0,
+        "correct": 18834,
+        "wrong": 3066,
+        "maxCombo": 0,
+        "ms": 51600000,
+        "score": 1892
+      }
+    },
+    "method": "浏览器真实结算轮询 + 受控指标夹具；不是人工限速输入",
+    "phase": "controlled-boundaries"
+  },
+  {
+    "ids": [
+      "K9b"
+    ],
+    "name": "A1 2 星 准确率略低",
+    "status": "PASS",
+    "detail": {
+      "parameters": {
+        "total": 30,
+        "par": [
+          15,
+          22,
+          30
+        ],
+        "acc": [
+          80,
+          86,
+          92
+        ],
+        "gate": 4
+      },
+      "input": {
+        "speed": 22,
+        "accuracy": 85.9,
+        "done_delta": 0,
+        "skipped": 0
+      },
+      "result": {
+        "levelId": "A1",
+        "mode": "challenge",
+        "stars": 1,
+        "speed": 22,
+        "acc": 85.9,
+        "done": 4,
+        "total": 30,
+        "skipped": 0,
+        "correct": 18898,
+        "wrong": 3102,
+        "maxCombo": 0,
+        "ms": 51540000,
+        "score": 1889.8000000000002
+      }
+    },
+    "method": "浏览器真实结算轮询 + 受控指标夹具；不是人工限速输入",
+    "phase": "controlled-boundaries"
+  },
+  {
+    "ids": [
+      "K9b"
+    ],
+    "name": "A1 3 星 恰好达标",
+    "status": "PASS",
+    "detail": {
+      "parameters": {
+        "total": 30,
+        "par": [
+          15,
+          22,
+          30
+        ],
+        "acc": [
+          80,
+          86,
+          92
+        ],
+        "gate": 4
+      },
+      "input": {
+        "speed": 30,
+        "accuracy": 92,
+        "done_delta": 0,
+        "skipped": 0
+      },
+      "result": {
+        "levelId": "A1",
+        "mode": "challenge",
+        "stars": 3,
+        "speed": 30,
+        "acc": 92,
+        "done": 4,
+        "total": 30,
+        "skipped": 0,
+        "correct": 27600,
+        "wrong": 2400,
+        "maxCombo": 0,
+        "ms": 55200000,
+        "score": 2760
+      }
+    },
+    "method": "浏览器真实结算轮询 + 受控指标夹具；不是人工限速输入",
+    "phase": "controlled-boundaries"
+  },
+  {
+    "ids": [
+      "K9b"
+    ],
+    "name": "A1 3 星 速度略低",
+    "status": "PASS",
+    "detail": {
+      "parameters": {
+        "total": 30,
+        "par": [
+          15,
+          22,
+          30
+        ],
+        "acc": [
+          80,
+          86,
+          92
+        ],
+        "gate": 4
+      },
+      "input": {
+        "speed": 29.9,
+        "accuracy": 92,
+        "done_delta": 0,
+        "skipped": 0
+      },
+      "result": {
+        "levelId": "A1",
+        "mode": "challenge",
+        "stars": 2,
+        "speed": 30,
+        "acc": 92,
+        "done": 4,
+        "total": 30,
+        "skipped": 0,
+        "correct": 27508,
+        "wrong": 2392,
+        "maxCombo": 0,
+        "ms": 55200000,
+        "score": 2760
+      }
+    },
+    "method": "浏览器真实结算轮询 + 受控指标夹具；不是人工限速输入",
+    "phase": "controlled-boundaries"
+  },
+  {
+    "ids": [
+      "K9b"
+    ],
+    "name": "A1 3 星 准确率略低",
+    "status": "PASS",
+    "detail": {
+      "parameters": {
+        "total": 30,
+        "par": [
+          15,
+          22,
+          30
+        ],
+        "acc": [
+          80,
+          86,
+          92
+        ],
+        "gate": 4
+      },
+      "input": {
+        "speed": 30,
+        "accuracy": 91.9,
+        "done_delta": 0,
+        "skipped": 0
+      },
+      "result": {
+        "levelId": "A1",
+        "mode": "challenge",
+        "stars": 2,
+        "speed": 30,
+        "acc": 91.9,
+        "done": 4,
+        "total": 30,
+        "skipped": 0,
+        "correct": 27570,
+        "wrong": 2430,
+        "maxCombo": 0,
+        "ms": 55140000,
+        "score": 2757
+      }
+    },
+    "method": "浏览器真实结算轮询 + 受控指标夹具；不是人工限速输入",
+    "phase": "controlled-boundaries"
+  },
+  {
+    "ids": [
+      "K9b",
+      "K6"
+    ],
+    "name": "其他条件三星、有跳过时封顶两星",
+    "status": "PASS",
+    "detail": {
+      "parameters": {
+        "total": 30,
+        "par": [
+          15,
+          22,
+          30
+        ],
+        "acc": [
+          80,
+          86,
+          92
+        ],
+        "gate": 4
+      },
+      "input": {
+        "speed": 40,
+        "accuracy": 100,
+        "done_delta": 0,
+        "skipped": 1
+      },
+      "result": {
+        "levelId": "A1",
+        "mode": "challenge",
+        "stars": 2,
+        "speed": 40,
+        "acc": 100,
+        "done": 4,
+        "total": 30,
+        "skipped": 1,
+        "correct": 40000,
+        "wrong": 0,
+        "maxCombo": 0,
+        "ms": 60000000,
+        "score": 4000
+      }
+    },
+    "method": "浏览器真实结算 + 跳过计数夹具",
+    "phase": "controlled-boundaries"
+  },
+  {
+    "ids": [
+      "K3"
+    ],
+    "name": "practice 进度 80% 警示色",
+    "status": "PASS",
+    "detail": {
+      "width": "80%",
+      "warn": false
+    },
+    "method": "浏览器轮询 + 受控时钟/目标计数夹具",
+    "phase": "controlled-boundaries"
+  },
+  {
+    "ids": [
+      "K3"
+    ],
+    "name": "practice 进度 80.1% 警示色",
+    "status": "PASS",
+    "detail": {
+      "width": "80%",
+      "warn": true
+    },
+    "method": "浏览器轮询 + 受控时钟/目标计数夹具",
+    "phase": "controlled-boundaries"
+  },
+  {
+    "ids": [
+      "K3"
+    ],
+    "name": "challenge 进度 80% 警示色",
+    "status": "PASS",
+    "detail": {
+      "width": "80%",
+      "warn": false
+    },
+    "method": "浏览器轮询 + 受控时钟/目标计数夹具",
+    "phase": "controlled-boundaries"
+  },
+  {
+    "ids": [
+      "K3"
+    ],
+    "name": "challenge 进度 80.1% 警示色",
+    "status": "PASS",
+    "detail": {
+      "width": "80%",
+      "warn": true
+    },
+    "method": "浏览器轮询 + 受控时钟/目标计数夹具",
+    "phase": "controlled-boundaries"
+  },
+  {
+    "ids": [
+      "K13c"
+    ],
+    "name": "仅当前角色推荐且选择最便宜服装 True",
+    "status": "PASS",
+    "detail": "回家：基准键\n\n八个手指放在 ASDF JKL; 上\n\n☆\n☆\n☆\n\n练习完成，这一局不计星、不解锁\n\n速度\n0 键/分\n准确率\n100%\n完成\n0 / 12\n最高连击\n×0\n+0 积分\n再来一次\n先练一练\n回到地图",
+    "method": "拥有列表夹具 + 真实练习结算",
+    "phase": "controlled-boundaries"
+  },
+  {
+    "ids": [
+      "K13c"
+    ],
+    "name": "仅当前角色推荐且选择最便宜服装 False",
+    "status": "PASS",
+    "detail": "回家：基准键\n\n八个手指放在 ASDF JKL; 上\n\n☆\n☆\n☆\n\n练习完成，这一局不计星、不解锁\n\n速度\n0 键/分\n准确率\n100%\n完成\n0 / 12\n最高连击\n×0\n+0 积分\n\n商店里有你能买的服装了：小星 的「小医生」，120 积分。\n\n再来一次\n先练一练\n回到地图",
+    "method": "拥有列表夹具 + 真实练习结算",
+    "phase": "controlled-boundaries"
+  },
+  {
+    "ids": [
+      "H3"
+    ],
+    "name": "旧档已拥有缺图服装允许选择穿戴",
+    "status": "PASS",
+    "detail": "穿上",
+    "method": "浏览器 UI",
+    "phase": "controlled-boundaries"
+  },
+  {
+    "ids": [
+      "H3"
+    ],
+    "name": "已拥有缺图服装穿戴保存且仍显示占位",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "controlled-boundaries"
+  },
+  {
+    "ids": [
+      "I5"
+    ],
+    "name": "同键同任务两次事件只处理一次",
+    "status": "PASS",
+    "detail": {
+      "correctDelta": 1,
+      "wrongDelta": 0
+    },
+    "method": "合成 DOM 事件；不替代物理键盘抖动",
+    "phase": "controlled-boundaries"
+  },
+  {
+    "ids": [
+      "I5",
+      "I7"
+    ],
+    "name": "屏幕键盘通路同任务连续输入不受真实键防抖",
+    "status": "PASS",
+    "detail": {
+      "correctDelta": 2,
+      "wrongDelta": 0
+    },
+    "method": "实际 virtual/dispatch 通路；MCP 已另测真实鼠标点击",
+    "phase": "controlled-boundaries"
+  },
+  {
+    "ids": [
+      "G8"
+    ],
+    "name": "隔夜九小时旧档连续时长清零且不立即提醒",
+    "status": "PASS",
+    "detail": {
+      "activeMs": 0,
+      "lastTick": 1791012681799,
+      "restAck": 1791012681799
+    },
+    "method": "隔夜时间戳夹具 + 实际重载",
+    "phase": "controlled-boundaries"
+  },
+  {
+    "ids": [
+      "A4"
+    ],
+    "name": "次日进入街机重置额度",
+    "status": "PASS",
+    "detail": {
+      "date": "2026-10-03",
+      "firstBonus": false,
+      "arcade": 0
+    },
+    "method": "前一日存档夹具 + 真实进入街机及 tickPlay",
+    "phase": "controlled-boundaries"
+  },
+  {
+    "ids": [
+      "K9",
+      "K2"
+    ],
+    "name": "A1 实际等待 60 秒自动结算空局",
+    "status": "PASS",
+    "detail": {
+      "elapsed_seconds": 60.0,
+      "stars": 0,
+      "remaining": "0",
+      "progress": "100%"
+    },
+    "method": "未经时钟修改的真实 60 秒浏览器计时",
+    "phase": "controlled-boundaries"
+  }
+]

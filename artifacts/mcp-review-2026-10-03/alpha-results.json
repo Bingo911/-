@@ -1,0 +1,6 @@
+{
+  "timestamp": "2026-10-03T07:25:40.239Z",
+  "sourceAlpha": "PASS: 颜色和全部 alpha 值逐字节保留",
+  "quality": "PASS: 接受真实半透明披风，拒绝空白图",
+  "legacy": "PASS: 旧绿幕处理输出与替换前逐字节一致"
+}

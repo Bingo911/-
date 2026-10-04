@@ -406,6 +406,11 @@
     var ids = ['A1', 'B1', 'C1', 'D1'], i, bad = [];
     for (i = 0; i < ids.length; i++) {
       w.KZ.Scenes.playLevel(ids[i], 'challenge');
+      /* 新档 A1 先推荐 A0 指法课，确认后才会启动；不能把等待教学当成开局失败。 */
+      var ready = [].filter.call(d.querySelectorAll('.overlay__acts button'), function (b) {
+        return b.textContent === '我准备好了，开始练';
+      })[0];
+      if (ready) ready.click();
       var s = w.KZ.Typing.session;
       if (!s || !s.targets.length || !s.targets[0].chars.length) bad.push(ids[i]);
       w.KZ.Scenes.go('map', { world: 'D' });

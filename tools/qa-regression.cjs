@@ -31,11 +31,13 @@ function game(seed, blocked = false) {
 
 /* 独立 VM 使用最小 DOM，运行真实场景结算和顶栏渲染。
    引擎结束回调由夹具提供，不把这些断言冒充浏览器逐键测试。 */
-function sceneGame() {
+function sceneGame(teaching = false) {
   const g = game(), { K, ctx } = g;
   function element(tag) {
+    const listeners = {};
     const e = { nodeType:1, tagName:tag, children:[], style:{}, className:'', textContent:'',
-      addEventListener() {}, removeEventListener() {},
+      addEventListener(type, fn) { (listeners[type] ||= []).push(fn); }, removeEventListener() {},
+      click() { for (const fn of listeners.click || []) fn(); },
       appendChild(child) { this.children.push(child); child.parentNode = this; return child; },
       removeChild(child) { this.children.splice(this.children.indexOf(child), 1); child.parentNode = null; },
       get firstChild() { return this.children[0]; }, get lastChild() { return this.children[this.children.length - 1]; }
@@ -48,15 +50,18 @@ function sceneGame() {
   ctx.setInterval = () => 1; ctx.clearInterval = () => {}; ctx.setTimeout = () => 1;
   K.Sprites = { badge() {} };
   K.Tts = { stop() {}, speak() {}, available:() => true, pending:() => false };
-  K.Sfx = { clear() {}, fail() {} };
-  let finish, reward;
-  K.Typing.open = options => { finish = options.onFinish; };
-  K.Typing.discard = () => {};
+  K.Sfx = { clear() {}, fail() {}, unlock() {}, click() {} };
+  K.Keyboard = { teachBox:() => element('div') };
+  let finish, reward, started = [];
+  K.Typing.open = options => { finish = options.onFinish; started.push({ level:options.level.id, mode:options.mode }); };
+  K.Typing.discard = () => { finish = null; };
   K.Reward = { show(res, lv, outcome) { reward = { res, outcome, header:header() }; } };
   for (const name of ['40-ui-shell', '60-scenes']) {
     vm.runInContext(fs.readFileSync(path.join(ROOT, 'js', name + '.js'), 'utf8'), ctx, { filename:name });
   }
   K.Save.setChar('c3'); K.Shell.init();
+  if (!teaching) K.Save.markTaught('A0');
+  K.Scenes.add('map', { enter() {} });
   function header() {
     const children = nodes.topbar.children;
     return {
@@ -64,7 +69,15 @@ function sceneGame() {
       stars:children.find(e => e.className.includes('pill--star')).lastChild.textContent
     };
   }
-  return { ...g, header, run(mode, res) {
+  return { ...g, header, started, click(text) {
+    function find(node) {
+      if (node.tagName === 'button' && node.textContent === text) return node;
+      for (const child of node.children) { const found = find(child); if (found) return found; }
+    }
+    const button = find(nodes.overlay);
+    assert.ok(button, 'missing overlay button: ' + text);
+    button.click();
+  }, run(mode, res) {
     K.Scenes.playLevel('A1', mode);
     finish({ levelId:'A1', mode, stars:0, done:0, total:12, correct:0, skipped:0,
       acc:100, speed:100, maxCombo:20, score:300, ...res });
@@ -257,6 +270,39 @@ test('N15', '世界 D「看汉字打拼音」的目标与判定', () => {
   assert.ok(K.Levels.isUnlocked('D1', S), '拼音结业后诗词阁应当开启');
   return { dLevels: K.Levels.byWorld('D').length };
 });
+test('N16', '取消 A0 后 A1 推荐教学，确认后只记一次且旧进度不重复拦截', () => {
+  const g = sceneGame(true), S = g.K.Save, scenes = g.K.Scenes;
+  scenes.playLevel('A0', 'practice');
+  assert.ok(scenes.isOpen());
+  g.click('先不练，回地图');
+  assert.equal(S.seenTeach('A0'), false);
+  assert.equal(g.started.length, 0);
+  scenes.playLevel('A1', 'practice');
+  assert.ok(scenes.isOpen(), '取消 A0 后 A1 应推荐指法图');
+  assert.equal(g.started.length, 0, '确认教学前不能启动引擎');
+  g.click('先不练，回地图');
+  assert.equal(S.seenTeach('A0'), false, '取消 A1 的推荐也不能记为学过');
+  scenes.playLevel('A1', 'challenge');
+  g.click('我准备好了，开始练');
+  assert.equal(S.seenTeach('A0'), true);
+  assert.equal(S.seenTeach('A1'), false, '共用 A0 教学记录，不另记 A1');
+  assert.deepEqual(g.started, [{ level:'A1', mode:'challenge' }]);
+  scenes.playLevel('A1', 'practice');
+  assert.equal(scenes.isOpen(), false);
+  scenes.playLevel('A0', 'practice');
+  assert.equal(scenes.isOpen(), false);
+  for (const cleared of ['A0', 'A1']) {
+    const old = sceneGame(true);
+    old.K.Save.data.levels[cleared] = { stars:1 };
+    old.K.Scenes.playLevel('A1', 'practice');
+    assert.equal(old.K.Scenes.isOpen(), false, '已有进度不重复推荐: ' + cleared);
+  }
+  const later = sceneGame(true);
+  later.K.Scenes.playLevel('A2', 'practice');
+  assert.equal(later.K.Scenes.isOpen(), false, '其他非教学关不新增浮层');
+  return { cancelled:'A0/A1', confirmed:'A1 challenge', record:'A0', legacyClear:['A0','A1'] };
+});
+
 const report = { timestamp: new Date().toISOString(), node: process.version, root: ROOT, results,
   passed: results.filter(r => r.status === 'PASS').length, failed: results.filter(r => r.status === 'FAIL').length };
 fs.writeFileSync(path.join(OUT, 'node-results.json'), JSON.stringify(report, null, 2), 'utf8');

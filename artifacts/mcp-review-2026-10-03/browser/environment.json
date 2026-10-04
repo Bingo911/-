@@ -1,0 +1,9 @@
+{
+  "url": "http://localhost:8080/",
+  "browser": "154.0.8037.93",
+  "viewport": [
+    1440,
+    1000
+  ],
+  "isolated_storage": true
+}

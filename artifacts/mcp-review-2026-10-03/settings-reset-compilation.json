@@ -1,0 +1,382 @@
+{
+  "lookup_status": "FOUND",
+  "revision_id": "90a46963-d18e-4337-9d6d-d35c2fd272d2",
+  "executable": true,
+  "content_available": true,
+  "review_required": false,
+  "compile_artifact_id": "0d1dc685-aed7-423c-86d4-4c6fdfbb3bcb",
+  "compile_status": "SUCCEEDED",
+  "ir_digest": "sha256:9e9523ed05af4a8e20d0b1be5995fbfc7a5dc85f8b55dc88696214b0a4f45aac",
+  "diagnostics": [],
+  "review_items": [],
+  "review_url": null,
+  "compiler_mode": "deterministic",
+  "source_digest": "sha256:c3207f75f575c46e6b0134052e161002d64b9bfac5f60a6b60ed09665f203fdb",
+  "recommended_poll_after_ms": null,
+  "ir": {
+    "ir_version": "1.0",
+    "case_revision_id": "90a46963-d18e-4337-9d6d-d35c2fd272d2",
+    "source_digest": "sha256:c3207f75f575c46e6b0134052e161002d64b9bfac5f60a6b60ed09665f203fdb",
+    "compiler": {
+      "version": "1.0.0",
+      "mode": "deterministic"
+    },
+    "variables": {},
+    "defaults": {
+      "timeout_ms": 8000
+    },
+    "steps": [
+      {
+        "id": "s1",
+        "source": {
+          "start_line": 9,
+          "end_line": 13,
+          "text": "## Step 1\n```yaml\naction: open\nurl: ${env.base_url}/\n```"
+        },
+        "action": "open",
+        "url": {
+          "kind": "template",
+          "template": "${env.base_url}/"
+        },
+        "wait_until": "domcontentloaded"
+      },
+      {
+        "id": "s2",
+        "source": {
+          "start_line": 15,
+          "end_line": 21,
+          "text": "## Step 2\n```yaml\naction: click\ntarget:\n  description: 形象卡\n  css: .pick__item:nth-child(3)\n```"
+        },
+        "action": "click",
+        "target": {
+          "description": "形象卡",
+          "candidates": [
+            {
+              "strategy": "css",
+              "selector": ".pick__item:nth-child(3)"
+            }
+          ],
+          "allow_vision": false
+        }
+      },
+      {
+        "id": "s3",
+        "source": {
+          "start_line": 23,
+          "end_line": 31,
+          "text": "## Step 3\n```yaml\naction: click\ntarget:\n  description: 就它了，开始！\n  role: button\n  name: 就它了，开始！\n  exact: true\n```"
+        },
+        "action": "click",
+        "target": {
+          "description": "就它了，开始！",
+          "candidates": [
+            {
+              "strategy": "role",
+              "role": "button",
+              "name": "就它了，开始！",
+              "exact": true
+            }
+          ],
+          "allow_vision": false
+        }
+      },
+      {
+        "id": "s4",
+        "source": {
+          "start_line": 33,
+          "end_line": 41,
+          "text": "## Step 4\n```yaml\naction: click\ntarget:\n  description: 设置\n  role: button\n  name: 设置\n  exact: true\n```"
+        },
+        "action": "click",
+        "target": {
+          "description": "设置",
+          "candidates": [
+            {
+              "strategy": "role",
+              "role": "button",
+              "name": "设置",
+              "exact": true
+            }
+          ],
+          "allow_vision": false
+        }
+      },
+      {
+        "id": "s5",
+        "source": {
+          "start_line": 43,
+          "end_line": 49,
+          "text": "## Step 5\n```yaml\naction: assert\ncondition:\n  kind: page_contains\n  expected: 模式：本机保存\n```"
+        },
+        "action": "assert",
+        "condition": {
+          "kind": "page_contains",
+          "expected": {
+            "kind": "literal",
+            "value": "模式：本机保存"
+          }
+        }
+      },
+      {
+        "id": "s6",
+        "source": {
+          "start_line": 51,
+          "end_line": 57,
+          "text": "## Step 6\n```yaml\naction: click\ntarget:\n  description: 容易看的字母开关\n  css: '#overlay .row:has-text(''容易看的字母'') button'\n```"
+        },
+        "action": "click",
+        "target": {
+          "description": "容易看的字母开关",
+          "candidates": [
+            {
+              "strategy": "css",
+              "selector": "#overlay .row:has-text('容易看的字母') button"
+            }
+          ],
+          "allow_vision": false
+        }
+      },
+      {
+        "id": "s7",
+        "source": {
+          "start_line": 59,
+          "end_line": 67,
+          "text": "## Step 7\n```yaml\naction: assert\ncondition:\n  kind: element_visible\n  target:\n    description: body.dyslexic\n    css: body.dyslexic\n```"
+        },
+        "action": "assert",
+        "condition": {
+          "kind": "element_visible",
+          "target": {
+            "description": "body.dyslexic",
+            "candidates": [
+              {
+                "strategy": "css",
+                "selector": "body.dyslexic"
+              }
+            ],
+            "allow_vision": false
+          }
+        }
+      },
+      {
+        "id": "s8",
+        "source": {
+          "start_line": 69,
+          "end_line": 75,
+          "text": "## Step 8\n```yaml\naction: click\ntarget:\n  description: 护眼提醒档位\n  css: '#overlay .row:has-text(''护眼提醒'') button'\n```"
+        },
+        "action": "click",
+        "target": {
+          "description": "护眼提醒档位",
+          "candidates": [
+            {
+              "strategy": "css",
+              "selector": "#overlay .row:has-text('护眼提醒') button"
+            }
+          ],
+          "allow_vision": false
+        }
+      },
+      {
+        "id": "s9",
+        "source": {
+          "start_line": 77,
+          "end_line": 83,
+          "text": "## Step 9\n```yaml\naction: assert\ncondition:\n  kind: page_contains\n  expected: 45 分钟\n```"
+        },
+        "action": "assert",
+        "condition": {
+          "kind": "page_contains",
+          "expected": {
+            "kind": "literal",
+            "value": "45 分钟"
+          }
+        }
+      },
+      {
+        "id": "s10",
+        "source": {
+          "start_line": 85,
+          "end_line": 93,
+          "text": "## Step 10\n```yaml\naction: click\ntarget:\n  description: 清空进度\n  role: button\n  name: 清空进度\n  exact: true\n```"
+        },
+        "action": "click",
+        "target": {
+          "description": "清空进度",
+          "candidates": [
+            {
+              "strategy": "role",
+              "role": "button",
+              "name": "清空进度",
+              "exact": true
+            }
+          ],
+          "allow_vision": false
+        }
+      },
+      {
+        "id": "s11",
+        "source": {
+          "start_line": 95,
+          "end_line": 101,
+          "text": "## Step 11\n```yaml\naction: assert\ncondition:\n  kind: page_contains\n  expected: 先导出备份\n```"
+        },
+        "action": "assert",
+        "condition": {
+          "kind": "page_contains",
+          "expected": {
+            "kind": "literal",
+            "value": "先导出备份"
+          }
+        }
+      },
+      {
+        "id": "s12",
+        "source": {
+          "start_line": 103,
+          "end_line": 111,
+          "text": "## Step 12\n```yaml\naction: click\ntarget:\n  description: 不要清空\n  role: button\n  name: 不要清空\n  exact: true\n```"
+        },
+        "action": "click",
+        "target": {
+          "description": "不要清空",
+          "candidates": [
+            {
+              "strategy": "role",
+              "role": "button",
+              "name": "不要清空",
+              "exact": true
+            }
+          ],
+          "allow_vision": false
+        }
+      },
+      {
+        "id": "s13",
+        "source": {
+          "start_line": 113,
+          "end_line": 119,
+          "text": "## Step 13\n```yaml\naction: assert\ncondition:\n  kind: page_contains\n  expected: 模式：本机保存\n```"
+        },
+        "action": "assert",
+        "condition": {
+          "kind": "page_contains",
+          "expected": {
+            "kind": "literal",
+            "value": "模式：本机保存"
+          }
+        }
+      },
+      {
+        "id": "s14",
+        "source": {
+          "start_line": 121,
+          "end_line": 129,
+          "text": "## Step 14\n```yaml\naction: click\ntarget:\n  description: 清空进度\n  role: button\n  name: 清空进度\n  exact: true\n```"
+        },
+        "action": "click",
+        "target": {
+          "description": "清空进度",
+          "candidates": [
+            {
+              "strategy": "role",
+              "role": "button",
+              "name": "清空进度",
+              "exact": true
+            }
+          ],
+          "allow_vision": false
+        }
+      },
+      {
+        "id": "s15",
+        "source": {
+          "start_line": 131,
+          "end_line": 139,
+          "text": "## Step 15\n```yaml\naction: click\ntarget:\n  description: 确定清空\n  role: button\n  name: 确定清空\n  exact: true\n```"
+        },
+        "action": "click",
+        "target": {
+          "description": "确定清空",
+          "candidates": [
+            {
+              "strategy": "role",
+              "role": "button",
+              "name": "确定清空",
+              "exact": true
+            }
+          ],
+          "allow_vision": false
+        }
+      },
+      {
+        "id": "s16",
+        "source": {
+          "start_line": 141,
+          "end_line": 149,
+          "text": "## Step 16\n```yaml\naction: assert\ncondition:\n  kind: element_visible\n  target:\n    description: .pick__item:nth-child(18)\n    css: .pick__item:nth-child(18)\n```"
+        },
+        "action": "assert",
+        "condition": {
+          "kind": "element_visible",
+          "target": {
+            "description": ".pick__item:nth-child(18)",
+            "candidates": [
+              {
+                "strategy": "css",
+                "selector": ".pick__item:nth-child(18)"
+              }
+            ],
+            "allow_vision": false
+          }
+        }
+      },
+      {
+        "id": "s17",
+        "source": {
+          "start_line": 151,
+          "end_line": 155,
+          "text": "## Step 17\n```yaml\naction: open\nurl: ${env.base_url}/\n```"
+        },
+        "action": "open",
+        "url": {
+          "kind": "template",
+          "template": "${env.base_url}/"
+        },
+        "wait_until": "domcontentloaded"
+      },
+      {
+        "id": "s18",
+        "source": {
+          "start_line": 157,
+          "end_line": 165,
+          "text": "## Step 18\n```yaml\naction: assert\ncondition:\n  kind: element_visible\n  target:\n    description: .pick__item:nth-child(18)\n    css: .pick__item:nth-child(18)\n```"
+        },
+        "action": "assert",
+        "condition": {
+          "kind": "element_visible",
+          "target": {
+            "description": ".pick__item:nth-child(18)",
+            "candidates": [
+              {
+                "strategy": "css",
+                "selector": ".pick__item:nth-child(18)"
+              }
+            ],
+            "allow_vision": false
+          }
+        }
+      },
+      {
+        "id": "s19",
+        "source": {
+          "start_line": 167,
+          "end_line": 170,
+          "text": "## Step 19\n```yaml\naction: screenshot\n```"
+        },
+        "action": "screenshot",
+        "full_page": false
+      }
+    ]
+  }
+}

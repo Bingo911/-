@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-10-03T04:43:41.172Z",
+  "result": "PASS",
+  "uniqueCases": 130,
+  "tableShape": "PASS",
+  "commandTargets": "PASS",
+  "inlineSaveJSON": "PASS",
+  "reportLinks": "PASS",
+  "trailingWhitespace": "PASS",
+  "sourceFingerprintsUnchanged": true,
+  "sha256": {
+    "测试用例.md": "5a60608a2aa97a9bd2a2ae3cbd029e944684a1aa6f7ffcae8d35c698b6fcebaa",
+    "测试报告-2026-10-03-测试用例复查.md": "62ea24868e9131c9ad27dff1e294dde5faf62bc98051dc77b5ae19684195390f"
+  }
+}

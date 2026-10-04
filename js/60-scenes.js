@@ -96,13 +96,15 @@
   S.add('play', {
     enter: function (host, arg) {
       var lv = arg.level, mode = arg.mode || 'challenge';
+      /* A1 也兜底推荐 A0 的指法课：在 A0 点「先不练」不算已经学过。 */
+      var teachId = lv.teach ? lv.id : (lv.id === 'A1' ? 'A0' : null);
       /* .play 直接当引擎的宿主：中间再套 div 会打断 flex 链，
          「目标区自己滚、键盘钉在底部」就永远不生效（键盘被顶到屏幕外）。 */
       var wrap = U.el('div', 'play');
       U.add(host, wrap);
 
       function start() {
-        if (lv.teach) KZ.Save.markTaught(lv.id);
+        if (teachId) KZ.Save.markTaught(teachId);
         KZ.Typing.open({
           level: lv, mode: mode, host: wrap,
           onFinish: function (res) { onDone(res, lv, mode); }
@@ -115,9 +117,9 @@
          屏幕键盘下方一直有指位图例，练的时候随时能回头对。
          弹层是整屏的，顶栏被挡住点不到，所以必须给一条「不练了」的退路，
          否则看了指法图想走的人只能被迫开一局。 */
-      if (lv.teach && !KZ.Save.stars(lv.id) && !KZ.Save.seenTeach(lv.id)) {
+      if (teachId && !KZ.Save.stars(teachId) && !KZ.Save.stars(lv.id) && !KZ.Save.seenTeach(teachId)) {
         KZ.Scenes.overlay({
-          title: lv.name,
+          title: KZ.Levels.get(teachId).name,
           sub: '先认清每根手指管哪些键，颜色跟键盘上键帽下边那条色是一样的',
           body: [KZ.Keyboard.teachBox(), U.el('p', 'teach__rule', TEACH_RULE)],
           acts: [

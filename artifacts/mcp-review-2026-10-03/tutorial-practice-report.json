@@ -1,0 +1,41 @@
+{
+  "execution_id": "d2046fe6-0a8e-4b98-adcc-29c2c80e5181",
+  "status": "FINISHED",
+  "terminal": true,
+  "base_report_ready": true,
+  "analysis_status": "NOT_REQUIRED",
+  "artifact_status": "COMPLETE",
+  "step_counts": {
+    "PASSED": 46
+  },
+  "failure_step_ids": [],
+  "details_available": true,
+  "project_id": "fdddaf69-5628-42b1-a1cd-f2c79591362d",
+  "tenant_id": "b527b252-3c86-5886-b419-fe95708cc462",
+  "outcome": "PASSED",
+  "failure_type": null,
+  "error_code": null,
+  "recommended_poll_after_ms": null,
+  "cleanup_status": "UNKNOWN",
+  "evidence_mode": "NORMAL",
+  "links": {
+    "cases": "http://localhost:5173/#/cases",
+    "assist": "http://localhost:5173/#/assist",
+    "requires_project_selection": true,
+    "run": "http://localhost:5173/#/runs/d2046fe6-0a8e-4b98-adcc-29c2c80e5181",
+    "report": "http://localhost:5173/#/report/d2046fe6-0a8e-4b98-adcc-29c2c80e5181"
+  },
+  "artifact_summary": {
+    "total": 3,
+    "bytes": 108452108,
+    "by_kind": {
+      "NETWORK": 1,
+      "SCREENSHOT": 1,
+      "TRACE": 1
+    },
+    "not_ready": 0,
+    "publish_withheld": 1,
+    "download": false
+  },
+  "failure_summaries": []
+}

@@ -1,0 +1,3272 @@
+[
+  {
+    "id": "c1-o1",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        101,
+        199,
+        107
+      ],
+      "sourceAlpha": false,
+      "spread": 19,
+      "cut": 0.6812521678806799,
+      "kept": 0.30643426985778704,
+      "soft": 0.012313562261533125,
+      "hole": 0.0001040582726326743,
+      "junk": 120,
+      "cropped": [
+        58,
+        92,
+        343,
+        483
+      ]
+    }
+  },
+  {
+    "id": "c1-o2",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        98,
+        164,
+        124
+      ],
+      "sourceAlpha": false,
+      "spread": 16,
+      "cut": 0.805525494276795,
+      "kept": 0.17718002081165452,
+      "soft": 0.01729448491155047,
+      "hole": 0.0017204301075268817,
+      "junk": 29,
+      "cropped": [
+        113,
+        107,
+        251,
+        409
+      ]
+    }
+  },
+  {
+    "id": "c1-o3",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        110,
+        170,
+        127
+      ],
+      "sourceAlpha": false,
+      "spread": 14,
+      "cut": 0.7602948317724593,
+      "kept": 0.21892819979188347,
+      "soft": 0.0207769684356573,
+      "hole": 0.0015192507804370448,
+      "junk": 166,
+      "cropped": [
+        90,
+        104,
+        287,
+        445
+      ]
+    }
+  },
+  {
+    "id": "c1-o4",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        109,
+        171,
+        126
+      ],
+      "sourceAlpha": false,
+      "spread": 11,
+      "cut": 0.8380437044745057,
+      "kept": 0.14491848768643772,
+      "soft": 0.017037807839056538,
+      "hole": 0.0084772806104752,
+      "junk": 86,
+      "cropped": [
+        120,
+        124,
+        227,
+        367
+      ]
+    }
+  },
+  {
+    "id": "c1-o5",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        102,
+        166,
+        123
+      ],
+      "sourceAlpha": false,
+      "spread": 14,
+      "cut": 0.7869510926118627,
+      "kept": 0.20508844953173777,
+      "soft": 0.007960457856399584,
+      "hole": 0.0009434616718695803,
+      "junk": 35,
+      "cropped": [
+        93,
+        105,
+        279,
+        417
+      ]
+    }
+  },
+  {
+    "id": "c1-o6",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        96,
+        159,
+        118
+      ],
+      "sourceAlpha": false,
+      "spread": 10,
+      "cut": 0.7733576135969477,
+      "kept": 0.21459590704127646,
+      "soft": 0.012046479361775927,
+      "hole": 0.004672216441207076,
+      "junk": 150,
+      "cropped": [
+        87,
+        81,
+        291,
+        469
+      ]
+    }
+  },
+  {
+    "id": "c1-o7",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        107,
+        171,
+        118
+      ],
+      "sourceAlpha": false,
+      "spread": 17,
+      "cut": 0.7354908081859175,
+      "kept": 0.2520950398890045,
+      "soft": 0.012414151925078044,
+      "hole": 0.0011932015261879986,
+      "junk": 37,
+      "cropped": [
+        96,
+        86,
+        311,
+        483
+      ]
+    }
+  },
+  {
+    "id": "c1-o8",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        104,
+        167,
+        119
+      ],
+      "sourceAlpha": false,
+      "spread": 7,
+      "cut": 0.7885015608740895,
+      "kept": 0.2043080124869927,
+      "soft": 0.007190426638917794,
+      "hole": 0.0009157127991675339,
+      "junk": 127,
+      "cropped": [
+        107,
+        127,
+        251,
+        397
+      ]
+    }
+  },
+  {
+    "id": "c2-o1",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        87,
+        175,
+        96
+      ],
+      "sourceAlpha": false,
+      "spread": 18,
+      "cut": 0.666916406520985,
+      "kept": 0.30522372528616026,
+      "soft": 0.027859868192854666,
+      "hole": 0.0012972597988206728,
+      "junk": 164,
+      "cropped": [
+        46,
+        80,
+        383,
+        493
+      ]
+    }
+  },
+  {
+    "id": "c2-o2",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        90,
+        166,
+        121
+      ],
+      "sourceAlpha": false,
+      "spread": 22,
+      "cut": 0.7820048560527229,
+      "kept": 0.21238293444328823,
+      "soft": 0.0056122095039889,
+      "hole": 0.0009712105445716267,
+      "junk": 34,
+      "cropped": [
+        119,
+        79,
+        249,
+        461
+      ]
+    }
+  },
+  {
+    "id": "c2-o3",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        99,
+        167,
+        131
+      ],
+      "sourceAlpha": false,
+      "spread": 13,
+      "cut": 0.8176413458203261,
+      "kept": 0.17998959417273674,
+      "soft": 0.0023690600069372183,
+      "hole": 0.001751647589316684,
+      "junk": 49,
+      "cropped": [
+        129,
+        127,
+        235,
+        409
+      ]
+    }
+  },
+  {
+    "id": "c2-o4",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        103,
+        170,
+        128
+      ],
+      "sourceAlpha": false,
+      "spread": 9,
+      "cut": 0.7799479708636836,
+      "kept": 0.21282344779743323,
+      "soft": 0.007228581338883108,
+      "hole": 0.0002462712452306625,
+      "junk": 176,
+      "cropped": [
+        112,
+        108,
+        301,
+        433
+      ]
+    }
+  },
+  {
+    "id": "c2-o5",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        100,
+        165,
+        135
+      ],
+      "sourceAlpha": false,
+      "spread": 9,
+      "cut": 0.7930280957336108,
+      "kept": 0.1946930280957336,
+      "soft": 0.012278876170655567,
+      "hole": 0.0073222337842525145,
+      "junk": 132,
+      "cropped": [
+        96,
+        106,
+        269,
+        431
+      ]
+    }
+  },
+  {
+    "id": "c2-o6",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        103,
+        167,
+        129
+      ],
+      "sourceAlpha": false,
+      "spread": 17,
+      "cut": 0.7808012486992716,
+      "kept": 0.2159729448491155,
+      "soft": 0.0032258064516129032,
+      "hole": 0.0005723204994797086,
+      "junk": 0,
+      "cropped": [
+        99,
+        109,
+        267,
+        405
+      ]
+    }
+  },
+  {
+    "id": "c2-o7",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        102,
+        165,
+        130
+      ],
+      "sourceAlpha": false,
+      "spread": 14,
+      "cut": 0.8065140478668054,
+      "kept": 0.1831078737426292,
+      "soft": 0.010378078390565383,
+      "hole": 0.0014568158168574402,
+      "junk": 167,
+      "cropped": [
+        100,
+        104,
+        273,
+        431
+      ]
+    }
+  },
+  {
+    "id": "c2-o8",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        98,
+        165,
+        119
+      ],
+      "sourceAlpha": false,
+      "spread": 12,
+      "cut": 0.8088102670828997,
+      "kept": 0.18550468262226846,
+      "soft": 0.005685050294831772,
+      "hole": 0.00045785639958376693,
+      "junk": 94,
+      "cropped": [
+        107,
+        105,
+        253,
+        411
+      ]
+    }
+  },
+  {
+    "id": "c3-o1",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        162,
+        207,
+        102
+      ],
+      "sourceAlpha": false,
+      "spread": 31,
+      "cut": 0.7105723204994797,
+      "kept": 0.2730523759972251,
+      "soft": 0.016375303503295177,
+      "hole": 0.0004474505723204995,
+      "junk": 426,
+      "cropped": [
+        89,
+        47,
+        281,
+        561
+      ]
+    }
+  },
+  {
+    "id": "c3-o2",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        117,
+        182,
+        136
+      ],
+      "sourceAlpha": false,
+      "spread": 19,
+      "cut": 0.8301214013180714,
+      "kept": 0.16336108220603537,
+      "soft": 0.006517516475893167,
+      "hole": 6.937218175511619e-05,
+      "junk": 35,
+      "cropped": [
+        118,
+        128,
+        233,
+        437
+      ]
+    }
+  },
+  {
+    "id": "c3-o3",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        110,
+        180,
+        127
+      ],
+      "sourceAlpha": false,
+      "spread": 10,
+      "cut": 0.8099410336455082,
+      "kept": 0.1850156087408949,
+      "soft": 0.005043357613596948,
+      "hole": 0.00913978494623656,
+      "junk": 159,
+      "cropped": [
+        89,
+        107,
+        265,
+        455
+      ]
+    }
+  },
+  {
+    "id": "c3-o4",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        102,
+        161,
+        125
+      ],
+      "sourceAlpha": false,
+      "spread": 16,
+      "cut": 0.769247311827957,
+      "kept": 0.22409295872355187,
+      "soft": 0.006659729448491155,
+      "hole": 0.007877211238293444,
+      "junk": 196,
+      "cropped": [
+        82,
+        84,
+        309,
+        485
+      ]
+    }
+  },
+  {
+    "id": "c3-o5",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        103,
+        168,
+        118
+      ],
+      "sourceAlpha": false,
+      "spread": 24,
+      "cut": 0.7744120707596254,
+      "kept": 0.21712105445716268,
+      "soft": 0.008466874783211932,
+      "hole": 3.815469996531391e-05,
+      "junk": 84,
+      "cropped": [
+        84,
+        68,
+        299,
+        497
+      ]
+    }
+  },
+  {
+    "id": "c3-o6",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        100,
+        159,
+        117
+      ],
+      "sourceAlpha": false,
+      "spread": 11,
+      "cut": 0.7786125563648977,
+      "kept": 0.21637530350329517,
+      "soft": 0.005012140131807145,
+      "hole": 5.896635449184877e-05,
+      "junk": 231,
+      "cropped": [
+        77,
+        101,
+        333,
+        451
+      ]
+    }
+  },
+  {
+    "id": "c3-o7",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        116,
+        179,
+        136
+      ],
+      "sourceAlpha": false,
+      "spread": 20,
+      "cut": 0.8042976066597295,
+      "kept": 0.19260492542490462,
+      "soft": 0.0030974679153659384,
+      "hole": 0.00032951786333680193,
+      "junk": 170,
+      "cropped": [
+        105,
+        97,
+        279,
+        463
+      ]
+    }
+  },
+  {
+    "id": "c3-o8",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        115,
+        177,
+        128
+      ],
+      "sourceAlpha": false,
+      "spread": 8,
+      "cut": 0.7851023239680888,
+      "kept": 0.20755116198404439,
+      "soft": 0.007346514047866805,
+      "hole": 4.162330905306972e-05,
+      "junk": 161,
+      "cropped": [
+        89,
+        105,
+        287,
+        461
+      ]
+    }
+  },
+  {
+    "id": "c4-o1",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        117,
+        203,
+        110
+      ],
+      "sourceAlpha": false,
+      "spread": 32,
+      "cut": 0.7256503642039542,
+      "kept": 0.2630003468609088,
+      "soft": 0.01134928893513701,
+      "hole": 0.00022545959070412763,
+      "junk": 233,
+      "cropped": [
+        58,
+        92,
+        369,
+        489
+      ]
+    }
+  },
+  {
+    "id": "c4-o2",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        108,
+        173,
+        126
+      ],
+      "sourceAlpha": false,
+      "spread": 9,
+      "cut": 0.7961984044398196,
+      "kept": 0.1977766215747485,
+      "soft": 0.0060249739854318415,
+      "hole": 4.856052722858134e-05,
+      "junk": 160,
+      "cropped": [
+        57,
+        135,
+        361,
+        407
+      ]
+    }
+  },
+  {
+    "id": "c4-o3",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        119,
+        175,
+        123
+      ],
+      "sourceAlpha": false,
+      "spread": 16,
+      "cut": 0.757415886229622,
+      "kept": 0.23732570239334028,
+      "soft": 0.005258411377037808,
+      "hole": 0.003302115851543531,
+      "junk": 237,
+      "cropped": [
+        54,
+        96,
+        363,
+        475
+      ]
+    }
+  },
+  {
+    "id": "c4-o4",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        123,
+        179,
+        131
+      ],
+      "sourceAlpha": false,
+      "spread": 14,
+      "cut": 0.8095143947277141,
+      "kept": 0.18182448838015955,
+      "soft": 0.008661116892126258,
+      "hole": 0.00015955601803676724,
+      "junk": 203,
+      "cropped": [
+        91,
+        147,
+        287,
+        411
+      ]
+    }
+  },
+  {
+    "id": "c4-o5",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        110,
+        171,
+        122
+      ],
+      "sourceAlpha": false,
+      "spread": 18,
+      "cut": 0.7267637877211238,
+      "kept": 0.26818938605619147,
+      "soft": 0.005046826222684703,
+      "hole": 0.0017169614984391258,
+      "junk": 301,
+      "cropped": [
+        55,
+        99,
+        363,
+        469
+      ]
+    }
+  },
+  {
+    "id": "c4-o6",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        103,
+        166,
+        123
+      ],
+      "sourceAlpha": false,
+      "spread": 16,
+      "cut": 0.8227818244883801,
+      "kept": 0.17431841831425599,
+      "soft": 0.0028997571973638572,
+      "hole": 2.081165452653486e-05,
+      "junk": 134,
+      "cropped": [
+        71,
+        117,
+        329,
+        397
+      ]
+    }
+  },
+  {
+    "id": "c4-o7",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        114,
+        171,
+        123
+      ],
+      "sourceAlpha": false,
+      "spread": 12,
+      "cut": 0.749843912591051,
+      "kept": 0.243423517169615,
+      "soft": 0.006732570239334027,
+      "hole": 2.428026361429067e-05,
+      "junk": 62,
+      "cropped": [
+        53,
+        123,
+        365,
+        449
+      ]
+    }
+  },
+  {
+    "id": "c4-o8",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        110,
+        170,
+        130
+      ],
+      "sourceAlpha": false,
+      "spread": 11,
+      "cut": 0.7445993756503642,
+      "kept": 0.24695109261186265,
+      "soft": 0.008449531737773153,
+      "hole": 8.671522719389525e-05,
+      "junk": 184,
+      "cropped": [
+        64,
+        38,
+        337,
+        539
+      ]
+    }
+  },
+  {
+    "id": "c5-o1",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        101,
+        191,
+        105
+      ],
+      "sourceAlpha": false,
+      "spread": 27,
+      "cut": 0.7715643426985779,
+      "kept": 0.21958723551855705,
+      "soft": 0.008848421782865072,
+      "hole": 3.4686090877558098e-06,
+      "junk": 170,
+      "cropped": [
+        87,
+        161,
+        293,
+        359
+      ]
+    }
+  },
+  {
+    "id": "c5-o2",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        118,
+        184,
+        130
+      ],
+      "sourceAlpha": false,
+      "spread": 13,
+      "cut": 0.7893687131460284,
+      "kept": 0.2010995490808186,
+      "soft": 0.009531737773152965,
+      "hole": 8.324661810613944e-05,
+      "junk": 64,
+      "cropped": [
+        80,
+        148,
+        283,
+        367
+      ]
+    }
+  },
+  {
+    "id": "c5-o3",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        120,
+        182,
+        129
+      ],
+      "sourceAlpha": false,
+      "spread": 12,
+      "cut": 0.7364273326396115,
+      "kept": 0.2515851543531044,
+      "soft": 0.01198751300728408,
+      "hole": 0.00015261879986125563,
+      "junk": 80,
+      "cropped": [
+        35,
+        109,
+        331,
+        409
+      ]
+    }
+  },
+  {
+    "id": "c5-o4",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        117,
+        174,
+        128
+      ],
+      "sourceAlpha": false,
+      "spread": 14,
+      "cut": 0.7649913284772806,
+      "kept": 0.22726326742976066,
+      "soft": 0.007745404092958723,
+      "hole": 4.162330905306972e-05,
+      "junk": 223,
+      "cropped": [
+        69,
+        151,
+        329,
+        363
+      ]
+    }
+  },
+  {
+    "id": "c5-o5",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        120,
+        169,
+        134
+      ],
+      "sourceAlpha": false,
+      "spread": 15,
+      "cut": 0.6393548387096775,
+      "kept": 0.33945195976413456,
+      "soft": 0.021193201526187998,
+      "hole": 0.0012556364897676033,
+      "junk": 195,
+      "cropped": [
+        44,
+        130,
+        381,
+        435
+      ]
+    }
+  },
+  {
+    "id": "c5-o6",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        112,
+        178,
+        128
+      ],
+      "sourceAlpha": false,
+      "spread": 17,
+      "cut": 0.7445820326049254,
+      "kept": 0.24745750953867499,
+      "soft": 0.007960457856399584,
+      "hole": 2.428026361429067e-05,
+      "junk": 49,
+      "cropped": [
+        58,
+        98,
+        337,
+        425
+      ]
+    }
+  },
+  {
+    "id": "c5-o7",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        118,
+        178,
+        133
+      ],
+      "sourceAlpha": false,
+      "spread": 8,
+      "cut": 0.7676690946930281,
+      "kept": 0.22263961151578218,
+      "soft": 0.009691293791189734,
+      "hole": 0.0003676725633021159,
+      "junk": 146,
+      "cropped": [
+        83,
+        127,
+        277,
+        395
+      ]
+    }
+  },
+  {
+    "id": "c5-o8",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        119,
+        179,
+        129
+      ],
+      "sourceAlpha": false,
+      "spread": 15,
+      "cut": 0.7547658688865765,
+      "kept": 0.2339784946236559,
+      "soft": 0.011255636489767603,
+      "hole": 1.7343045438779048e-05,
+      "junk": 189,
+      "cropped": [
+        80,
+        136,
+        317,
+        385
+      ]
+    }
+  },
+  {
+    "id": "c6-o1",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        107,
+        195,
+        78
+      ],
+      "sourceAlpha": false,
+      "spread": 15,
+      "cut": 0.7417343045438779,
+      "kept": 0.2568678459937565,
+      "soft": 0.0013978494623655914,
+      "hole": 3.4686090877558098e-06,
+      "junk": 65,
+      "cropped": [
+        91,
+        93,
+        311,
+        457
+      ]
+    }
+  },
+  {
+    "id": "c6-o2",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        112,
+        177,
+        129
+      ],
+      "sourceAlpha": false,
+      "spread": 10,
+      "cut": 0.7924557752341311,
+      "kept": 0.18145681581685744,
+      "soft": 0.026087408949011445,
+      "hole": 0.012691640652098508,
+      "junk": 107,
+      "cropped": [
+        106,
+        136,
+        281,
+        379
+      ]
+    }
+  },
+  {
+    "id": "c6-o3",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        116,
+        177,
+        129
+      ],
+      "sourceAlpha": false,
+      "spread": 13,
+      "cut": 0.8175407561567811,
+      "kept": 0.17399930627818244,
+      "soft": 0.008459937565036421,
+      "hole": 0.0024904613250086717,
+      "junk": 616,
+      "cropped": [
+        119,
+        125,
+        283,
+        405
+      ]
+    }
+  },
+  {
+    "id": "c6-o4",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        112,
+        171,
+        111
+      ],
+      "sourceAlpha": false,
+      "spread": 13,
+      "cut": 0.742826916406521,
+      "kept": 0.25373222337842527,
+      "soft": 0.0034408602150537634,
+      "hole": 0.00024280263614290669,
+      "junk": 54,
+      "cropped": [
+        97,
+        99,
+        319,
+        463
+      ]
+    }
+  },
+  {
+    "id": "c6-o5",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        128,
+        176,
+        118
+      ],
+      "sourceAlpha": false,
+      "spread": 11,
+      "cut": 0.7550607006590357,
+      "kept": 0.24332292750607007,
+      "soft": 0.0016163718348942075,
+      "hole": 0.00012833853624696497,
+      "junk": 78,
+      "cropped": [
+        101,
+        95,
+        319,
+        467
+      ]
+    }
+  },
+  {
+    "id": "c6-o6",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        119,
+        174,
+        123
+      ],
+      "sourceAlpha": false,
+      "spread": 17,
+      "cut": 0.7858029830038155,
+      "kept": 0.20525841137703782,
+      "soft": 0.008938605619146722,
+      "hole": 2.428026361429067e-05,
+      "junk": 50,
+      "cropped": [
+        114,
+        108,
+        305,
+        431
+      ]
+    }
+  },
+  {
+    "id": "c6-o7",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        114,
+        170,
+        120
+      ],
+      "sourceAlpha": false,
+      "spread": 11,
+      "cut": 0.8035379812695109,
+      "kept": 0.19421436004162332,
+      "soft": 0.002247658688865765,
+      "hole": 7.630939993062782e-05,
+      "junk": 65,
+      "cropped": [
+        114,
+        142,
+        293,
+        389
+      ]
+    }
+  },
+  {
+    "id": "c6-o8",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        126,
+        176,
+        116
+      ],
+      "sourceAlpha": false,
+      "spread": 10,
+      "cut": 0.7635137010058967,
+      "kept": 0.23496357960457856,
+      "soft": 0.0015227193895248005,
+      "hole": 1.3874436351023239e-05,
+      "junk": 88,
+      "cropped": [
+        103,
+        103,
+        313,
+        459
+      ]
+    }
+  },
+  {
+    "id": "c7-o1",
+    "sourceAlpha": true,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        0,
+        0,
+        0
+      ],
+      "sourceAlpha": true,
+      "spread": 0,
+      "cut": 0.6023078940466824,
+      "kept": 0.39388932599003407,
+      "soft": 0.003802779963283504,
+      "hole": 0,
+      "junk": 0,
+      "cropped": [
+        0,
+        0,
+        246,
+        620
+      ]
+    }
+  },
+  {
+    "id": "c7-o2",
+    "sourceAlpha": true,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        0,
+        0,
+        0
+      ],
+      "sourceAlpha": true,
+      "spread": 0,
+      "cut": 0.5491953688196315,
+      "kept": 0.44156047476880506,
+      "soft": 0.009244156411563387,
+      "hole": 5.0972110973567317e-05,
+      "junk": 0,
+      "cropped": [
+        0,
+        0,
+        443,
+        620
+      ]
+    }
+  },
+  {
+    "id": "c7-o3",
+    "sourceAlpha": true,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        0,
+        0,
+        0
+      ],
+      "sourceAlpha": true,
+      "spread": 0,
+      "cut": 0.5647771166092495,
+      "kept": 0.4285937989351707,
+      "soft": 0.0066290844555799144,
+      "hole": 3.653826077878693e-05,
+      "junk": 0,
+      "cropped": [
+        0,
+        0,
+        309,
+        620
+      ]
+    }
+  },
+  {
+    "id": "c7-o4",
+    "sourceAlpha": true,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        0,
+        0,
+        0
+      ],
+      "sourceAlpha": true,
+      "spread": 0,
+      "cut": 0.49410655169759027,
+      "kept": 0.4927669566556317,
+      "soft": 0.013126491646778043,
+      "hole": 0,
+      "junk": 0,
+      "cropped": [
+        0,
+        0,
+        419,
+        620
+      ]
+    }
+  },
+  {
+    "id": "c7-o5",
+    "sourceAlpha": true,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        0,
+        0,
+        0
+      ],
+      "sourceAlpha": true,
+      "spread": 0,
+      "cut": 0.6213283056258946,
+      "kept": 0.36066002422107235,
+      "soft": 0.01801167015303314,
+      "hole": 0.060167345590663876,
+      "junk": 0,
+      "cropped": [
+        0,
+        0,
+        620,
+        586
+      ]
+    }
+  },
+  {
+    "id": "c7-o6",
+    "sourceAlpha": true,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        0,
+        0,
+        0
+      ],
+      "sourceAlpha": true,
+      "spread": 0,
+      "cut": 0.6523685373398144,
+      "kept": 0.34114007954043307,
+      "soft": 0.006491383119752541,
+      "hole": 0,
+      "junk": 0,
+      "cropped": [
+        3,
+        1,
+        315,
+        619
+      ]
+    }
+  },
+  {
+    "id": "c7-o7",
+    "sourceAlpha": true,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        0,
+        0,
+        0
+      ],
+      "sourceAlpha": true,
+      "spread": 0,
+      "cut": 0.8040251213245789,
+      "kept": 0.1877105338281473,
+      "soft": 0.008264344847273765,
+      "hole": 0,
+      "junk": 0,
+      "cropped": [
+        102,
+        12,
+        417,
+        543
+      ]
+    }
+  },
+  {
+    "id": "c7-o8",
+    "sourceAlpha": true,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        0,
+        0,
+        0
+      ],
+      "sourceAlpha": true,
+      "spread": 0,
+      "cut": 0.6394527002537151,
+      "kept": 0.35105563610003626,
+      "soft": 0.00949166364624864,
+      "hole": 0,
+      "junk": 0,
+      "cropped": [
+        0,
+        0,
+        356,
+        620
+      ]
+    }
+  },
+  {
+    "id": "c8-o1",
+    "sourceAlpha": true,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        0,
+        0,
+        0
+      ],
+      "sourceAlpha": true,
+      "spread": 0,
+      "cut": 0.6472346514047866,
+      "kept": 0.3462382934443288,
+      "soft": 0.006527055150884495,
+      "hole": 0.0038423517169614983,
+      "junk": 0,
+      "cropped": [
+        75,
+        0,
+        467,
+        620
+      ]
+    }
+  },
+  {
+    "id": "c8-o2",
+    "sourceAlpha": true,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        0,
+        0,
+        0
+      ],
+      "sourceAlpha": true,
+      "spread": 0,
+      "cut": 0.5566388997596019,
+      "kept": 0.4402862414043719,
+      "soft": 0.0030748588360261643,
+      "hole": 0.010049197741376418,
+      "junk": 0,
+      "cropped": [
+        0,
+        0,
+        577,
+        620
+      ]
+    }
+  },
+  {
+    "id": "c8-o3",
+    "sourceAlpha": true,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        0,
+        0,
+        0
+      ],
+      "sourceAlpha": true,
+      "spread": 0,
+      "cut": 0.6317107777842127,
+      "kept": 0.3563039323565182,
+      "soft": 0.011985289859269126,
+      "hole": 2.89569699426652e-06,
+      "junk": 0,
+      "cropped": [
+        25,
+        19,
+        557,
+        529
+      ]
+    }
+  },
+  {
+    "id": "c8-o4",
+    "sourceAlpha": true,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        0,
+        0,
+        0
+      ],
+      "sourceAlpha": true,
+      "spread": 58,
+      "cut": 0.45451680672268907,
+      "kept": 0.5366526610644258,
+      "soft": 0.008830532212885154,
+      "hole": 0,
+      "junk": 0,
+      "cropped": [
+        0,
+        0,
+        476,
+        600
+      ]
+    }
+  },
+  {
+    "id": "c8-o5",
+    "sourceAlpha": true,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        0,
+        0,
+        0
+      ],
+      "sourceAlpha": true,
+      "spread": 496,
+      "cut": 0.578600601565111,
+      "kept": 0.41098702685341515,
+      "soft": 0.010412371581473878,
+      "hole": 0,
+      "junk": 0,
+      "cropped": [
+        0,
+        0,
+        481,
+        479
+      ]
+    }
+  },
+  {
+    "id": "c8-o6",
+    "sourceAlpha": true,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        0,
+        0,
+        0
+      ],
+      "sourceAlpha": true,
+      "spread": 0,
+      "cut": 0.6647830981940444,
+      "kept": 0.33518929249609636,
+      "soft": 2.7609309859284552e-05,
+      "hole": 0,
+      "junk": 0,
+      "cropped": [
+        0,
+        0,
+        563,
+        579
+      ]
+    }
+  },
+  {
+    "id": "c8-o7",
+    "sourceAlpha": true,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        0,
+        0,
+        0
+      ],
+      "sourceAlpha": true,
+      "spread": 0,
+      "cut": 0.6289452309120446,
+      "kept": 0.3593148062195405,
+      "soft": 0.011739962868414945,
+      "hole": 0.0035942213970758877,
+      "junk": 0,
+      "cropped": [
+        0,
+        0,
+        620,
+        556
+      ]
+    }
+  },
+  {
+    "id": "c8-o8",
+    "sourceAlpha": true,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        0,
+        0,
+        0
+      ],
+      "sourceAlpha": true,
+      "spread": 0,
+      "cut": 0.41906624767523887,
+      "kept": 0.5644199320207786,
+      "soft": 0.016513820303982556,
+      "hole": 0.004207015968703906,
+      "junk": 0,
+      "cropped": [
+        0,
+        0,
+        503,
+        620
+      ]
+    }
+  },
+  {
+    "id": "c9-o1",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        3,
+        250,
+        5
+      ],
+      "sourceAlpha": false,
+      "spread": 4,
+      "cut": 0.6064134582032605,
+      "kept": 0.3895837669094693,
+      "soft": 0.004002774887270205,
+      "hole": 7.284079084287201e-05,
+      "junk": 0,
+      "cropped": [
+        33,
+        55,
+        405,
+        519
+      ]
+    }
+  },
+  {
+    "id": "c9-o2",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        2,
+        249,
+        5
+      ],
+      "sourceAlpha": false,
+      "spread": 3,
+      "cut": 0.5810960804717309,
+      "kept": 0.41459590704127647,
+      "soft": 0.004308012486992716,
+      "hole": 0,
+      "junk": 0,
+      "cropped": [
+        26,
+        36,
+        419,
+        539
+      ]
+    }
+  },
+  {
+    "id": "c9-o3",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        3,
+        250,
+        6
+      ],
+      "sourceAlpha": false,
+      "spread": 5,
+      "cut": 0.536080471730836,
+      "kept": 0.4594138050641693,
+      "soft": 0.004505723204994797,
+      "hole": 0,
+      "junk": 0,
+      "cropped": [
+        33,
+        0,
+        399,
+        612
+      ]
+    }
+  },
+  {
+    "id": "c9-o4",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        3,
+        249,
+        6
+      ],
+      "sourceAlpha": false,
+      "spread": 4,
+      "cut": 0.561647589316684,
+      "kept": 0.43236559139784947,
+      "soft": 0.005986819285466528,
+      "hole": 0.0022684703433922997,
+      "junk": 0,
+      "cropped": [
+        15,
+        17,
+        441,
+        565
+      ]
+    }
+  },
+  {
+    "id": "c9-o5",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        2,
+        250,
+        5
+      ],
+      "sourceAlpha": false,
+      "spread": 4,
+      "cut": 0.46009712105445716,
+      "kept": 0.5335379812695109,
+      "soft": 0.0063648976760319114,
+      "hole": 0.0004092958723551856,
+      "junk": 0,
+      "cropped": [
+        2,
+        0,
+        463,
+        585
+      ]
+    }
+  },
+  {
+    "id": "c9-o6",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        4,
+        250,
+        12
+      ],
+      "sourceAlpha": false,
+      "spread": 10,
+      "cut": 0.5308775580992022,
+      "kept": 0.46401664932362124,
+      "soft": 0.005105792577176552,
+      "hole": 0,
+      "junk": 0,
+      "cropped": [
+        11,
+        11,
+        445,
+        567
+      ]
+    }
+  },
+  {
+    "id": "c9-o7",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        3,
+        250,
+        11
+      ],
+      "sourceAlpha": false,
+      "spread": 4,
+      "cut": 0.49215400624349637,
+      "kept": 0.5035414498785987,
+      "soft": 0.00430454387790496,
+      "hole": 0,
+      "junk": 0,
+      "cropped": [
+        4,
+        44,
+        461,
+        533
+      ]
+    }
+  },
+  {
+    "id": "c9-o8",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        2,
+        250,
+        5
+      ],
+      "sourceAlpha": false,
+      "spread": 3,
+      "cut": 0.5903850156087409,
+      "kept": 0.4054006243496358,
+      "soft": 0.004214360041623309,
+      "hole": 0,
+      "junk": 0,
+      "cropped": [
+        32,
+        0,
+        409,
+        583
+      ]
+    }
+  },
+  {
+    "id": "c10-o1",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        126,
+        177,
+        113
+      ],
+      "sourceAlpha": false,
+      "spread": 18,
+      "cut": 0.6771037114117239,
+      "kept": 0.3040721470690253,
+      "soft": 0.01882414151925078,
+      "hole": 0.0002532084634061741,
+      "junk": 241,
+      "cropped": [
+        67,
+        145,
+        387,
+        411
+      ]
+    }
+  },
+  {
+    "id": "c10-o2",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        108,
+        171,
+        127
+      ],
+      "sourceAlpha": false,
+      "spread": 18,
+      "cut": 0.7260874089490115,
+      "kept": 0.2546479361775928,
+      "soft": 0.019264654873395768,
+      "hole": 0.002702046479361776,
+      "junk": 195,
+      "cropped": [
+        69,
+        117,
+        355,
+        405
+      ]
+    }
+  },
+  {
+    "id": "c10-o3",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        120,
+        167,
+        128
+      ],
+      "sourceAlpha": false,
+      "spread": 11,
+      "cut": 0.7602428026361429,
+      "kept": 0.23425251474158862,
+      "soft": 0.005504682622268471,
+      "hole": 0.0020187304890738815,
+      "junk": 388,
+      "cropped": [
+        68,
+        130,
+        347,
+        385
+      ]
+    }
+  },
+  {
+    "id": "c10-o4",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        114,
+        170,
+        117
+      ],
+      "sourceAlpha": false,
+      "spread": 17,
+      "cut": 0.7318938605619146,
+      "kept": 0.2544398196323274,
+      "soft": 0.01366631980575789,
+      "hole": 3.121748178980229e-05,
+      "junk": 122,
+      "cropped": [
+        52,
+        142,
+        379,
+        371
+      ]
+    }
+  },
+  {
+    "id": "c10-o5",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        105,
+        165,
+        122
+      ],
+      "sourceAlpha": false,
+      "spread": 15,
+      "cut": 0.672358654179674,
+      "kept": 0.3036559139784946,
+      "soft": 0.023985431841831426,
+      "hole": 0.00045091918140825526,
+      "junk": 214,
+      "cropped": [
+        37,
+        145,
+        407,
+        401
+      ]
+    }
+  },
+  {
+    "id": "c10-o6",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        116,
+        172,
+        129
+      ],
+      "sourceAlpha": false,
+      "spread": 9,
+      "cut": 0.7556989247311828,
+      "kept": 0.2249843912591051,
+      "soft": 0.019316684009712107,
+      "hole": 0.0028824141519250782,
+      "junk": 221,
+      "cropped": [
+        54,
+        146,
+        383,
+        359
+      ]
+    }
+  },
+  {
+    "id": "c10-o7",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        116,
+        167,
+        116
+      ],
+      "sourceAlpha": false,
+      "spread": 15,
+      "cut": 0.7718973291710024,
+      "kept": 0.2257127991675338,
+      "soft": 0.002389871661463753,
+      "hole": 0.001515782171349289,
+      "junk": 138,
+      "cropped": [
+        104,
+        134,
+        303,
+        383
+      ]
+    }
+  },
+  {
+    "id": "c10-o8",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        108,
+        165,
+        126
+      ],
+      "sourceAlpha": false,
+      "spread": 18,
+      "cut": 0.7177454040929587,
+      "kept": 0.2758827610128339,
+      "soft": 0.006371834894207423,
+      "hole": 0.003950745750953867,
+      "junk": 794,
+      "cropped": [
+        41,
+        133,
+        397,
+        393
+      ]
+    }
+  },
+  {
+    "id": "c11-o1",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        138,
+        182,
+        117
+      ],
+      "sourceAlpha": false,
+      "spread": 14,
+      "cut": 0.7650745750953868,
+      "kept": 0.22345126604231702,
+      "soft": 0.011474158862296219,
+      "hole": 0.0001040582726326743,
+      "junk": 147,
+      "cropped": [
+        83,
+        121,
+        301,
+        409
+      ]
+    }
+  },
+  {
+    "id": "c11-o2",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        116,
+        179,
+        130
+      ],
+      "sourceAlpha": false,
+      "spread": 10,
+      "cut": 0.833891779396462,
+      "kept": 0.16086021505376344,
+      "soft": 0.00524800554977454,
+      "hole": 0.002133194588969823,
+      "junk": 266,
+      "cropped": [
+        92,
+        148,
+        283,
+        321
+      ]
+    }
+  },
+  {
+    "id": "c11-o3",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        108,
+        173,
+        124
+      ],
+      "sourceAlpha": false,
+      "spread": 13,
+      "cut": 0.7411446409989594,
+      "kept": 0.24397849462365592,
+      "soft": 0.014876864377384669,
+      "hole": 0.0012833853624696497,
+      "junk": 123,
+      "cropped": [
+        66,
+        96,
+        321,
+        431
+      ]
+    }
+  },
+  {
+    "id": "c11-o4",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        127,
+        175,
+        130
+      ],
+      "sourceAlpha": false,
+      "spread": 14,
+      "cut": 0.7577454040929588,
+      "kept": 0.23198751300728407,
+      "soft": 0.010267082899757198,
+      "hole": 0.00014915019077349983,
+      "junk": 345,
+      "cropped": [
+        92,
+        86,
+        297,
+        437
+      ]
+    }
+  },
+  {
+    "id": "c11-o5",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        103,
+        178,
+        131
+      ],
+      "sourceAlpha": false,
+      "spread": 19,
+      "cut": 0.7560180367672563,
+      "kept": 0.22363857093305584,
+      "soft": 0.020343392299687825,
+      "hole": 0.00524800554977454,
+      "junk": 1031,
+      "cropped": [
+        79,
+        107,
+        305,
+        409
+      ]
+    }
+  },
+  {
+    "id": "c11-o6",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        111,
+        175,
+        128
+      ],
+      "sourceAlpha": false,
+      "spread": 15,
+      "cut": 0.7606174124176205,
+      "kept": 0.2111307665626084,
+      "soft": 0.02825182101977107,
+      "hole": 0.0007075962539021852,
+      "junk": 106,
+      "cropped": [
+        80,
+        120,
+        311,
+        423
+      ]
+    }
+  },
+  {
+    "id": "c11-o7",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        113,
+        170,
+        128
+      ],
+      "sourceAlpha": false,
+      "spread": 14,
+      "cut": 0.7357717655220257,
+      "kept": 0.261789802289282,
+      "soft": 0.0024384321886923343,
+      "hole": 0.0036246964967048215,
+      "junk": 415,
+      "cropped": [
+        47,
+        109,
+        371,
+        409
+      ]
+    }
+  },
+  {
+    "id": "c11-o8",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        95,
+        174,
+        124
+      ],
+      "sourceAlpha": false,
+      "spread": 37,
+      "cut": 0.716108220603538,
+      "kept": 0.2720846340617412,
+      "soft": 0.011807145334720777,
+      "hole": 0.0005896635449184876,
+      "junk": 1304,
+      "cropped": [
+        45,
+        81,
+        377,
+        467
+      ]
+    }
+  },
+  {
+    "id": "c12-o1",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        139,
+        186,
+        117
+      ],
+      "sourceAlpha": false,
+      "spread": 19,
+      "cut": 0.7312174817898023,
+      "kept": 0.2468539715574055,
+      "soft": 0.02192854665279223,
+      "hole": 0.012885882761012834,
+      "junk": 679,
+      "cropped": [
+        80,
+        78,
+        313,
+        489
+      ]
+    }
+  },
+  {
+    "id": "c12-o2",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        119,
+        179,
+        126
+      ],
+      "sourceAlpha": false,
+      "spread": 17,
+      "cut": 0.7685119667013528,
+      "kept": 0.22584460631286854,
+      "soft": 0.005643426985778703,
+      "hole": 0.001366631980575789,
+      "junk": 71,
+      "cropped": [
+        97,
+        115,
+        295,
+        399
+      ]
+    }
+  },
+  {
+    "id": "c12-o3",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        116,
+        173,
+        131
+      ],
+      "sourceAlpha": false,
+      "spread": 13,
+      "cut": 0.7863406174124177,
+      "kept": 0.20144987859868194,
+      "soft": 0.012209503988900451,
+      "hole": 0.00023239680887963927,
+      "junk": 312,
+      "cropped": [
+        54,
+        118,
+        351,
+        387
+      ]
+    }
+  },
+  {
+    "id": "c12-o4",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        109,
+        174,
+        128
+      ],
+      "sourceAlpha": false,
+      "spread": 25,
+      "cut": 0.6574852584113771,
+      "kept": 0.3229656607700312,
+      "soft": 0.019549080818591746,
+      "hole": 0.009299340964273326,
+      "junk": 289,
+      "cropped": [
+        7,
+        61,
+        433,
+        507
+      ]
+    }
+  },
+  {
+    "id": "c12-o5",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        118,
+        184,
+        128
+      ],
+      "sourceAlpha": false,
+      "spread": 15,
+      "cut": 0.771307665626084,
+      "kept": 0.20172389871661464,
+      "soft": 0.02696843565730142,
+      "hole": 0.0006659729448491155,
+      "junk": 77,
+      "cropped": [
+        48,
+        94,
+        359,
+        443
+      ]
+    }
+  },
+  {
+    "id": "c12-o6",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        128,
+        173,
+        128
+      ],
+      "sourceAlpha": false,
+      "spread": 7,
+      "cut": 0.7542004856052723,
+      "kept": 0.23200485605272286,
+      "soft": 0.013794658342004856,
+      "hole": 0.0017793964620187305,
+      "junk": 158,
+      "cropped": [
+        98,
+        104,
+        305,
+        433
+      ]
+    }
+  },
+  {
+    "id": "c12-o7",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        115,
+        175,
+        128
+      ],
+      "sourceAlpha": false,
+      "spread": 16,
+      "cut": 0.7459347901491502,
+      "kept": 0.24003468609087755,
+      "soft": 0.014030523759972251,
+      "hole": 0.0001699618453000347,
+      "junk": 269,
+      "cropped": [
+        98,
+        104,
+        307,
+        431
+      ]
+    }
+  },
+  {
+    "id": "c12-o8",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        109,
+        171,
+        123
+      ],
+      "sourceAlpha": false,
+      "spread": 19,
+      "cut": 0.6864516129032258,
+      "kept": 0.29752341311134234,
+      "soft": 0.01602497398543184,
+      "hole": 0.0007734998265695456,
+      "junk": 136,
+      "cropped": [
+        46,
+        72,
+        383,
+        481
+      ]
+    }
+  },
+  {
+    "id": "c13-o1",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        1,
+        250,
+        3
+      ],
+      "sourceAlpha": false,
+      "spread": 3,
+      "cut": 0.7183593479014915,
+      "kept": 0.27730142212972597,
+      "soft": 0.004339229968782519,
+      "hole": 0,
+      "junk": 0,
+      "cropped": [
+        87,
+        71,
+        315,
+        503
+      ]
+    }
+  },
+  {
+    "id": "c13-o2",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        2,
+        250,
+        6
+      ],
+      "sourceAlpha": false,
+      "spread": 4,
+      "cut": 0.7158827610128339,
+      "kept": 0.2797710718002081,
+      "soft": 0.0043461671869580295,
+      "hole": 0,
+      "junk": 0,
+      "cropped": [
+        87,
+        71,
+        315,
+        503
+      ]
+    }
+  },
+  {
+    "id": "c13-o3",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        4,
+        248,
+        8
+      ],
+      "sourceAlpha": false,
+      "spread": 3,
+      "cut": 0.7135553243149497,
+      "kept": 0.28242108914325353,
+      "soft": 0.004023586541796739,
+      "hole": 1.7343045438779048e-05,
+      "junk": 0,
+      "cropped": [
+        87,
+        71,
+        315,
+        503
+      ]
+    }
+  },
+  {
+    "id": "c13-o4",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        2,
+        250,
+        5
+      ],
+      "sourceAlpha": false,
+      "spread": 3,
+      "cut": 0.7166181061394381,
+      "kept": 0.2788865764828304,
+      "soft": 0.00449531737773153,
+      "hole": 0.00010058966354491848,
+      "junk": 0,
+      "cropped": [
+        87,
+        71,
+        315,
+        503
+      ]
+    }
+  },
+  {
+    "id": "c13-o5",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        2,
+        248,
+        4
+      ],
+      "sourceAlpha": false,
+      "spread": 8,
+      "cut": 0.7082552896288589,
+      "kept": 0.28702046479361776,
+      "soft": 0.004724245577523413,
+      "hole": 0,
+      "junk": 0,
+      "cropped": [
+        85,
+        71,
+        317,
+        503
+      ]
+    }
+  },
+  {
+    "id": "c13-o6",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        2,
+        250,
+        4
+      ],
+      "sourceAlpha": false,
+      "spread": 2,
+      "cut": 0.6923343739160597,
+      "kept": 0.30301768990634753,
+      "soft": 0.004647936177592785,
+      "hole": 0,
+      "junk": 0,
+      "cropped": [
+        87,
+        65,
+        317,
+        511
+      ]
+    }
+  },
+  {
+    "id": "c13-o7",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        2,
+        250,
+        9
+      ],
+      "sourceAlpha": false,
+      "spread": 5,
+      "cut": 0.7178147762747138,
+      "kept": 0.2781651057925772,
+      "soft": 0.004020117932708984,
+      "hole": 0,
+      "junk": 0,
+      "cropped": [
+        87,
+        71,
+        315,
+        503
+      ]
+    }
+  },
+  {
+    "id": "c13-o8",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        2,
+        249,
+        7
+      ],
+      "sourceAlpha": false,
+      "spread": 1,
+      "cut": 0.712542490461325,
+      "kept": 0.2829066944155394,
+      "soft": 0.004550815123135623,
+      "hole": 3.4686090877558096e-05,
+      "junk": 0,
+      "cropped": [
+        87,
+        71,
+        315,
+        503
+      ]
+    }
+  },
+  {
+    "id": "c14-o1",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        127,
+        187,
+        130
+      ],
+      "sourceAlpha": false,
+      "spread": 9,
+      "cut": 0.8111203607353451,
+      "kept": 0.16387443635102325,
+      "soft": 0.025005202913631633,
+      "hole": 0.0011411723898716614,
+      "junk": 28,
+      "cropped": [
+        107,
+        109,
+        263,
+        405
+      ]
+    }
+  },
+  {
+    "id": "c15-o1",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        139,
+        191,
+        114
+      ],
+      "sourceAlpha": false,
+      "spread": 22,
+      "cut": 0.8093548387096774,
+      "kept": 0.17979882067291017,
+      "soft": 0.010846340617412418,
+      "hole": 3.121748178980229e-05,
+      "junk": 82,
+      "cropped": [
+        109,
+        109,
+        269,
+        457
+      ]
+    }
+  },
+  {
+    "id": "c16-o1",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        134,
+        181,
+        122
+      ],
+      "sourceAlpha": false,
+      "spread": 19,
+      "cut": 0.7160735345126604,
+      "kept": 0.2637322233784253,
+      "soft": 0.020194242108914327,
+      "hole": 0.00014915019077349983,
+      "junk": 179,
+      "cropped": [
+        59,
+        101,
+        365,
+        467
+      ]
+    }
+  },
+  {
+    "id": "c17-o1",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        116,
+        183,
+        122
+      ],
+      "sourceAlpha": false,
+      "spread": 9,
+      "cut": 0.7551474158862296,
+      "kept": 0.23951439472771419,
+      "soft": 0.0053381893860561915,
+      "hole": 0.0001734304543877905,
+      "junk": 138,
+      "cropped": [
+        96,
+        104,
+        307,
+        421
+      ]
+    }
+  },
+  {
+    "id": "c18-o1",
+    "sourceAlpha": false,
+    "canvas": true,
+    "error": null,
+    "keyError": null,
+    "card": null,
+    "autoCard": null,
+    "quality": null,
+    "meta": {
+      "bg": [
+        128,
+        182,
+        113
+      ],
+      "sourceAlpha": false,
+      "spread": 12,
+      "cut": 0.7456191467221644,
+      "kept": 0.22678459937565038,
+      "soft": 0.027596253902185224,
+      "hole": 0.0033888310787374264,
+      "junk": 152,
+      "cropped": [
+        29,
+        119,
+        393,
+        415
+      ]
+    }
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "ids": [
+      "V7",
+      "T5",
+      "T6",
+      "T6b",
+      "T6c",
+      "W5"
+    ],
+    "name": "既有诗词阁浏览器质检重跑",
+    "status": "PASS",
+    "detail": {
+      "title": "QA PASS",
+      "passed": 47,
+      "failed": 0
+    },
+    "method": "既有 QA 页面：虚拟键位与 rAF 定时器适配",
+    "phase": "poems-sprites"
+  },
+  {
+    "ids": [
+      "R4"
+    ],
+    "name": "全部 109 张已就绪立绘页面回调及数值质检",
+    "status": "PASS",
+    "detail": {
+      "ready": 109,
+      "failed": []
+    },
+    "method": "实际素材 + 浏览器渲染回调",
+    "phase": "poems-sprites"
+  },
+  {
+    "ids": [
+      "R2"
+    ],
+    "name": "全部绿幕立绘背景 spread 阈值",
+    "status": "PASS",
+    "detail": null,
+    "method": "实际素材数值检测；不含目视背景验收",
+    "phase": "poems-sprites"
+  }
+]

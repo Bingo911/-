@@ -1,0 +1,137 @@
+{
+  "timestamp": "2026-10-03T07:52:12.878Z",
+  "mcp": {
+    "groups": 6,
+    "passedSteps": 181,
+    "failedSteps": 0,
+    "executions": [
+      {
+        "slug": "cover-map",
+        "id": "6d86d78e-5dfc-412f-84bd-6297d2e0791e",
+        "steps": 20
+      },
+      {
+        "slug": "tutorial-practice",
+        "id": "d2046fe6-0a8e-4b98-adcc-29c2c80e5181",
+        "steps": 46
+      },
+      {
+        "slug": "challenge-pause",
+        "id": "420e5a8e-5471-493b-8d98-eb2dd74e0b59",
+        "steps": 64
+      },
+      {
+        "slug": "settings-reset",
+        "id": "14ecfcd6-54a6-4b04-8727-809341a08f51",
+        "steps": 19
+      },
+      {
+        "slug": "shop-placeholder",
+        "id": "9193b04b-f124-44cd-8ef0-81a755ddd0e7",
+        "steps": 17
+      },
+      {
+        "slug": "arcade-switch",
+        "id": "1681186b-7962-4dcb-a516-d193a1eff433",
+        "steps": 15
+      }
+    ]
+  },
+  "checks": {
+    "browser": {
+      "file": "browser-final-checks.json",
+      "passed": 74,
+      "failed": 0
+    },
+    "navigation": {
+      "file": "navigation/checks.json",
+      "passed": 10,
+      "failed": 0
+    },
+    "boundaries": {
+      "file": "boundaries/checks.json",
+      "passed": 25,
+      "failed": 0
+    },
+    "poemsSupplement": {
+      "file": "qa-poems-round2/checks.json",
+      "passed": 3,
+      "failed": 0
+    }
+  },
+  "node": {
+    "scripts": 6,
+    "passed": 16,
+    "failed": 0
+  },
+  "poems": {
+    "passed": 47,
+    "failed": 0
+  },
+  "sprites": {
+    "ready": 109,
+    "failed": 0
+  },
+  "caseMatrix": {
+    "scope": "Original coverage plus S2/V4/T3 targeted repair verification; not a full rerun of 130 cases",
+    "PASS": 95,
+    "PARTIAL": 31,
+    "FAIL": 0,
+    "NOT_RUN": 4
+  },
+  "negativeControl": {
+    "scope": "VM with original teaching condition only",
+    "failed": [
+      "N16"
+    ]
+  },
+  "environment": {
+    "redisIntegration": "NOT_RUN",
+    "admission": "supported development in-process configuration",
+    "serverAI": false
+  },
+  "http": {
+    "file": "final-http-check.json",
+    "passed": 4,
+    "failed": 0
+  },
+  "sourceVerifiedAgainstRun": true,
+  "sha256": {
+    "index.html": "c21a3c40dd8eb586c8f0f787d39158d49d342c9c2b817747b2acedea3525cc7f",
+    "测试用例.md": "82fb201c3d9024610af762d2b3e467b7af3cb941edb730b4b4824af5225757c2",
+    "js/00-util.js": "c3f6ee7e594651cf27d25283e464e17e3b6602989b68df5322a5cbf7ff1a1147",
+    "js/10-state.js": "14369156ba05a337c6d0ceb75e7f14ddfa73698ab4fafd88e72172c9b736fd6f",
+    "js/20-ime.js": "4052096dae3f047b38be0f1d6e8634def49baaa27f34ecbd989d8225e984217a",
+    "js/25-data-levels.js": "d55c30a82abbc743153877c2620d9193101a9cdfa41b211f0ac00d1a2fae73d9",
+    "js/26-data-pinyin.js": "ccd565657ab1f3c01a5d32d525807e545c6d403f195137309dbe8982dfd95c04",
+    "js/27-data-words.js": "e49ff9efd2cdf57b6f01b92fe9bcc55fd8e153548fd3548aad3e72336690dcc2",
+    "js/28-data-costumes.js": "0931bfb0be941751755c53f100ce5e6637c94fc3338b91df4e908f6072aaeee8",
+    "js/29-data-poems.js": "d28e2c8d2f05bfda26a6d1cb3054337af4870e5ba64316f4fe8653b7deea3594",
+    "js/30-tts.js": "71a34c292a4effcbe3035c4159f030e9237008a489215db3760a1797242a4a92",
+    "js/35-sprite.js": "97e4c1cabfd6d35afcbf04a2419c28404897b5e8d6018bd5e18213d5e28274cf",
+    "js/40-ui-shell.js": "1bd402ea1c7c6424ed822d0a63ddb767aeb4fe7c3a96a56dc09612cf08c032a6",
+    "js/41-ui-map.js": "75ebf38daaa351f7c4873153e8e92529386d45474cb6c60a85a24e15ceeecfbb",
+    "js/42-ui-shop.js": "39dd0161dfd7311a774ac5aab8945af6934f098ce3c2fdbb91673f2d9e6c64b6",
+    "js/43-ui-keyboard.js": "5e6700707e8f5fc96238a70bb3b47c7bbc5956e459f891432a7ea200cb6e9dde",
+    "js/50-engine-typing.js": "d512c82a20fe96792266c6195022688adec765eb6ab271fcc57c8840a8e67b23",
+    "js/55-engine-fall.js": "b388fd4e359161ddfe92a2e768c70687d7fa1866d4237c88b41a17c098d711e0",
+    "js/56-reward.js": "4da1205799134b7450dc97b48637199d34a591222bf7be08caf49b75f9fa1932",
+    "js/57-sfx.js": "898f2e61e2ee8684971a2754ad707aad176e612c13c43df345584fa7d06a3a6b",
+    "js/60-scenes.js": "f8be00e2f4c2bc87bb3bbf03561137bab3c9d2b00c440df42bd4eced5754a795",
+    "js/70-boot.js": "d2240c62516af723eacad0817584413b116bd08ee0d7d6a0d7ecb413bf0de4ea",
+    "css/base.css": "1fcd90dfb633a38be35fb3d7229ff60bfea27b6656366e5e0fc3a0135174f8c2",
+    "css/keyboard.css": "f9f48f49cfd966171c04cb32d740a67a6100ed37fd69f8b5a5ebe43727090908",
+    "css/scenes.css": "cac7d0c0c234b7a564d79f24e1cb235409c93aff81fbe3ae30b6fb54af6e04c3",
+    "css/ui.css": "a68d0e77c633c84f63d585c572b18b3442615ab0f7423b163274731a04af7d3e",
+    "tools/qa-regression.cjs": "82ce677f9bb3529d59d478e20277a922ce392eb63de328ed26720e8791549b95",
+    "tools/qa-sprite-alpha.cjs": "69c2a8f8f930e3091a9e7326f0edb653f5d59c8997c6af9ca41a179aec36f6de",
+    "tools/qa-elsa.cjs": "05b269c8ce0feb70daef7c2f83ca442da17de4d26e6e6529297fdedacb80ecc3",
+    "tools/qa-pikachu.cjs": "fd1fecefb323876d4233fda41efe9bc8e633c785706afe240a34c04d16a957d6",
+    "tools/qa-character-swaps.cjs": "d5123bbfb214fb548a03046b0cf0b9c5cc561d4aacde90afca49a2f68e8e5866",
+    "tools/qa-tts.cjs": "d28027029f9dab1997b0f3840a8ead66382d95a96056cbaf0ea8b02b44fb4969",
+    "qa-poems.html": "e3dac1ebbe468b372237a23b9802b79b78e6a2b43f09c6a56eeb58cbf9f0a578",
+    "assets/favicon.svg": "b25b6c1f068a62412e16c0297e5ddd6d28c0a0c03901d6b9208021ff89ae8624",
+    "favicon.ico": "6ea3a57cbdc80b12166f249c8212959090a8b4863649fbf7bc75f5274c05a2de",
+    "测试报告-2026-10-03-MCP.md": "1ec407f5e98c5a617f5545ed63c308ea9158259029e8618aad04481346597f05"
+  }
+}

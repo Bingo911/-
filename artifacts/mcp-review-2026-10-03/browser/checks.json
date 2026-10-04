@@ -1,0 +1,806 @@
+[
+  {
+    "ids": [
+      "C1"
+    ],
+    "name": "18 张形象卡均渲染默认造型",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "full-flow"
+  },
+  {
+    "ids": [
+      "C2",
+      "M1",
+      "M2",
+      "M3"
+    ],
+    "name": "初始顶栏、四个世界、A0/A1 无门槛和 A2 锁定",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "full-flow"
+  },
+  {
+    "ids": [
+      "K1"
+    ],
+    "name": "挑战 HUD 含速度、准确率、剩余秒和完成条数",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "full-flow"
+  },
+  {
+    "ids": [
+      "K10"
+    ],
+    "name": "暂停期间计时不减少",
+    "status": "PASS",
+    "detail": "60",
+    "method": "浏览器 UI",
+    "phase": "full-flow"
+  },
+  {
+    "ids": [
+      "K2",
+      "K4",
+      "K9",
+      "K12",
+      "K13"
+    ],
+    "name": "真实键盘完整 A1 通关，HUD 30/30、三星及下一关入口",
+    "status": "PASS",
+    "detail": {
+      "keys": 46,
+      "reward": "回家：基准键\n\n八个手指放在 ASDF JKL; 上\n\n★\n★\n★\n\n过关啦！\n\n速度\n1854 键/分\n准确率\n100%\n完成\n30 / 30\n最高连击\n×46\n+233 积分\n\n第一次通关这关\n\n⭐ 星级提升啦！\n\n商店里有你能买的服装了：小星 的「小医生」，120 积分。\n\n下一关 基准键组合\n服装商店\n回到地图"
+    },
+    "method": "浏览器 UI",
+    "phase": "full-flow"
+  },
+  {
+    "ids": [
+      "K2"
+    ],
+    "name": "挑战提前完成时进度条按时间而非条数",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "full-flow"
+  },
+  {
+    "ids": [
+      "H7",
+      "M3"
+    ],
+    "name": "首通加积分并解锁 A2",
+    "status": "PASS",
+    "detail": 233,
+    "method": "浏览器 UI",
+    "phase": "full-flow"
+  },
+  {
+    "ids": [
+      "S3"
+    ],
+    "name": "有角色刷新进地图并保留存档",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "full-flow"
+  },
+  {
+    "ids": [
+      "C4"
+    ],
+    "name": "换形象保留积分星数且旧角色高亮",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "full-flow"
+  },
+  {
+    "ids": [
+      "H8"
+    ],
+    "name": "再次三星通关保留星数且不重复首通日奖励",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "full-flow"
+  },
+  {
+    "ids": [
+      "A1",
+      "A2",
+      "A3"
+    ],
+    "name": "自由练习实际掉落、字号和键盘击碎计分",
+    "status": "PASS",
+    "detail": {
+      "code": "KeyV",
+      "ch": "v",
+      "strict": false,
+      "fs": 52
+    },
+    "method": "浏览器 UI",
+    "phase": "full-flow"
+  },
+  {
+    "ids": [
+      "A6"
+    ],
+    "name": "结束练习真实结算并加分",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "full-flow"
+  },
+  {
+    "ids": [
+      "H1",
+      "H2",
+      "H5"
+    ],
+    "name": "8 件服装、实际购买扣 120 分并自动穿戴",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "full-flow"
+  },
+  {
+    "ids": [
+      "D1",
+      "S4"
+    ],
+    "name": "可写存储显示本机保存和真实积分",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "full-flow"
+  },
+  {
+    "ids": [
+      "D2"
+    ],
+    "name": "取得实际下载文件且完整存档一致",
+    "status": "PASS",
+    "detail": {
+      "file": "打字小勇士-存档-2026-10-03.json",
+      "bytes": 696,
+      "sha256": "4854c78d21900564517bc2f507c4da565cb45e17704483823d78369e332659f0"
+    },
+    "method": "浏览器 UI",
+    "phase": "full-flow"
+  },
+  {
+    "ids": [
+      "G3"
+    ],
+    "name": "字母设置应用 body.dyslexic",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "full-flow"
+  },
+  {
+    "ids": [
+      "D3"
+    ],
+    "name": "实际下载文件经文件选择器往返并刷新恢复",
+    "status": "PASS",
+    "detail": {
+      "file": "E:\\workspace\\打字游戏\\artifacts\\mcp-review-2026-10-03\\browser\\打字小勇士-存档-2026-10-03.json"
+    },
+    "method": "浏览器 UI",
+    "phase": "full-flow"
+  },
+  {
+    "ids": [
+      "D7a"
+    ],
+    "name": "取消清空保持进度，确认框备份实际下载",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "full-flow"
+  },
+  {
+    "ids": [
+      "D7",
+      "S3",
+      "V4"
+    ],
+    "name": "确认清空并刷新进入封面，全部进度归零",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "full-flow"
+  },
+  {
+    "ids": [
+      "C3"
+    ],
+    "name": "擎天柱确认弹出当前版权提醒",
+    "status": "PASS",
+    "detail": "关于 擎天柱\n\n提醒：变形金刚是 Hasbro 的版权形象，只能自家孩子本地玩，不要分享或上架。\n\n我知道了",
+    "method": "浏览器 UI",
+    "phase": "full-flow"
+  },
+  {
+    "ids": [
+      "D4"
+    ],
+    "name": "坏档 UI 整体拒绝且内存/存储未变 0",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "save-edges"
+  },
+  {
+    "ids": [
+      "D4"
+    ],
+    "name": "坏档 UI 整体拒绝且内存/存储未变 1",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "save-edges"
+  },
+  {
+    "ids": [
+      "D4"
+    ],
+    "name": "坏档 UI 整体拒绝且内存/存储未变 2",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "save-edges"
+  },
+  {
+    "ids": [
+      "D4"
+    ],
+    "name": "坏档 UI 整体拒绝且内存/存储未变 3",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "save-edges"
+  },
+  {
+    "ids": [
+      "D4"
+    ],
+    "name": "坏档 UI 整体拒绝且内存/存储未变 4",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "save-edges"
+  },
+  {
+    "ids": [
+      "D5"
+    ],
+    "name": "导入星数双处封顶且顶栏 3/363",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "save-edges"
+  },
+  {
+    "ids": [
+      "D9"
+    ],
+    "name": "最小旧档通过文件选择器导入并补齐字段",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "save-edges"
+  },
+  {
+    "ids": [
+      "D6"
+    ],
+    "name": "坏角色 ID 导入后回封面且顶栏无问号",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "save-edges"
+  },
+  {
+    "ids": [
+      "D10"
+    ],
+    "name": "自动读取旧档形状容错且仍能开始练习",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "save-edges"
+  },
+  {
+    "ids": [
+      "D10"
+    ],
+    "name": "修补后的对象可以继续落盘",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "save-edges"
+  },
+  {
+    "ids": [
+      "S4a"
+    ],
+    "name": "写入受阻时仅内存模式及顶部警告可见",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "memory-offline"
+  },
+  {
+    "ids": [
+      "S4a"
+    ],
+    "name": "仅内存模式允许实际下载备份",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "memory-offline"
+  },
+  {
+    "ids": [
+      "S4a"
+    ],
+    "name": "仅内存模式仍接收真实键盘",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "memory-offline"
+  },
+  {
+    "ids": [
+      "S1"
+    ],
+    "name": "浏览器模拟断网 file:// 首次页面加载",
+    "status": "PASS",
+    "detail": {
+      "seconds": 0.344,
+      "url": "file:///E:/workspace/%E6%89%93%E5%AD%97%E6%B8%B8%E6%88%8F/index.html"
+    },
+    "method": "浏览器模拟离线，未拔物理网络",
+    "phase": "memory-offline"
+  },
+  {
+    "ids": [
+      "S4"
+    ],
+    "name": "file:// 来源可写存储并刷新保留角色",
+    "status": "PASS",
+    "detail": null,
+    "method": "隔离 Chrome file:// 会话",
+    "phase": "memory-offline"
+  },
+  {
+    "ids": [
+      "I6"
+    ],
+    "name": "功能键不计错、不扣准确率",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "keyboard-practice"
+  },
+  {
+    "ids": [
+      "K5"
+    ],
+    "name": "错键降低准确率、断连击并闪红",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "keyboard-practice"
+  },
+  {
+    "ids": [
+      "K6"
+    ],
+    "name": "三错跳过本条并显示两星封顶提示",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "keyboard-practice"
+  },
+  {
+    "ids": [
+      "K11"
+    ],
+    "name": "完整练习跳过一条只奖励 18 分且 0 星",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "keyboard-practice"
+  },
+  {
+    "ids": [
+      "K11",
+      "K13b"
+    ],
+    "name": "空练习局 0 分，未过关按钮齐全",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "keyboard-practice"
+  },
+  {
+    "ids": [
+      "K7",
+      "G4"
+    ],
+    "name": "A7 开启严格大写时小写判错",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "keyboard-practice"
+  },
+  {
+    "ids": [
+      "K7",
+      "K8",
+      "I1"
+    ],
+    "name": "实际 Shift+物理键产生大写并判对",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "keyboard-practice"
+  },
+  {
+    "ids": [
+      "K7",
+      "G4"
+    ],
+    "name": "A7 关闭严格大写后小写判对",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "keyboard-practice"
+  },
+  {
+    "ids": [
+      "K8",
+      "G4"
+    ],
+    "name": "关掉大小写仍不豁免 !，Shift+Digit1 判对",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "keyboard-practice"
+  },
+  {
+    "ids": [
+      "I3"
+    ],
+    "name": "F9 打开键位日志",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "keyboard-practice"
+  },
+  {
+    "ids": [
+      "I3"
+    ],
+    "name": "F9 关闭键位日志",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "keyboard-practice"
+  },
+  {
+    "ids": [
+      "I4"
+    ],
+    "name": "自动化重复 keydown 不重复计分",
+    "status": "PASS",
+    "detail": null,
+    "method": "Chrome 自动化重复事件；非真机长按",
+    "phase": "keyboard-practice"
+  },
+  {
+    "ids": [
+      "I8"
+    ],
+    "name": "应用未 preventDefault Ctrl+R",
+    "status": "PASS",
+    "detail": {
+      "prevented": false,
+      "code": "KeyR"
+    },
+    "method": "DOM 默认行为检查；原生快捷键真机待测",
+    "phase": "keyboard-practice"
+  },
+  {
+    "ids": [
+      "K14"
+    ],
+    "name": "实际刷新后旧关卡监听被销毁",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "keyboard-practice"
+  },
+  {
+    "ids": [
+      "G1"
+    ],
+    "name": "音效按钮与存档同步",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器按钮/配置，未做人耳听感",
+    "phase": "settings-rest"
+  },
+  {
+    "ids": [
+      "G2"
+    ],
+    "name": "朗读发音按钮与存档同步",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器按钮/配置，未做人耳听感",
+    "phase": "settings-rest"
+  },
+  {
+    "ids": [
+      "G3"
+    ],
+    "name": "容易看的字母按钮与存档同步",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器按钮/配置，未做人耳听感",
+    "phase": "settings-rest"
+  },
+  {
+    "ids": [
+      "G5"
+    ],
+    "name": "护眼档位完整循环",
+    "status": "PASS",
+    "detail": [
+      "15 分钟",
+      "20 分钟",
+      "30 分钟",
+      "45 分钟",
+      "不提醒"
+    ],
+    "method": "浏览器 UI",
+    "phase": "settings-rest"
+  },
+  {
+    "ids": [
+      "G9"
+    ],
+    "name": "商店打开设置关闭后返回商店",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "settings-rest"
+  },
+  {
+    "ids": [
+      "G7"
+    ],
+    "name": "真实倒计时第 19 秒仍不可确认",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "settings-rest"
+  },
+  {
+    "ids": [
+      "G7"
+    ],
+    "name": "第 20 秒记录休息、清零时长并启用按钮",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "settings-rest"
+  },
+  {
+    "ids": [
+      "G6"
+    ],
+    "name": "达到提醒阈值时不打断 play",
+    "status": "PASS",
+    "detail": null,
+    "method": "受控时长夹具 + 真实场景",
+    "phase": "settings-rest"
+  },
+  {
+    "ids": [
+      "G6"
+    ],
+    "name": "相同阈值在地图场景弹休息框",
+    "status": "PASS",
+    "detail": null,
+    "method": "受控时长夹具 + 真实场景",
+    "phase": "settings-rest"
+  },
+  {
+    "ids": [
+      "G7"
+    ],
+    "name": "提前换页取消倒计时且不记录休息",
+    "status": "PASS",
+    "detail": null,
+    "method": "受控换页",
+    "phase": "settings-rest"
+  },
+  {
+    "ids": [
+      "H6"
+    ],
+    "name": "买得起筛选仅当前主题未拥有且价格够的服装",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "shop-arcade"
+  },
+  {
+    "ids": [
+      "H6",
+      "C5"
+    ],
+    "name": "购买后退出买得起筛选并保留主题",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "shop-arcade"
+  },
+  {
+    "ids": [
+      "H3",
+      "H4"
+    ],
+    "name": "缺图七件均禁售，默认造型免费可见",
+    "status": "PASS",
+    "detail": 8,
+    "method": "浏览器 UI",
+    "phase": "shop-arcade"
+  },
+  {
+    "ids": [
+      "C5"
+    ],
+    "name": "切换商店形象后仍记住各自穿戴",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "shop-arcade"
+  },
+  {
+    "ids": [
+      "A5"
+    ],
+    "name": "切换 荷叶跳拼音 终止旧循环且只留一个画布",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "shop-arcade"
+  },
+  {
+    "ids": [
+      "A5"
+    ],
+    "name": "切换 单词陨石 终止旧循环且只留一个画布",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "shop-arcade"
+  },
+  {
+    "ids": [
+      "A5"
+    ],
+    "name": "切换 古诗飞花 终止旧循环且只留一个画布",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "shop-arcade"
+  },
+  {
+    "ids": [
+      "A5"
+    ],
+    "name": "切换 气球消字母 终止旧循环且只留一个画布",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "shop-arcade"
+  },
+  {
+    "ids": [
+      "A4"
+    ],
+    "name": "街机日上限 199",
+    "status": "PASS",
+    "detail": null,
+    "method": "日累计夹具 + 实际击碎/结算",
+    "phase": "shop-arcade"
+  },
+  {
+    "ids": [
+      "A4"
+    ],
+    "name": "街机日上限 200",
+    "status": "PASS",
+    "detail": null,
+    "method": "日累计夹具 + 实际击碎/结算",
+    "phase": "shop-arcade"
+  },
+  {
+    "ids": [
+      "V7",
+      "T5",
+      "T6",
+      "T6b",
+      "T6c",
+      "W5"
+    ],
+    "name": "既有诗词阁浏览器质检重跑",
+    "status": "FAIL",
+    "detail": {
+      "title": "QA FAIL 1",
+      "passed": 46,
+      "failed": 1
+    },
+    "method": "既有 QA 页面：虚拟键位与 rAF 定时器适配",
+    "phase": "poems-sprites"
+  },
+  {
+    "ids": [
+      "R4"
+    ],
+    "name": "全部 109 张已就绪立绘页面回调及数值质检",
+    "status": "PASS",
+    "detail": {
+      "ready": 109,
+      "failed": []
+    },
+    "method": "实际素材 + 浏览器渲染回调",
+    "phase": "poems-sprites"
+  },
+  {
+    "ids": [
+      "R2"
+    ],
+    "name": "全部绿幕立绘背景 spread 阈值",
+    "status": "PASS",
+    "detail": null,
+    "method": "实际素材数值检测；不含目视背景验收",
+    "phase": "poems-sprites"
+  },
+  {
+    "ids": [
+      "D8"
+    ],
+    "name": "隔离普通浏览器关闭全部窗口后重新打开保留进度",
+    "status": "PASS",
+    "detail": {
+      "profile": "E:\\workspace\\打字游戏\\artifacts\\mcp-review-2026-10-03\\browser\\isolated-persistent-profile"
+    },
+    "method": "浏览器 UI",
+    "phase": "persistent"
+  },
+  {
+    "ids": [
+      "S2",
+      "V4"
+    ],
+    "name": "普通 UI 全链路无 Console warning/error、页面异常和失败资源",
+    "status": "PASS",
+    "detail": [],
+    "method": "浏览器 UI",
+    "phase": "persistent"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-10-03T04:41:06.413Z",
+  "result": "PASS",
+  "callback": "res.canvas exists",
+  "flags": "error/keyError/card/autoCard are all falsy",
+  "autoCard": "undefined on successful rendering",
+  "quality": null
+}

@@ -1,0 +1,38 @@
+{
+  "execution_id": "9193b04b-f124-44cd-8ef0-81a755ddd0e7",
+  "status": "FINISHED",
+  "terminal": true,
+  "state_version": 5,
+  "step_counts": {
+    "PASSED": 17
+  },
+  "base_report_ready": true,
+  "analysis_status": "NOT_REQUIRED",
+  "artifact_status": "COMPLETE",
+  "human_required": false,
+  "project_id": "fdddaf69-5628-42b1-a1cd-f2c79591362d",
+  "tenant_id": "b527b252-3c86-5886-b419-fe95708cc462",
+  "outcome": "PASSED",
+  "details_available": true,
+  "recommended_poll_after_ms": null,
+  "cleanup_status": "UNKNOWN",
+  "error_code": null,
+  "evidence_mode": "NORMAL",
+  "browser": "chrome",
+  "compile_artifact_id": "94a05745-09a8-4b49-894d-4e662fa6590d",
+  "ir_digest": "sha256:f23961a8d6bd9127bbca82a5a6b29d5a934dc66228f05a9a3fa692f5205b922d",
+  "environment_revision_id": "6604679a-09ea-4bae-b514-ab65cb036993",
+  "human_task": null,
+  "started_at": "2026-10-03T07:42:31.949013+00:00",
+  "ended_at": "2026-10-03T07:42:37.867265+00:00",
+  "created_at": "2026-10-03T07:42:30.622023+00:00",
+  "active_ms": 5906,
+  "human_ms": 0,
+  "links": {
+    "cases": "http://localhost:5173/#/cases",
+    "assist": "http://localhost:5173/#/assist",
+    "requires_project_selection": true,
+    "run": "http://localhost:5173/#/runs/9193b04b-f124-44cd-8ef0-81a755ddd0e7",
+    "report": "http://localhost:5173/#/report/9193b04b-f124-44cd-8ef0-81a755ddd0e7"
+  }
+}

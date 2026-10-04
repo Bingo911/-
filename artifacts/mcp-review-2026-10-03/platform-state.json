@@ -1,0 +1,56 @@
+{
+  "tenant_id": "b527b252-3c86-5886-b419-fe95708cc462",
+  "project_id": "fdddaf69-5628-42b1-a1cd-f2c79591362d",
+  "environment_revision_id": "6604679a-09ea-4bae-b514-ab65cb036993",
+  "policy": {
+    "project_id": "fdddaf69-5628-42b1-a1cd-f2c79591362d",
+    "mcp_policy": {
+      "enabled": true,
+      "allow_case_content": true,
+      "allow_report_details": true,
+      "allow_server_ai": false
+    },
+    "row_version": 4
+  },
+  "environment": {
+    "environment_id": "d5a930cf-da61-453f-9b0a-5ea74d97cab3",
+    "project_id": "fdddaf69-5628-42b1-a1cd-f2c79591362d",
+    "name": "localhost-8080",
+    "row_version": 3,
+    "etag": "W/\"env-d5a930cf-da61-453f-9b0a-5ea74d97cab3-3\"",
+    "archived_at": null,
+    "current_revision": {
+      "environment_revision_id": "6604679a-09ea-4bae-b514-ab65cb036993",
+      "environment_id": "d5a930cf-da61-453f-9b0a-5ea74d97cab3",
+      "version": 2,
+      "digest": "sha256:88d943de58c9dbdbc8a4ce26ed5463f6e1bde3415edf968418b33e2d73a3f721",
+      "config": {
+        "base_url": "http://localhost:8080",
+        "allowed_domains": [
+          "127.0.0.1",
+          "localhost"
+        ],
+        "allowed_protocols": [
+          "http"
+        ],
+        "browsers": [
+          "chrome"
+        ],
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "evidence": {
+          "mode": "NORMAL",
+          "trace": "on",
+          "video": "off"
+        },
+        "variables": {}
+      },
+      "secret_bindings": {},
+      "current": true,
+      "created_by": "7cd2566f-8c56-51be-82ab-5f3b68bad5ea",
+      "created_at": "2026-10-03T05:03:57.754571+00:00"
+    }
+  }
+}

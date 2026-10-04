@@ -1,0 +1,46 @@
+{
+  "v": 1,
+  "created": 1791012622369,
+  "charId": "c3",
+  "equipped": {
+    "c3": "o2"
+  },
+  "points": 184,
+  "levels": {
+    "A1": {
+      "stars": 3,
+      "tries": 2,
+      "best": {
+        "score": 196446,
+        "speed": 1964,
+        "acc": 100,
+        "stars": 3
+      },
+      "cleared": true
+    }
+  },
+  "taught": {
+    "A0": true
+  },
+  "owned": [
+    "c3-o1",
+    "c3-o2"
+  ],
+  "daily": {
+    "date": "2026-10-03",
+    "firstBonus": true,
+    "arcade": 7
+  },
+  "play": {
+    "activeMs": 10482,
+    "lastTick": 1791012632851,
+    "restAck": 1791012622369
+  },
+  "settings": {
+    "sfx": true,
+    "voice": true,
+    "restMin": 30,
+    "dys": false,
+    "strictCase": true
+  }
+}

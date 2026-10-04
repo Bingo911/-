@@ -1,0 +1,373 @@
+{
+  "execution_id": "6d86d78e-5dfc-412f-84bd-6297d2e0791e",
+  "terminal": true,
+  "items": [
+    {
+      "step_id": "s1",
+      "step_no": 1,
+      "action": "open",
+      "status": "PASSED",
+      "duration_ms": 360,
+      "error_code": null,
+      "artifact_refs": [],
+      "description": null,
+      "locator_attempts": [],
+      "expected": null,
+      "actual": null,
+      "resume_phase": null
+    },
+    {
+      "step_id": "s2",
+      "step_no": 2,
+      "action": "click",
+      "status": "PASSED",
+      "duration_ms": 954,
+      "error_code": null,
+      "artifact_refs": [],
+      "description": "形象卡",
+      "locator_attempts": [
+        {
+          "strategy": "css",
+          "source": "explicit",
+          "matched": 1,
+          "outcome": "resolved",
+          "elapsed_ms": 828,
+          "selector": ".pick__item:nth-child(1)"
+        }
+      ],
+      "expected": null,
+      "actual": null,
+      "resume_phase": null
+    },
+    {
+      "step_id": "s3",
+      "step_no": 3,
+      "action": "click",
+      "status": "PASSED",
+      "duration_ms": 140,
+      "error_code": null,
+      "artifact_refs": [],
+      "description": "就它了，开始！",
+      "locator_attempts": [
+        {
+          "strategy": "role",
+          "source": "explicit",
+          "matched": 1,
+          "outcome": "resolved",
+          "elapsed_ms": 108
+        }
+      ],
+      "expected": null,
+      "actual": null,
+      "resume_phase": null
+    },
+    {
+      "step_id": "s4",
+      "step_no": 4,
+      "action": "assert",
+      "status": "PASSED",
+      "duration_ms": 0,
+      "error_code": null,
+      "artifact_refs": [],
+      "description": "page_contains: 关于 擎天柱",
+      "locator_attempts": [],
+      "expected": null,
+      "actual": null,
+      "resume_phase": null
+    },
+    {
+      "step_id": "s5",
+      "step_no": 5,
+      "action": "click",
+      "status": "PASSED",
+      "duration_ms": 407,
+      "error_code": null,
+      "artifact_refs": [],
+      "description": "我知道了",
+      "locator_attempts": [
+        {
+          "strategy": "role",
+          "source": "explicit",
+          "matched": 1,
+          "outcome": "resolved",
+          "elapsed_ms": 31
+        }
+      ],
+      "expected": null,
+      "actual": null,
+      "resume_phase": null
+    },
+    {
+      "step_id": "s6",
+      "step_no": 6,
+      "action": "assert",
+      "status": "PASSED",
+      "duration_ms": 0,
+      "error_code": null,
+      "artifact_refs": [],
+      "description": "page_contains: 全部 0 / 121 关",
+      "locator_attempts": [],
+      "expected": null,
+      "actual": null,
+      "resume_phase": null
+    },
+    {
+      "step_id": "s7",
+      "step_no": 7,
+      "action": "assert",
+      "status": "PASSED",
+      "duration_ms": 16,
+      "error_code": null,
+      "artifact_refs": [],
+      "description": "page_contains: 需要先通过 A4",
+      "locator_attempts": [],
+      "expected": null,
+      "actual": null,
+      "resume_phase": null
+    },
+    {
+      "step_id": "s8",
+      "step_no": 8,
+      "action": "assert",
+      "status": "PASSED",
+      "duration_ms": 0,
+      "error_code": null,
+      "artifact_refs": [],
+      "description": "page_contains: 需要先通过 B4",
+      "locator_attempts": [],
+      "expected": null,
+      "actual": null,
+      "resume_phase": null
+    },
+    {
+      "step_id": "s9",
+      "step_no": 9,
+      "action": "assert",
+      "status": "PASSED",
+      "duration_ms": 0,
+      "error_code": null,
+      "artifact_refs": [],
+      "description": "page_contains: 需要先通过 B18",
+      "locator_attempts": [],
+      "expected": null,
+      "actual": null,
+      "resume_phase": null
+    },
+    {
+      "step_id": "s10",
+      "step_no": 10,
+      "action": "click",
+      "status": "PASSED",
+      "duration_ms": 63,
+      "error_code": null,
+      "artifact_refs": [],
+      "description": "未解锁的 A2",
+      "locator_attempts": [
+        {
+          "strategy": "css",
+          "source": "explicit",
+          "matched": 1,
+          "outcome": "resolved",
+          "elapsed_ms": 31,
+          "selector": ".node:nth-child(3)"
+        }
+      ],
+      "expected": null,
+      "actual": null,
+      "resume_phase": null
+    },
+    {
+      "step_id": "s11",
+      "step_no": 11,
+      "action": "assert",
+      "status": "PASSED",
+      "duration_ms": 15,
+      "error_code": null,
+      "artifact_refs": [],
+      "description": "page_contains: 这一关还没解锁",
+      "locator_attempts": [],
+      "expected": null,
+      "actual": null,
+      "resume_phase": null
+    },
+    {
+      "step_id": "s12",
+      "step_no": 12,
+      "action": "assert",
+      "status": "PASSED",
+      "duration_ms": 0,
+      "error_code": null,
+      "artifact_refs": [],
+      "description": "page_contains: 先去把 A1 打出一颗星",
+      "locator_attempts": [],
+      "expected": null,
+      "actual": null,
+      "resume_phase": null
+    },
+    {
+      "step_id": "s13",
+      "step_no": 13,
+      "action": "click",
+      "status": "PASSED",
+      "duration_ms": 375,
+      "error_code": null,
+      "artifact_refs": [],
+      "description": "好",
+      "locator_attempts": [
+        {
+          "strategy": "role",
+          "source": "explicit",
+          "matched": 1,
+          "outcome": "resolved",
+          "elapsed_ms": 30
+        }
+      ],
+      "expected": null,
+      "actual": null,
+      "resume_phase": null
+    },
+    {
+      "step_id": "s14",
+      "step_no": 14,
+      "action": "click",
+      "status": "PASSED",
+      "duration_ms": 78,
+      "error_code": null,
+      "artifact_refs": [],
+      "description": "A1",
+      "locator_attempts": [
+        {
+          "strategy": "css",
+          "source": "explicit",
+          "matched": 1,
+          "outcome": "resolved",
+          "elapsed_ms": 30,
+          "selector": ".node:nth-child(2)"
+        }
+      ],
+      "expected": null,
+      "actual": null,
+      "resume_phase": null
+    },
+    {
+      "step_id": "s15",
+      "step_no": 15,
+      "action": "assert",
+      "status": "PASSED",
+      "duration_ms": 0,
+      "error_code": null,
+      "artifact_refs": [],
+      "description": "page_contains: 这一关共 30 条",
+      "locator_attempts": [],
+      "expected": null,
+      "actual": null,
+      "resume_phase": null
+    },
+    {
+      "step_id": "s16",
+      "step_no": 16,
+      "action": "assert",
+      "status": "PASSED",
+      "duration_ms": 0,
+      "error_code": null,
+      "artifact_refs": [],
+      "description": "page_contains: 挑战限时 60 秒",
+      "locator_attempts": [],
+      "expected": null,
+      "actual": null,
+      "resume_phase": null
+    },
+    {
+      "step_id": "s17",
+      "step_no": 17,
+      "action": "click",
+      "status": "PASSED",
+      "duration_ms": 375,
+      "error_code": null,
+      "artifact_refs": [],
+      "description": "取消",
+      "locator_attempts": [
+        {
+          "strategy": "role",
+          "source": "explicit",
+          "matched": 1,
+          "outcome": "resolved",
+          "elapsed_ms": 30
+        }
+      ],
+      "expected": null,
+      "actual": null,
+      "resume_phase": null
+    },
+    {
+      "step_id": "s18",
+      "step_no": 18,
+      "action": "click",
+      "status": "PASSED",
+      "duration_ms": 78,
+      "error_code": null,
+      "artifact_refs": [],
+      "description": "换形象",
+      "locator_attempts": [
+        {
+          "strategy": "css",
+          "source": "explicit",
+          "matched": 1,
+          "outcome": "resolved",
+          "elapsed_ms": 30,
+          "selector": ".topbar__avatar"
+        }
+      ],
+      "expected": null,
+      "actual": null,
+      "resume_phase": null
+    },
+    {
+      "step_id": "s19",
+      "step_no": 19,
+      "action": "assert",
+      "status": "PASSED",
+      "duration_ms": 0,
+      "error_code": null,
+      "artifact_refs": [],
+      "description": ".pick__item.is-sel",
+      "locator_attempts": [
+        {
+          "strategy": "css",
+          "source": "explicit",
+          "matched": 1,
+          "outcome": "resolved",
+          "elapsed_ms": 0,
+          "selector": ".pick__item.is-sel"
+        }
+      ],
+      "expected": null,
+      "actual": null,
+      "resume_phase": null
+    },
+    {
+      "step_id": "s20",
+      "step_no": 20,
+      "action": "screenshot",
+      "status": "PASSED",
+      "duration_ms": 141,
+      "error_code": null,
+      "artifact_refs": [
+        {
+          "ref": "artifact:a8f15e3c-f53f-45bd-a7df-df680b290e56",
+          "kind": "SCREENSHOT",
+          "size": 579088,
+          "upload_status": "READY",
+          "publishable": true
+        }
+      ],
+      "description": null,
+      "locator_attempts": [],
+      "expected": null,
+      "actual": null,
+      "resume_phase": null
+    }
+  ],
+  "recommended_poll_after_ms": null,
+  "details_available": true
+}

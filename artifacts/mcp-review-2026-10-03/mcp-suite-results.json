@@ -1,0 +1,200 @@
+[
+  {
+    "slug": "cover-map",
+    "name": "C1-C4 M1-M7 封面与解锁地图",
+    "step_count": 20,
+    "case_id": "8c7173d3-0e36-4c49-a434-362c72ca3349",
+    "revision_id": "3ac8896c-52c2-4a0d-a2a6-0da1e8df7cbf",
+    "revision_no": 1,
+    "row_version": 2,
+    "source_digest": "sha256:ee11f7f62b62b0c8d2838da6bb5b1d0086483acc8900cf07c6a4540fa5edac1c",
+    "compilation_lookup": {
+      "revision_id": "3ac8896c-52c2-4a0d-a2a6-0da1e8df7cbf"
+    },
+    "execution_id": "6d86d78e-5dfc-412f-84bd-6297d2e0791e",
+    "tenant_id": "b527b252-3c86-5886-b419-fe95708cc462",
+    "project_id": "fdddaf69-5628-42b1-a1cd-f2c79591362d",
+    "status": "FINISHED",
+    "outcome": "PASSED",
+    "compile_artifact_id": "e2a464d1-f4e4-4ed7-bed6-8cab238032a4",
+    "ir_digest": "sha256:4aa468a5c985e9fffae1654ce3d9566e8a6caec0a27e1f459297bf69d62c1183",
+    "environment_revision_id": "6604679a-09ea-4bae-b514-ab65cb036993",
+    "evidence_mode": "NORMAL",
+    "effective_server_ai": false,
+    "worker_available": true,
+    "recommended_poll_after_ms": 2083,
+    "links": {
+      "cases": "http://localhost:5173/#/cases",
+      "assist": "http://localhost:5173/#/assist",
+      "requires_project_selection": true,
+      "run": "http://localhost:5173/#/runs/6d86d78e-5dfc-412f-84bd-6297d2e0791e",
+      "report": "http://localhost:5173/#/report/6d86d78e-5dfc-412f-84bd-6297d2e0791e"
+    },
+    "error_code": null
+  },
+  {
+    "slug": "tutorial-practice",
+    "name": "T1-T4 M9 K1-K4 K11 指法教学与完整练习",
+    "step_count": 46,
+    "case_id": "50821441-00a1-466a-863e-b0f2f132f3e7",
+    "revision_id": "581f735c-c570-4c89-b3d4-c51733da961b",
+    "revision_no": 1,
+    "row_version": 2,
+    "source_digest": "sha256:c1daf33553e7fc17f760b987195189bce568c71715ac4c847cb1cd8e2fb761a3",
+    "compilation_lookup": {
+      "revision_id": "581f735c-c570-4c89-b3d4-c51733da961b"
+    },
+    "execution_id": "d2046fe6-0a8e-4b98-adcc-29c2c80e5181",
+    "tenant_id": "b527b252-3c86-5886-b419-fe95708cc462",
+    "project_id": "fdddaf69-5628-42b1-a1cd-f2c79591362d",
+    "status": "FINISHED",
+    "outcome": "PASSED",
+    "compile_artifact_id": "07458ca4-6982-445b-a898-fcb9ef09d85f",
+    "ir_digest": "sha256:8dcf9f669a5578bd1d3758cccca29ea2917adcadd95799bdada025cffdcbe881",
+    "environment_revision_id": "6604679a-09ea-4bae-b514-ab65cb036993",
+    "evidence_mode": "NORMAL",
+    "effective_server_ai": false,
+    "worker_available": true,
+    "recommended_poll_after_ms": 4901,
+    "links": {
+      "cases": "http://localhost:5173/#/cases",
+      "assist": "http://localhost:5173/#/assist",
+      "requires_project_selection": true,
+      "run": "http://localhost:5173/#/runs/d2046fe6-0a8e-4b98-adcc-29c2c80e5181",
+      "report": "http://localhost:5173/#/report/d2046fe6-0a8e-4b98-adcc-29c2c80e5181"
+    },
+    "error_code": null
+  },
+  {
+    "slug": "challenge-pause",
+    "name": "K2 K9 K10 K12 K13 H7 A1 挑战暂停与三星通关",
+    "step_count": 64,
+    "case_id": "4d48661d-25b9-4e9c-9a11-6f9009b7f508",
+    "revision_id": "df905f4d-ecc4-441a-94e3-05f801e58186",
+    "revision_no": 1,
+    "row_version": 2,
+    "source_digest": "sha256:0a384d480248059cea62f387a415099b63a2fa35617467834c986a36a3f870ca",
+    "compilation_lookup": {
+      "revision_id": "df905f4d-ecc4-441a-94e3-05f801e58186"
+    },
+    "execution_id": "420e5a8e-5471-493b-8d98-eb2dd74e0b59",
+    "tenant_id": "b527b252-3c86-5886-b419-fe95708cc462",
+    "project_id": "fdddaf69-5628-42b1-a1cd-f2c79591362d",
+    "status": "FINISHED",
+    "outcome": "PASSED",
+    "compile_artifact_id": "69dd94d7-199c-49a0-a7fb-a904e3afedc5",
+    "ir_digest": "sha256:00dc146e2656c2ae461148110263683e33b3f2d17035614b4b01574219880cc2",
+    "environment_revision_id": "6604679a-09ea-4bae-b514-ab65cb036993",
+    "evidence_mode": "NORMAL",
+    "effective_server_ai": false,
+    "worker_available": true,
+    "recommended_poll_after_ms": 2157,
+    "links": {
+      "cases": "http://localhost:5173/#/cases",
+      "assist": "http://localhost:5173/#/assist",
+      "requires_project_selection": true,
+      "run": "http://localhost:5173/#/runs/420e5a8e-5471-493b-8d98-eb2dd74e0b59",
+      "report": "http://localhost:5173/#/report/420e5a8e-5471-493b-8d98-eb2dd74e0b59"
+    },
+    "error_code": null
+  },
+  {
+    "slug": "settings-reset",
+    "name": "G3 G5 G9 D1 D7 D7a S3 设置与确认重置",
+    "step_count": 19,
+    "case_id": "fb374c1b-b411-4488-ae4e-a9a3776ba45f",
+    "revision_id": "90a46963-d18e-4337-9d6d-d35c2fd272d2",
+    "revision_no": 1,
+    "row_version": 2,
+    "source_digest": "sha256:c3207f75f575c46e6b0134052e161002d64b9bfac5f60a6b60ed09665f203fdb",
+    "compilation_lookup": {
+      "revision_id": "90a46963-d18e-4337-9d6d-d35c2fd272d2"
+    },
+    "execution_id": "14ecfcd6-54a6-4b04-8727-809341a08f51",
+    "tenant_id": "b527b252-3c86-5886-b419-fe95708cc462",
+    "project_id": "fdddaf69-5628-42b1-a1cd-f2c79591362d",
+    "status": "FINISHED",
+    "outcome": "PASSED",
+    "compile_artifact_id": "0d1dc685-aed7-423c-86d4-4c6fdfbb3bcb",
+    "ir_digest": "sha256:9e9523ed05af4a8e20d0b1be5995fbfc7a5dc85f8b55dc88696214b0a4f45aac",
+    "environment_revision_id": "6604679a-09ea-4bae-b514-ab65cb036993",
+    "evidence_mode": "NORMAL",
+    "effective_server_ai": false,
+    "worker_available": true,
+    "recommended_poll_after_ms": 3107,
+    "links": {
+      "cases": "http://localhost:5173/#/cases",
+      "assist": "http://localhost:5173/#/assist",
+      "requires_project_selection": true,
+      "run": "http://localhost:5173/#/runs/14ecfcd6-54a6-4b04-8727-809341a08f51",
+      "report": "http://localhost:5173/#/report/14ecfcd6-54a6-4b04-8727-809341a08f51"
+    },
+    "error_code": null
+  },
+  {
+    "slug": "shop-placeholder",
+    "name": "H1-H4 C6 缺图禁售及角色商店",
+    "step_count": 17,
+    "case_id": "1983904f-ff7f-4660-8f63-f8fbc724af71",
+    "revision_id": "af7628ac-07bb-4721-bba3-b570c3d62431",
+    "revision_no": 1,
+    "row_version": 2,
+    "source_digest": "sha256:d3c0c108cd51f9ff47f812a234bd46ded2681c2ff66e3b9f0e543304d75cc6fb",
+    "compilation_lookup": {
+      "revision_id": "af7628ac-07bb-4721-bba3-b570c3d62431"
+    },
+    "execution_id": "9193b04b-f124-44cd-8ef0-81a755ddd0e7",
+    "tenant_id": "b527b252-3c86-5886-b419-fe95708cc462",
+    "project_id": "fdddaf69-5628-42b1-a1cd-f2c79591362d",
+    "status": "FINISHED",
+    "outcome": "PASSED",
+    "compile_artifact_id": "94a05745-09a8-4b49-894d-4e662fa6590d",
+    "ir_digest": "sha256:f23961a8d6bd9127bbca82a5a6b29d5a934dc66228f05a9a3fa692f5205b922d",
+    "environment_revision_id": "6604679a-09ea-4bae-b514-ab65cb036993",
+    "evidence_mode": "NORMAL",
+    "effective_server_ai": false,
+    "worker_available": true,
+    "recommended_poll_after_ms": 2864,
+    "links": {
+      "cases": "http://localhost:5173/#/cases",
+      "assist": "http://localhost:5173/#/assist",
+      "requires_project_selection": true,
+      "run": "http://localhost:5173/#/runs/9193b04b-f124-44cd-8ef0-81a755ddd0e7",
+      "report": "http://localhost:5173/#/report/9193b04b-f124-44cd-8ef0-81a755ddd0e7"
+    },
+    "error_code": null
+  },
+  {
+    "slug": "arcade-switch",
+    "name": "A1 A5 A6 自由练习四种皮肤与退出",
+    "step_count": 15,
+    "case_id": "87c2b03d-5551-46ad-9d84-4bba6e507f21",
+    "revision_id": "96e70816-77c4-4056-9668-75cf04764f6b",
+    "revision_no": 1,
+    "row_version": 2,
+    "source_digest": "sha256:39342ee8003a07d647ce4a2f820b3e7bd5a4e3a6eb5cb2d3ae347c09fb2f3de0",
+    "compilation_lookup": {
+      "revision_id": "96e70816-77c4-4056-9668-75cf04764f6b"
+    },
+    "execution_id": "1681186b-7962-4dcb-a516-d193a1eff433",
+    "tenant_id": "b527b252-3c86-5886-b419-fe95708cc462",
+    "project_id": "fdddaf69-5628-42b1-a1cd-f2c79591362d",
+    "status": "FINISHED",
+    "outcome": "PASSED",
+    "compile_artifact_id": "5a36b950-40d2-496d-96b7-7121171b29f8",
+    "ir_digest": "sha256:82daf0cea72d62ab5ae61304ade05024f69437a37ddc09c5998621bfaa8c3adc",
+    "environment_revision_id": "6604679a-09ea-4bae-b514-ab65cb036993",
+    "evidence_mode": "NORMAL",
+    "effective_server_ai": false,
+    "worker_available": true,
+    "recommended_poll_after_ms": 2715,
+    "links": {
+      "cases": "http://localhost:5173/#/cases",
+      "assist": "http://localhost:5173/#/assist",
+      "requires_project_selection": true,
+      "run": "http://localhost:5173/#/runs/1681186b-7962-4dcb-a516-d193a1eff433",
+      "report": "http://localhost:5173/#/report/1681186b-7962-4dcb-a516-d193a1eff433"
+    },
+    "error_code": null
+  }
+]

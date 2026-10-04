@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-10-03T07:50:21.424Z",
+  "items": [
+    {
+      "url": "http://localhost:8080/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 1690
+    },
+    {
+      "url": "http://localhost:8080/favicon.ico",
+      "status": 200,
+      "contentType": "image/x-icon",
+      "bytes": 161
+    },
+    {
+      "url": "http://localhost:8080/assets/favicon.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "bytes": 363
+    },
+    {
+      "url": "http://localhost:5173/",
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 742
+    }
+  ]
+}

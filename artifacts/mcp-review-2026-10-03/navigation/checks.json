@@ -1,0 +1,107 @@
+[
+  {
+    "ids": [
+      "T3"
+    ],
+    "name": "取消教学不记 taught/A0",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "navigation"
+  },
+  {
+    "ids": [
+      "T3"
+    ],
+    "name": "取消 A0 后进入 A1 仍推荐指法图",
+    "status": "PASS",
+    "detail": {
+      "overlay_visible": true,
+      "taught": {},
+      "level": null
+    },
+    "method": "浏览器 UI",
+    "phase": "navigation"
+  },
+  {
+    "ids": [
+      "T3"
+    ],
+    "name": "教学确认前 A1 尚未计时启动",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "navigation"
+  },
+  {
+    "ids": [
+      "T3"
+    ],
+    "name": "取消 A1 推荐也不记教学",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "navigation"
+  },
+  {
+    "ids": [
+      "T4"
+    ],
+    "name": "确认教学后 A1 不重复弹指法图",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "navigation"
+  },
+  {
+    "ids": [
+      "M6"
+    ],
+    "name": "锁定世界 1 的页签和地图说明",
+    "status": "PASS",
+    "detail": "闯关地图\n\n每关最多 3 星，拿到 1 星就能解锁下一关。\n\n指尖岛\n0 / 39 ★\n拼音谷\n需要先通过 A4\n单词城\n需要先通过 B4\n诗词阁\n需要先通过 B18\n\n拼音谷 已过 0 / 18 关　全部 1 / 121 关\n\n拼音谷 还没开启：先去把 A4 打出一颗星，这里就会打开。\n\nB1\n单韵母\n★★★\n🔒\nB2\n声母 b p m f\n★★★\n🔒\nB3\n声母 d t n l\n★★★\n🔒\nB4\n声母 g k h\n★★★\n🔒\nB5\n声母 j q x\n★★★\n🔒\nB6\n平舌与翘舌\n★★★\n🔒\nB7\n零声母 y w\n★★★\n🔒\nB8\n两拼音节\n★★★\n🔒\nB9\n复韵母\n★★★\n🔒\nB10\nie üe er\n★★★\n🔒\nB11\n前鼻韵母\n★★★\n🔒\nB12\n后鼻韵母\n★★★\n🔒\nB13\n前后鼻对决\n★★★\n🔒\nB14\n三拼音节\n★★★\n🔒\nB15\n整体认读（上）\n★★★\n🔒\nB16\n整体认读（下）\n★★★\n🔒\nB17\n易混大乱斗\n★★★\n🔒\nB18 关主\n儿歌结业\n★★★\n🔒\n速度单位：音",
+    "method": "浏览器 UI",
+    "phase": "navigation"
+  },
+  {
+    "ids": [
+      "M6"
+    ],
+    "name": "锁定世界 2 的页签和地图说明",
+    "status": "PASS",
+    "detail": "闯关地图\n\n每关最多 3 星，拿到 1 星就能解锁下一关。\n\n指尖岛\n0 / 39 ★\n拼音谷\n需要先通过 A4\n单词城\n需要先通过 B4\n诗词阁\n需要先通过 B18\n\n单词城 已过 0 / 15 关　全部 1 / 121 关\n\n单词城 还没开启：先去把 B4 打出一颗星，这里就会打开。\n\nC1\n最短的词\n★★★\n🔒\nC2\n三个字母\n★★★\n🔒\nC3\n动物与颜色\n★★★\n🔒\nC4\n家庭与身体\n★★★\n🔒\nC5\n学校与食物\n★★★\n🔒\nC6\n双字母组合\n★★★\n🔒\nC7\n高频不规则词\n★★★\n🔒\nC8\n长长的词\n★★★\n🔒\nC9\n第一句完整话\n★★★\n🔒\nC10\nThis is 与缩写\n★★★\n🔒\nC11\n问句\n★★★\n🔒\nC12\n否定句\n★★★\n🔒\nC13\n正在发生\n★★★\n🔒\nC14\n小段落\n★★★\n🔒\nC15 关主\n英文结业考\n★★★\n🔒\n速度单位：词/分　准确率低于 82% 就一颗星都拿不到（越往后的关要得越高）\n自由练习小游戏\n服装商店\n换形象",
+    "method": "浏览器 UI",
+    "phase": "navigation"
+  },
+  {
+    "ids": [
+      "M6"
+    ],
+    "name": "锁定世界 3 的页签和地图说明",
+    "status": "PASS",
+    "detail": "闯关地图\n\n每关最多 3 星，拿到 1 星就能解锁下一关。\n\n指尖岛\n0 / 39 ★\n拼音谷\n需要先通过 A4\n单词城\n需要先通过 B4\n诗词阁\n需要先通过 B18\n\n诗词阁 已过 0 / 75 关　全部 1 / 121 关\n\n诗词阁 还没开启：先去把 B18 打出一颗星，这里就会打开。\n\nD1\n《江南》\n★★★\n🔒\nD2\n《长歌行》\n★★★\n🔒\nD3\n《敕勒歌》\n★★★\n🔒\nD4\n《咏鹅》\n★★★\n🔒\nD5\n《风》\n★★★\n🔒\nD6\n《咏柳》\n★★★\n🔒\nD7\n《回乡偶书》\n★★★\n🔒\nD8\n《凉州词·王之涣》\n★★★\n🔒\nD9\n《七步诗》\n★★★\n🔒\nD10\n《登鹳雀楼》\n★★★\n🔒\nD11\n《春晓》\n★★★\n🔒\nD12\n《凉州词·王翰》\n★★★\n🔒\nD13\n《出塞》\n★★★\n🔒\nD14\n《芙蓉楼送辛渐》\n★★★\n🔒\nD15\n《鹿柴》\n★★★\n🔒\nD16\n《送元二使安西》\n★★★\n🔒\nD17\n《九月九日忆山东兄弟》\n★★★\n🔒\nD18\n《静夜思》\n★★★\n🔒\nD19\n《古朗月行（节",
+    "method": "浏览器 UI",
+    "phase": "navigation"
+  },
+  {
+    "ids": [
+      "P2"
+    ],
+    "name": "Edge 原生键盘首次输入成功",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "navigation"
+  },
+  {
+    "ids": [
+      "P2",
+      "S4"
+    ],
+    "name": "Edge 本机存储刷新保留角色",
+    "status": "PASS",
+    "detail": null,
+    "method": "浏览器 UI",
+    "phase": "navigation"
+  }
+]
